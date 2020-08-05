@@ -1,0 +1,262 @@
+{
+  "type": "Program",
+  "loc": {
+    "start": {
+      "line": 9,
+      "column": 1
+    },
+    "end": {
+      "line": 10,
+      "column": 1
+    }
+  },
+  "tokens": [
+    {
+      "type": "Keyword",
+      "value": "switch",
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 1
+        },
+        "end": {
+          "line": 9,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 8
+        },
+        "end": {
+          "line": 9,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "Boolean",
+      "value": "true",
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 9
+        },
+        "end": {
+          "line": 9,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 13
+        },
+        "end": {
+          "line": 9,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 15
+        },
+        "end": {
+          "line": 9,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "default",
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 17
+        },
+        "end": {
+          "line": 9,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ":",
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 24
+        },
+        "end": {
+          "line": 9,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "let",
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 26
+        },
+        "end": {
+          "line": 9,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "x",
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 30
+        },
+        "end": {
+          "line": 9,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 31
+        },
+        "end": {
+          "line": 9,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 33
+        },
+        "end": {
+          "line": 9,
+          "column": 34
+        }
+      }
+    }
+  ],
+  "sourceType": "script",
+  "body": [
+    {
+      "type": "SwitchStatement",
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 1
+        },
+        "end": {
+          "line": 9,
+          "column": 34
+        }
+      },
+      "discriminant": {
+        "type": "Literal",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 9
+          },
+          "end": {
+            "line": 9,
+            "column": 13
+          }
+        },
+        "value": true,
+        "raw": "true"
+      },
+      "cases": [
+        {
+          "type": "SwitchCase",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 17
+            },
+            "end": {
+              "line": 9,
+              "column": 32
+            }
+          },
+          "consequent": [
+            {
+              "type": "VariableDeclaration",
+              "loc": {
+                "start": {
+                  "line": 9,
+                  "column": 26
+                },
+                "end": {
+                  "line": 9,
+                  "column": 32
+                }
+              },
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "loc": {
+                    "start": {
+                      "line": 9,
+                      "column": 30
+                    },
+                    "end": {
+                      "line": 9,
+                      "column": 31
+                    }
+                  },
+                  "id": {
+                    "type": "Identifier",
+                    "loc": {
+                      "start": {
+                        "line": 9,
+                        "column": 30
+                      },
+                      "end": {
+                        "line": 9,
+                        "column": 31
+                      }
+                    },
+                    "name": "x"
+                  },
+                  "init": null
+                }
+              ],
+              "kind": "let"
+            }
+          ],
+          "test": null
+        }
+      ]
+    }
+  ]
+}

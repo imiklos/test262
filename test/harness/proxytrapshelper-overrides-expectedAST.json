@@ -1,0 +1,8617 @@
+{
+  "type": "Program",
+  "loc": {
+    "start": {
+      "line": 10,
+      "column": 1
+    },
+    "end": {
+      "line": 76,
+      "column": 1
+    }
+  },
+  "tokens": [
+    {
+      "type": "Keyword",
+      "value": "var",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 1
+        },
+        "end": {
+          "line": 10,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "overrides",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 5
+        },
+        "end": {
+          "line": 10,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "=",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 15
+        },
+        "end": {
+          "line": 10,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 17
+        },
+        "end": {
+          "line": 10,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "getPrototypeOf",
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 5
+        },
+        "end": {
+          "line": 11,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ":",
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 19
+        },
+        "end": {
+          "line": 11,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "function",
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 21
+        },
+        "end": {
+          "line": 11,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 30
+        },
+        "end": {
+          "line": 11,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 31
+        },
+        "end": {
+          "line": 11,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 33
+        },
+        "end": {
+          "line": 11,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 34
+        },
+        "end": {
+          "line": 11,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 35
+        },
+        "end": {
+          "line": 11,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "setPrototypeOf",
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 5
+        },
+        "end": {
+          "line": 12,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ":",
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 19
+        },
+        "end": {
+          "line": 12,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "function",
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 21
+        },
+        "end": {
+          "line": 12,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 30
+        },
+        "end": {
+          "line": 12,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 31
+        },
+        "end": {
+          "line": 12,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 33
+        },
+        "end": {
+          "line": 12,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 34
+        },
+        "end": {
+          "line": 12,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 35
+        },
+        "end": {
+          "line": 12,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "isExtensible",
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 5
+        },
+        "end": {
+          "line": 13,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ":",
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 17
+        },
+        "end": {
+          "line": 13,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "function",
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 19
+        },
+        "end": {
+          "line": 13,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 28
+        },
+        "end": {
+          "line": 13,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 29
+        },
+        "end": {
+          "line": 13,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 31
+        },
+        "end": {
+          "line": 13,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 32
+        },
+        "end": {
+          "line": 13,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 33
+        },
+        "end": {
+          "line": 13,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "preventExtensions",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 5
+        },
+        "end": {
+          "line": 14,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ":",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 22
+        },
+        "end": {
+          "line": 14,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "function",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 24
+        },
+        "end": {
+          "line": 14,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 33
+        },
+        "end": {
+          "line": 14,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 34
+        },
+        "end": {
+          "line": 14,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 36
+        },
+        "end": {
+          "line": 14,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 37
+        },
+        "end": {
+          "line": 14,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 38
+        },
+        "end": {
+          "line": 14,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "getOwnPropertyDescriptor",
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 5
+        },
+        "end": {
+          "line": 15,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ":",
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 29
+        },
+        "end": {
+          "line": 15,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "function",
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 31
+        },
+        "end": {
+          "line": 15,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 40
+        },
+        "end": {
+          "line": 15,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 41
+        },
+        "end": {
+          "line": 15,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 43
+        },
+        "end": {
+          "line": 15,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 44
+        },
+        "end": {
+          "line": 15,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 45
+        },
+        "end": {
+          "line": 15,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "has",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 5
+        },
+        "end": {
+          "line": 16,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ":",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 8
+        },
+        "end": {
+          "line": 16,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "function",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 10
+        },
+        "end": {
+          "line": 16,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 19
+        },
+        "end": {
+          "line": 16,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 20
+        },
+        "end": {
+          "line": 16,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 22
+        },
+        "end": {
+          "line": 16,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 23
+        },
+        "end": {
+          "line": 16,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 24
+        },
+        "end": {
+          "line": 16,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "get",
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 5
+        },
+        "end": {
+          "line": 17,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ":",
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 8
+        },
+        "end": {
+          "line": 17,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "function",
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 10
+        },
+        "end": {
+          "line": 17,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 19
+        },
+        "end": {
+          "line": 17,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 20
+        },
+        "end": {
+          "line": 17,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 22
+        },
+        "end": {
+          "line": 17,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 23
+        },
+        "end": {
+          "line": 17,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 24
+        },
+        "end": {
+          "line": 17,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "set",
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 5
+        },
+        "end": {
+          "line": 18,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ":",
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 8
+        },
+        "end": {
+          "line": 18,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "function",
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 10
+        },
+        "end": {
+          "line": 18,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 19
+        },
+        "end": {
+          "line": 18,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 20
+        },
+        "end": {
+          "line": 18,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 22
+        },
+        "end": {
+          "line": 18,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 23
+        },
+        "end": {
+          "line": 18,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 24
+        },
+        "end": {
+          "line": 18,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "deleteProperty",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 5
+        },
+        "end": {
+          "line": 19,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ":",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 19
+        },
+        "end": {
+          "line": 19,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "function",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 21
+        },
+        "end": {
+          "line": 19,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 30
+        },
+        "end": {
+          "line": 19,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 31
+        },
+        "end": {
+          "line": 19,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 33
+        },
+        "end": {
+          "line": 19,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 34
+        },
+        "end": {
+          "line": 19,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 35
+        },
+        "end": {
+          "line": 19,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "defineProperty",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 5
+        },
+        "end": {
+          "line": 20,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ":",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 19
+        },
+        "end": {
+          "line": 20,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "function",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 21
+        },
+        "end": {
+          "line": 20,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 30
+        },
+        "end": {
+          "line": 20,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 31
+        },
+        "end": {
+          "line": 20,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 33
+        },
+        "end": {
+          "line": 20,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 34
+        },
+        "end": {
+          "line": 20,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 35
+        },
+        "end": {
+          "line": 20,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "enumerate",
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 5
+        },
+        "end": {
+          "line": 21,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ":",
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 14
+        },
+        "end": {
+          "line": 21,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "function",
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 16
+        },
+        "end": {
+          "line": 21,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 25
+        },
+        "end": {
+          "line": 21,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 26
+        },
+        "end": {
+          "line": 21,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 28
+        },
+        "end": {
+          "line": 21,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 29
+        },
+        "end": {
+          "line": 21,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 30
+        },
+        "end": {
+          "line": 21,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "ownKeys",
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 5
+        },
+        "end": {
+          "line": 22,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ":",
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 12
+        },
+        "end": {
+          "line": 22,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "function",
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 14
+        },
+        "end": {
+          "line": 22,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 23
+        },
+        "end": {
+          "line": 22,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 24
+        },
+        "end": {
+          "line": 22,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 26
+        },
+        "end": {
+          "line": 22,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 27
+        },
+        "end": {
+          "line": 22,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 28
+        },
+        "end": {
+          "line": 22,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "apply",
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 5
+        },
+        "end": {
+          "line": 23,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ":",
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 10
+        },
+        "end": {
+          "line": 23,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "function",
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 12
+        },
+        "end": {
+          "line": 23,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 21
+        },
+        "end": {
+          "line": 23,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 22
+        },
+        "end": {
+          "line": 23,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 24
+        },
+        "end": {
+          "line": 23,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 25
+        },
+        "end": {
+          "line": 23,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 26
+        },
+        "end": {
+          "line": 23,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "construct",
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 5
+        },
+        "end": {
+          "line": 24,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ":",
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 14
+        },
+        "end": {
+          "line": 24,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "function",
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 16
+        },
+        "end": {
+          "line": 24,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 25
+        },
+        "end": {
+          "line": 24,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 26
+        },
+        "end": {
+          "line": 24,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 28
+        },
+        "end": {
+          "line": 24,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 29
+        },
+        "end": {
+          "line": 24,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 30
+        },
+        "end": {
+          "line": 24,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 1
+        },
+        "end": {
+          "line": 25,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 2
+        },
+        "end": {
+          "line": 25,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "var",
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 1
+        },
+        "end": {
+          "line": 26,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "traps",
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 5
+        },
+        "end": {
+          "line": 26,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "=",
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 11
+        },
+        "end": {
+          "line": 26,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "allowProxyTraps",
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 13
+        },
+        "end": {
+          "line": 26,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 28
+        },
+        "end": {
+          "line": 26,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "overrides",
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 29
+        },
+        "end": {
+          "line": 26,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 38
+        },
+        "end": {
+          "line": 26,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 39
+        },
+        "end": {
+          "line": 26,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "function",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 1
+        },
+        "end": {
+          "line": 28,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assertTrapSucceeds",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 10
+        },
+        "end": {
+          "line": 28,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 28
+        },
+        "end": {
+          "line": 28,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "trap",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 29
+        },
+        "end": {
+          "line": 28,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 33
+        },
+        "end": {
+          "line": 28,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 35
+        },
+        "end": {
+          "line": 28,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "if",
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 5
+        },
+        "end": {
+          "line": 29,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 8
+        },
+        "end": {
+          "line": 29,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "typeof",
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 9
+        },
+        "end": {
+          "line": 29,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "traps",
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 16
+        },
+        "end": {
+          "line": 29,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "[",
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 21
+        },
+        "end": {
+          "line": 29,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "trap",
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 22
+        },
+        "end": {
+          "line": 29,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "]",
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 26
+        },
+        "end": {
+          "line": 29,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "!==",
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 28
+        },
+        "end": {
+          "line": 29,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'function'",
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 32
+        },
+        "end": {
+          "line": 29,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 42
+        },
+        "end": {
+          "line": 29,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 44
+        },
+        "end": {
+          "line": 29,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "throw",
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 9
+        },
+        "end": {
+          "line": 30,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "new",
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 15
+        },
+        "end": {
+          "line": 30,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "Test262Error",
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 19
+        },
+        "end": {
+          "line": 30,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 31
+        },
+        "end": {
+          "line": 30,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'trap '",
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 32
+        },
+        "end": {
+          "line": 30,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 40
+        },
+        "end": {
+          "line": 30,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "trap",
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 42
+        },
+        "end": {
+          "line": 30,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 47
+        },
+        "end": {
+          "line": 30,
+          "column": 48
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "' is not a function'",
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 49
+        },
+        "end": {
+          "line": 30,
+          "column": 69
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 69
+        },
+        "end": {
+          "line": 30,
+          "column": 70
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 70
+        },
+        "end": {
+          "line": 30,
+          "column": 71
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 5
+        },
+        "end": {
+          "line": 31,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "if",
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 5
+        },
+        "end": {
+          "line": 32,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 8
+        },
+        "end": {
+          "line": 32,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "traps",
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 9
+        },
+        "end": {
+          "line": 32,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "[",
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 14
+        },
+        "end": {
+          "line": 32,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "trap",
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 15
+        },
+        "end": {
+          "line": 32,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "]",
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 19
+        },
+        "end": {
+          "line": 32,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "!==",
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 21
+        },
+        "end": {
+          "line": 32,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "overrides",
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 25
+        },
+        "end": {
+          "line": 32,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "[",
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 34
+        },
+        "end": {
+          "line": 32,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "trap",
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 35
+        },
+        "end": {
+          "line": 32,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "]",
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 39
+        },
+        "end": {
+          "line": 32,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 40
+        },
+        "end": {
+          "line": 32,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 42
+        },
+        "end": {
+          "line": 32,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "throw",
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 9
+        },
+        "end": {
+          "line": 33,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "new",
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 15
+        },
+        "end": {
+          "line": 33,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "Test262Error",
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 19
+        },
+        "end": {
+          "line": 33,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 31
+        },
+        "end": {
+          "line": 33,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'trap '",
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 32
+        },
+        "end": {
+          "line": 33,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 40
+        },
+        "end": {
+          "line": 33,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "trap",
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 42
+        },
+        "end": {
+          "line": 33,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 47
+        },
+        "end": {
+          "line": 33,
+          "column": 48
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "' was not overriden in allowProxyTraps'",
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 49
+        },
+        "end": {
+          "line": 33,
+          "column": 88
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 88
+        },
+        "end": {
+          "line": 33,
+          "column": 89
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 89
+        },
+        "end": {
+          "line": 33,
+          "column": 90
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 5
+        },
+        "end": {
+          "line": 34,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "var",
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 5
+        },
+        "end": {
+          "line": 35,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "threw",
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 9
+        },
+        "end": {
+          "line": 35,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "=",
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 15
+        },
+        "end": {
+          "line": 35,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": "Boolean",
+      "value": "false",
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 17
+        },
+        "end": {
+          "line": 35,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 22
+        },
+        "end": {
+          "line": 35,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "try",
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 5
+        },
+        "end": {
+          "line": 36,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 9
+        },
+        "end": {
+          "line": 36,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "traps",
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 9
+        },
+        "end": {
+          "line": 37,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "[",
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 14
+        },
+        "end": {
+          "line": 37,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "trap",
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 15
+        },
+        "end": {
+          "line": 37,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "]",
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 19
+        },
+        "end": {
+          "line": 37,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 20
+        },
+        "end": {
+          "line": 37,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 21
+        },
+        "end": {
+          "line": 37,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 22
+        },
+        "end": {
+          "line": 37,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 5
+        },
+        "end": {
+          "line": 38,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "catch",
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 7
+        },
+        "end": {
+          "line": 38,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 13
+        },
+        "end": {
+          "line": 38,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "e",
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 14
+        },
+        "end": {
+          "line": 38,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 15
+        },
+        "end": {
+          "line": 38,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 17
+        },
+        "end": {
+          "line": 38,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "threw",
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 9
+        },
+        "end": {
+          "line": 39,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "=",
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 15
+        },
+        "end": {
+          "line": 39,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": "Boolean",
+      "value": "true",
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 17
+        },
+        "end": {
+          "line": 39,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 21
+        },
+        "end": {
+          "line": 39,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 40,
+          "column": 5
+        },
+        "end": {
+          "line": 40,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "if",
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 5
+        },
+        "end": {
+          "line": 41,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 8
+        },
+        "end": {
+          "line": 41,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "threw",
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 9
+        },
+        "end": {
+          "line": 41,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 14
+        },
+        "end": {
+          "line": 41,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 16
+        },
+        "end": {
+          "line": 41,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "throw",
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 9
+        },
+        "end": {
+          "line": 42,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "new",
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 15
+        },
+        "end": {
+          "line": 42,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "Test262Error",
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 19
+        },
+        "end": {
+          "line": 42,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 31
+        },
+        "end": {
+          "line": 42,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'trap '",
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 32
+        },
+        "end": {
+          "line": 42,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 40
+        },
+        "end": {
+          "line": 42,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "trap",
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 42
+        },
+        "end": {
+          "line": 42,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 47
+        },
+        "end": {
+          "line": 42,
+          "column": 48
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "' threw an error'",
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 49
+        },
+        "end": {
+          "line": 42,
+          "column": 66
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 66
+        },
+        "end": {
+          "line": 42,
+          "column": 67
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 67
+        },
+        "end": {
+          "line": 42,
+          "column": 68
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 5
+        },
+        "end": {
+          "line": 43,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 1
+        },
+        "end": {
+          "line": 44,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "function",
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 1
+        },
+        "end": {
+          "line": 46,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assertTrapThrows",
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 10
+        },
+        "end": {
+          "line": 46,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 26
+        },
+        "end": {
+          "line": 46,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "trap",
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 27
+        },
+        "end": {
+          "line": 46,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 31
+        },
+        "end": {
+          "line": 46,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 33
+        },
+        "end": {
+          "line": 46,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "if",
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 5
+        },
+        "end": {
+          "line": 47,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 8
+        },
+        "end": {
+          "line": 47,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "typeof",
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 9
+        },
+        "end": {
+          "line": 47,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "traps",
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 16
+        },
+        "end": {
+          "line": 47,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "[",
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 21
+        },
+        "end": {
+          "line": 47,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "trap",
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 22
+        },
+        "end": {
+          "line": 47,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "]",
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 26
+        },
+        "end": {
+          "line": 47,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "!==",
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 28
+        },
+        "end": {
+          "line": 47,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'function'",
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 32
+        },
+        "end": {
+          "line": 47,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 42
+        },
+        "end": {
+          "line": 47,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 44
+        },
+        "end": {
+          "line": 47,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "throw",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 9
+        },
+        "end": {
+          "line": 48,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "new",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 15
+        },
+        "end": {
+          "line": 48,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "Test262Error",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 19
+        },
+        "end": {
+          "line": 48,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 31
+        },
+        "end": {
+          "line": 48,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'trap '",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 32
+        },
+        "end": {
+          "line": 48,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 40
+        },
+        "end": {
+          "line": 48,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "trap",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 42
+        },
+        "end": {
+          "line": 48,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 47
+        },
+        "end": {
+          "line": 48,
+          "column": 48
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "' is not a function'",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 49
+        },
+        "end": {
+          "line": 48,
+          "column": 69
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 69
+        },
+        "end": {
+          "line": 48,
+          "column": 70
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 70
+        },
+        "end": {
+          "line": 48,
+          "column": 71
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 5
+        },
+        "end": {
+          "line": 49,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "var",
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 5
+        },
+        "end": {
+          "line": 50,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "failedToThrow",
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 9
+        },
+        "end": {
+          "line": 50,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "=",
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 23
+        },
+        "end": {
+          "line": 50,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "Boolean",
+      "value": "false",
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 25
+        },
+        "end": {
+          "line": 50,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 30
+        },
+        "end": {
+          "line": 50,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "try",
+      "loc": {
+        "start": {
+          "line": 51,
+          "column": 5
+        },
+        "end": {
+          "line": 51,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 51,
+          "column": 9
+        },
+        "end": {
+          "line": 51,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "traps",
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 9
+        },
+        "end": {
+          "line": 52,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "[",
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 14
+        },
+        "end": {
+          "line": 52,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "trap",
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 15
+        },
+        "end": {
+          "line": 52,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "]",
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 19
+        },
+        "end": {
+          "line": 52,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 20
+        },
+        "end": {
+          "line": 52,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 21
+        },
+        "end": {
+          "line": 52,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 22
+        },
+        "end": {
+          "line": 52,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "failedToThrow",
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 9
+        },
+        "end": {
+          "line": 53,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "=",
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 23
+        },
+        "end": {
+          "line": 53,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "Boolean",
+      "value": "true",
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 25
+        },
+        "end": {
+          "line": 53,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 29
+        },
+        "end": {
+          "line": 53,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 5
+        },
+        "end": {
+          "line": 54,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "catch",
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 7
+        },
+        "end": {
+          "line": 54,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 13
+        },
+        "end": {
+          "line": 54,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "e",
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 14
+        },
+        "end": {
+          "line": 54,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 15
+        },
+        "end": {
+          "line": 54,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 17
+        },
+        "end": {
+          "line": 54,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 18
+        },
+        "end": {
+          "line": 54,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "if",
+      "loc": {
+        "start": {
+          "line": 55,
+          "column": 5
+        },
+        "end": {
+          "line": 55,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 55,
+          "column": 8
+        },
+        "end": {
+          "line": 55,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "failedToThrow",
+      "loc": {
+        "start": {
+          "line": 55,
+          "column": 9
+        },
+        "end": {
+          "line": 55,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 55,
+          "column": 22
+        },
+        "end": {
+          "line": 55,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 55,
+          "column": 24
+        },
+        "end": {
+          "line": 55,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "throw",
+      "loc": {
+        "start": {
+          "line": 56,
+          "column": 9
+        },
+        "end": {
+          "line": 56,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "new",
+      "loc": {
+        "start": {
+          "line": 56,
+          "column": 15
+        },
+        "end": {
+          "line": 56,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "Test262Error",
+      "loc": {
+        "start": {
+          "line": 56,
+          "column": 19
+        },
+        "end": {
+          "line": 56,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 56,
+          "column": 31
+        },
+        "end": {
+          "line": 56,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'trap '",
+      "loc": {
+        "start": {
+          "line": 56,
+          "column": 32
+        },
+        "end": {
+          "line": 56,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 56,
+          "column": 40
+        },
+        "end": {
+          "line": 56,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "trap",
+      "loc": {
+        "start": {
+          "line": 56,
+          "column": 42
+        },
+        "end": {
+          "line": 56,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 56,
+          "column": 47
+        },
+        "end": {
+          "line": 56,
+          "column": 48
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "' did not throw an error'",
+      "loc": {
+        "start": {
+          "line": 56,
+          "column": 49
+        },
+        "end": {
+          "line": 56,
+          "column": 74
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 56,
+          "column": 74
+        },
+        "end": {
+          "line": 56,
+          "column": 75
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 56,
+          "column": 75
+        },
+        "end": {
+          "line": 56,
+          "column": 76
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 57,
+          "column": 5
+        },
+        "end": {
+          "line": 57,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 58,
+          "column": 1
+        },
+        "end": {
+          "line": 58,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assertTrapSucceeds",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 1
+        },
+        "end": {
+          "line": 60,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 19
+        },
+        "end": {
+          "line": 60,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'getPrototypeOf'",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 20
+        },
+        "end": {
+          "line": 60,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 36
+        },
+        "end": {
+          "line": 60,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 37
+        },
+        "end": {
+          "line": 60,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assertTrapSucceeds",
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 1
+        },
+        "end": {
+          "line": 61,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 19
+        },
+        "end": {
+          "line": 61,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'setPrototypeOf'",
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 20
+        },
+        "end": {
+          "line": 61,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 36
+        },
+        "end": {
+          "line": 61,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 37
+        },
+        "end": {
+          "line": 61,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assertTrapSucceeds",
+      "loc": {
+        "start": {
+          "line": 62,
+          "column": 1
+        },
+        "end": {
+          "line": 62,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 62,
+          "column": 19
+        },
+        "end": {
+          "line": 62,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'isExtensible'",
+      "loc": {
+        "start": {
+          "line": 62,
+          "column": 20
+        },
+        "end": {
+          "line": 62,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 62,
+          "column": 34
+        },
+        "end": {
+          "line": 62,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 62,
+          "column": 35
+        },
+        "end": {
+          "line": 62,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assertTrapSucceeds",
+      "loc": {
+        "start": {
+          "line": 63,
+          "column": 1
+        },
+        "end": {
+          "line": 63,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 63,
+          "column": 19
+        },
+        "end": {
+          "line": 63,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'preventExtensions'",
+      "loc": {
+        "start": {
+          "line": 63,
+          "column": 20
+        },
+        "end": {
+          "line": 63,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 63,
+          "column": 39
+        },
+        "end": {
+          "line": 63,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 63,
+          "column": 40
+        },
+        "end": {
+          "line": 63,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assertTrapSucceeds",
+      "loc": {
+        "start": {
+          "line": 64,
+          "column": 1
+        },
+        "end": {
+          "line": 64,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 64,
+          "column": 19
+        },
+        "end": {
+          "line": 64,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'getOwnPropertyDescriptor'",
+      "loc": {
+        "start": {
+          "line": 64,
+          "column": 20
+        },
+        "end": {
+          "line": 64,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 64,
+          "column": 46
+        },
+        "end": {
+          "line": 64,
+          "column": 47
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 64,
+          "column": 47
+        },
+        "end": {
+          "line": 64,
+          "column": 48
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assertTrapSucceeds",
+      "loc": {
+        "start": {
+          "line": 65,
+          "column": 1
+        },
+        "end": {
+          "line": 65,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 65,
+          "column": 19
+        },
+        "end": {
+          "line": 65,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'has'",
+      "loc": {
+        "start": {
+          "line": 65,
+          "column": 20
+        },
+        "end": {
+          "line": 65,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 65,
+          "column": 25
+        },
+        "end": {
+          "line": 65,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 65,
+          "column": 26
+        },
+        "end": {
+          "line": 65,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assertTrapSucceeds",
+      "loc": {
+        "start": {
+          "line": 66,
+          "column": 1
+        },
+        "end": {
+          "line": 66,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 66,
+          "column": 19
+        },
+        "end": {
+          "line": 66,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'get'",
+      "loc": {
+        "start": {
+          "line": 66,
+          "column": 20
+        },
+        "end": {
+          "line": 66,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 66,
+          "column": 25
+        },
+        "end": {
+          "line": 66,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 66,
+          "column": 26
+        },
+        "end": {
+          "line": 66,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assertTrapSucceeds",
+      "loc": {
+        "start": {
+          "line": 67,
+          "column": 1
+        },
+        "end": {
+          "line": 67,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 67,
+          "column": 19
+        },
+        "end": {
+          "line": 67,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'set'",
+      "loc": {
+        "start": {
+          "line": 67,
+          "column": 20
+        },
+        "end": {
+          "line": 67,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 67,
+          "column": 25
+        },
+        "end": {
+          "line": 67,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 67,
+          "column": 26
+        },
+        "end": {
+          "line": 67,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assertTrapSucceeds",
+      "loc": {
+        "start": {
+          "line": 68,
+          "column": 1
+        },
+        "end": {
+          "line": 68,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 68,
+          "column": 19
+        },
+        "end": {
+          "line": 68,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'deleteProperty'",
+      "loc": {
+        "start": {
+          "line": 68,
+          "column": 20
+        },
+        "end": {
+          "line": 68,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 68,
+          "column": 36
+        },
+        "end": {
+          "line": 68,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 68,
+          "column": 37
+        },
+        "end": {
+          "line": 68,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assertTrapSucceeds",
+      "loc": {
+        "start": {
+          "line": 69,
+          "column": 1
+        },
+        "end": {
+          "line": 69,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 69,
+          "column": 19
+        },
+        "end": {
+          "line": 69,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'defineProperty'",
+      "loc": {
+        "start": {
+          "line": 69,
+          "column": 20
+        },
+        "end": {
+          "line": 69,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 69,
+          "column": 36
+        },
+        "end": {
+          "line": 69,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 69,
+          "column": 37
+        },
+        "end": {
+          "line": 69,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assertTrapSucceeds",
+      "loc": {
+        "start": {
+          "line": 70,
+          "column": 1
+        },
+        "end": {
+          "line": 70,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 70,
+          "column": 19
+        },
+        "end": {
+          "line": 70,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'ownKeys'",
+      "loc": {
+        "start": {
+          "line": 70,
+          "column": 20
+        },
+        "end": {
+          "line": 70,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 70,
+          "column": 29
+        },
+        "end": {
+          "line": 70,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 70,
+          "column": 30
+        },
+        "end": {
+          "line": 70,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assertTrapSucceeds",
+      "loc": {
+        "start": {
+          "line": 71,
+          "column": 1
+        },
+        "end": {
+          "line": 71,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 71,
+          "column": 19
+        },
+        "end": {
+          "line": 71,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'apply'",
+      "loc": {
+        "start": {
+          "line": 71,
+          "column": 20
+        },
+        "end": {
+          "line": 71,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 71,
+          "column": 27
+        },
+        "end": {
+          "line": 71,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 71,
+          "column": 28
+        },
+        "end": {
+          "line": 71,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assertTrapSucceeds",
+      "loc": {
+        "start": {
+          "line": 72,
+          "column": 1
+        },
+        "end": {
+          "line": 72,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 72,
+          "column": 19
+        },
+        "end": {
+          "line": 72,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'construct'",
+      "loc": {
+        "start": {
+          "line": 72,
+          "column": 20
+        },
+        "end": {
+          "line": 72,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 72,
+          "column": 31
+        },
+        "end": {
+          "line": 72,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 72,
+          "column": 32
+        },
+        "end": {
+          "line": 72,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assertTrapThrows",
+      "loc": {
+        "start": {
+          "line": 75,
+          "column": 1
+        },
+        "end": {
+          "line": 75,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 75,
+          "column": 17
+        },
+        "end": {
+          "line": 75,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'enumerate'",
+      "loc": {
+        "start": {
+          "line": 75,
+          "column": 18
+        },
+        "end": {
+          "line": 75,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 75,
+          "column": 29
+        },
+        "end": {
+          "line": 75,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 75,
+          "column": 30
+        },
+        "end": {
+          "line": 75,
+          "column": 31
+        }
+      }
+    }
+  ],
+  "sourceType": "script",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 1
+        },
+        "end": {
+          "line": 25,
+          "column": 3
+        }
+      },
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 5
+            },
+            "end": {
+              "line": 25,
+              "column": 2
+            }
+          },
+          "id": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 5
+              },
+              "end": {
+                "line": 10,
+                "column": 14
+              }
+            },
+            "name": "overrides"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 17
+              },
+              "end": {
+                "line": 25,
+                "column": 2
+              }
+            },
+            "properties": [
+              {
+                "type": "Property",
+                "loc": {
+                  "start": {
+                    "line": 11,
+                    "column": 5
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 35
+                  }
+                },
+                "method": false,
+                "key": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 11,
+                      "column": 5
+                    },
+                    "end": {
+                      "line": 11,
+                      "column": 19
+                    }
+                  },
+                  "name": "getPrototypeOf"
+                },
+                "computed": false,
+                "shorthand": false,
+                "value": {
+                  "type": "FunctionExpression",
+                  "loc": {
+                    "start": {
+                      "line": 11,
+                      "column": 21
+                    },
+                    "end": {
+                      "line": 11,
+                      "column": 35
+                    }
+                  },
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "expression": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "loc": {
+                      "start": {
+                        "line": 11,
+                        "column": 33
+                      },
+                      "end": {
+                        "line": 11,
+                        "column": 35
+                      }
+                    },
+                    "body": []
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "loc": {
+                  "start": {
+                    "line": 12,
+                    "column": 5
+                  },
+                  "end": {
+                    "line": 12,
+                    "column": 35
+                  }
+                },
+                "method": false,
+                "key": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 12,
+                      "column": 5
+                    },
+                    "end": {
+                      "line": 12,
+                      "column": 19
+                    }
+                  },
+                  "name": "setPrototypeOf"
+                },
+                "computed": false,
+                "shorthand": false,
+                "value": {
+                  "type": "FunctionExpression",
+                  "loc": {
+                    "start": {
+                      "line": 12,
+                      "column": 21
+                    },
+                    "end": {
+                      "line": 12,
+                      "column": 35
+                    }
+                  },
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "expression": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "loc": {
+                      "start": {
+                        "line": 12,
+                        "column": 33
+                      },
+                      "end": {
+                        "line": 12,
+                        "column": 35
+                      }
+                    },
+                    "body": []
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "loc": {
+                  "start": {
+                    "line": 13,
+                    "column": 5
+                  },
+                  "end": {
+                    "line": 13,
+                    "column": 33
+                  }
+                },
+                "method": false,
+                "key": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 13,
+                      "column": 5
+                    },
+                    "end": {
+                      "line": 13,
+                      "column": 17
+                    }
+                  },
+                  "name": "isExtensible"
+                },
+                "computed": false,
+                "shorthand": false,
+                "value": {
+                  "type": "FunctionExpression",
+                  "loc": {
+                    "start": {
+                      "line": 13,
+                      "column": 19
+                    },
+                    "end": {
+                      "line": 13,
+                      "column": 33
+                    }
+                  },
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "expression": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "loc": {
+                      "start": {
+                        "line": 13,
+                        "column": 31
+                      },
+                      "end": {
+                        "line": 13,
+                        "column": 33
+                      }
+                    },
+                    "body": []
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "loc": {
+                  "start": {
+                    "line": 14,
+                    "column": 5
+                  },
+                  "end": {
+                    "line": 14,
+                    "column": 38
+                  }
+                },
+                "method": false,
+                "key": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 14,
+                      "column": 5
+                    },
+                    "end": {
+                      "line": 14,
+                      "column": 22
+                    }
+                  },
+                  "name": "preventExtensions"
+                },
+                "computed": false,
+                "shorthand": false,
+                "value": {
+                  "type": "FunctionExpression",
+                  "loc": {
+                    "start": {
+                      "line": 14,
+                      "column": 24
+                    },
+                    "end": {
+                      "line": 14,
+                      "column": 38
+                    }
+                  },
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "expression": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "loc": {
+                      "start": {
+                        "line": 14,
+                        "column": 36
+                      },
+                      "end": {
+                        "line": 14,
+                        "column": 38
+                      }
+                    },
+                    "body": []
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "loc": {
+                  "start": {
+                    "line": 15,
+                    "column": 5
+                  },
+                  "end": {
+                    "line": 15,
+                    "column": 45
+                  }
+                },
+                "method": false,
+                "key": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 15,
+                      "column": 5
+                    },
+                    "end": {
+                      "line": 15,
+                      "column": 29
+                    }
+                  },
+                  "name": "getOwnPropertyDescriptor"
+                },
+                "computed": false,
+                "shorthand": false,
+                "value": {
+                  "type": "FunctionExpression",
+                  "loc": {
+                    "start": {
+                      "line": 15,
+                      "column": 31
+                    },
+                    "end": {
+                      "line": 15,
+                      "column": 45
+                    }
+                  },
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "expression": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "loc": {
+                      "start": {
+                        "line": 15,
+                        "column": 43
+                      },
+                      "end": {
+                        "line": 15,
+                        "column": 45
+                      }
+                    },
+                    "body": []
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "loc": {
+                  "start": {
+                    "line": 16,
+                    "column": 5
+                  },
+                  "end": {
+                    "line": 16,
+                    "column": 24
+                  }
+                },
+                "method": false,
+                "key": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 16,
+                      "column": 5
+                    },
+                    "end": {
+                      "line": 16,
+                      "column": 8
+                    }
+                  },
+                  "name": "has"
+                },
+                "computed": false,
+                "shorthand": false,
+                "value": {
+                  "type": "FunctionExpression",
+                  "loc": {
+                    "start": {
+                      "line": 16,
+                      "column": 10
+                    },
+                    "end": {
+                      "line": 16,
+                      "column": 24
+                    }
+                  },
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "expression": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "loc": {
+                      "start": {
+                        "line": 16,
+                        "column": 22
+                      },
+                      "end": {
+                        "line": 16,
+                        "column": 24
+                      }
+                    },
+                    "body": []
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "loc": {
+                  "start": {
+                    "line": 17,
+                    "column": 5
+                  },
+                  "end": {
+                    "line": 17,
+                    "column": 24
+                  }
+                },
+                "method": false,
+                "key": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 17,
+                      "column": 5
+                    },
+                    "end": {
+                      "line": 17,
+                      "column": 8
+                    }
+                  },
+                  "name": "get"
+                },
+                "computed": false,
+                "shorthand": false,
+                "value": {
+                  "type": "FunctionExpression",
+                  "loc": {
+                    "start": {
+                      "line": 17,
+                      "column": 10
+                    },
+                    "end": {
+                      "line": 17,
+                      "column": 24
+                    }
+                  },
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "expression": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "loc": {
+                      "start": {
+                        "line": 17,
+                        "column": 22
+                      },
+                      "end": {
+                        "line": 17,
+                        "column": 24
+                      }
+                    },
+                    "body": []
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "loc": {
+                  "start": {
+                    "line": 18,
+                    "column": 5
+                  },
+                  "end": {
+                    "line": 18,
+                    "column": 24
+                  }
+                },
+                "method": false,
+                "key": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 18,
+                      "column": 5
+                    },
+                    "end": {
+                      "line": 18,
+                      "column": 8
+                    }
+                  },
+                  "name": "set"
+                },
+                "computed": false,
+                "shorthand": false,
+                "value": {
+                  "type": "FunctionExpression",
+                  "loc": {
+                    "start": {
+                      "line": 18,
+                      "column": 10
+                    },
+                    "end": {
+                      "line": 18,
+                      "column": 24
+                    }
+                  },
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "expression": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "loc": {
+                      "start": {
+                        "line": 18,
+                        "column": 22
+                      },
+                      "end": {
+                        "line": 18,
+                        "column": 24
+                      }
+                    },
+                    "body": []
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "loc": {
+                  "start": {
+                    "line": 19,
+                    "column": 5
+                  },
+                  "end": {
+                    "line": 19,
+                    "column": 35
+                  }
+                },
+                "method": false,
+                "key": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 19,
+                      "column": 5
+                    },
+                    "end": {
+                      "line": 19,
+                      "column": 19
+                    }
+                  },
+                  "name": "deleteProperty"
+                },
+                "computed": false,
+                "shorthand": false,
+                "value": {
+                  "type": "FunctionExpression",
+                  "loc": {
+                    "start": {
+                      "line": 19,
+                      "column": 21
+                    },
+                    "end": {
+                      "line": 19,
+                      "column": 35
+                    }
+                  },
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "expression": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "loc": {
+                      "start": {
+                        "line": 19,
+                        "column": 33
+                      },
+                      "end": {
+                        "line": 19,
+                        "column": 35
+                      }
+                    },
+                    "body": []
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "loc": {
+                  "start": {
+                    "line": 20,
+                    "column": 5
+                  },
+                  "end": {
+                    "line": 20,
+                    "column": 35
+                  }
+                },
+                "method": false,
+                "key": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 20,
+                      "column": 5
+                    },
+                    "end": {
+                      "line": 20,
+                      "column": 19
+                    }
+                  },
+                  "name": "defineProperty"
+                },
+                "computed": false,
+                "shorthand": false,
+                "value": {
+                  "type": "FunctionExpression",
+                  "loc": {
+                    "start": {
+                      "line": 20,
+                      "column": 21
+                    },
+                    "end": {
+                      "line": 20,
+                      "column": 35
+                    }
+                  },
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "expression": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "loc": {
+                      "start": {
+                        "line": 20,
+                        "column": 33
+                      },
+                      "end": {
+                        "line": 20,
+                        "column": 35
+                      }
+                    },
+                    "body": []
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "loc": {
+                  "start": {
+                    "line": 21,
+                    "column": 5
+                  },
+                  "end": {
+                    "line": 21,
+                    "column": 30
+                  }
+                },
+                "method": false,
+                "key": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 21,
+                      "column": 5
+                    },
+                    "end": {
+                      "line": 21,
+                      "column": 14
+                    }
+                  },
+                  "name": "enumerate"
+                },
+                "computed": false,
+                "shorthand": false,
+                "value": {
+                  "type": "FunctionExpression",
+                  "loc": {
+                    "start": {
+                      "line": 21,
+                      "column": 16
+                    },
+                    "end": {
+                      "line": 21,
+                      "column": 30
+                    }
+                  },
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "expression": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "loc": {
+                      "start": {
+                        "line": 21,
+                        "column": 28
+                      },
+                      "end": {
+                        "line": 21,
+                        "column": 30
+                      }
+                    },
+                    "body": []
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "loc": {
+                  "start": {
+                    "line": 22,
+                    "column": 5
+                  },
+                  "end": {
+                    "line": 22,
+                    "column": 28
+                  }
+                },
+                "method": false,
+                "key": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 22,
+                      "column": 5
+                    },
+                    "end": {
+                      "line": 22,
+                      "column": 12
+                    }
+                  },
+                  "name": "ownKeys"
+                },
+                "computed": false,
+                "shorthand": false,
+                "value": {
+                  "type": "FunctionExpression",
+                  "loc": {
+                    "start": {
+                      "line": 22,
+                      "column": 14
+                    },
+                    "end": {
+                      "line": 22,
+                      "column": 28
+                    }
+                  },
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "expression": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "loc": {
+                      "start": {
+                        "line": 22,
+                        "column": 26
+                      },
+                      "end": {
+                        "line": 22,
+                        "column": 28
+                      }
+                    },
+                    "body": []
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "loc": {
+                  "start": {
+                    "line": 23,
+                    "column": 5
+                  },
+                  "end": {
+                    "line": 23,
+                    "column": 26
+                  }
+                },
+                "method": false,
+                "key": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 23,
+                      "column": 5
+                    },
+                    "end": {
+                      "line": 23,
+                      "column": 10
+                    }
+                  },
+                  "name": "apply"
+                },
+                "computed": false,
+                "shorthand": false,
+                "value": {
+                  "type": "FunctionExpression",
+                  "loc": {
+                    "start": {
+                      "line": 23,
+                      "column": 12
+                    },
+                    "end": {
+                      "line": 23,
+                      "column": 26
+                    }
+                  },
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "expression": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "loc": {
+                      "start": {
+                        "line": 23,
+                        "column": 24
+                      },
+                      "end": {
+                        "line": 23,
+                        "column": 26
+                      }
+                    },
+                    "body": []
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "loc": {
+                  "start": {
+                    "line": 24,
+                    "column": 5
+                  },
+                  "end": {
+                    "line": 24,
+                    "column": 30
+                  }
+                },
+                "method": false,
+                "key": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 24,
+                      "column": 5
+                    },
+                    "end": {
+                      "line": 24,
+                      "column": 14
+                    }
+                  },
+                  "name": "construct"
+                },
+                "computed": false,
+                "shorthand": false,
+                "value": {
+                  "type": "FunctionExpression",
+                  "loc": {
+                    "start": {
+                      "line": 24,
+                      "column": 16
+                    },
+                    "end": {
+                      "line": 24,
+                      "column": 30
+                    }
+                  },
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "expression": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "loc": {
+                      "start": {
+                        "line": 24,
+                        "column": 28
+                      },
+                      "end": {
+                        "line": 24,
+                        "column": 30
+                      }
+                    },
+                    "body": []
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 1
+        },
+        "end": {
+          "line": 26,
+          "column": 40
+        }
+      },
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 5
+            },
+            "end": {
+              "line": 26,
+              "column": 39
+            }
+          },
+          "id": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 26,
+                "column": 5
+              },
+              "end": {
+                "line": 26,
+                "column": 10
+              }
+            },
+            "name": "traps"
+          },
+          "init": {
+            "type": "CallExpression",
+            "loc": {
+              "start": {
+                "line": 26,
+                "column": 13
+              },
+              "end": {
+                "line": 26,
+                "column": 39
+              }
+            },
+            "callee": {
+              "type": "Identifier",
+              "loc": {
+                "start": {
+                  "line": 26,
+                  "column": 13
+                },
+                "end": {
+                  "line": 26,
+                  "column": 28
+                }
+              },
+              "name": "allowProxyTraps"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "loc": {
+                  "start": {
+                    "line": 26,
+                    "column": 29
+                  },
+                  "end": {
+                    "line": 26,
+                    "column": 38
+                  }
+                },
+                "name": "overrides"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 1
+        },
+        "end": {
+          "line": 44,
+          "column": 2
+        }
+      },
+      "id": {
+        "type": "Identifier",
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 10
+          },
+          "end": {
+            "line": 28,
+            "column": 28
+          }
+        },
+        "name": "assertTrapSucceeds"
+      },
+      "generator": false,
+      "async": false,
+      "expression": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 29
+            },
+            "end": {
+              "line": 28,
+              "column": 33
+            }
+          },
+          "name": "trap"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 35
+          },
+          "end": {
+            "line": 44,
+            "column": 2
+          }
+        },
+        "body": [
+          {
+            "type": "IfStatement",
+            "loc": {
+              "start": {
+                "line": 29,
+                "column": 5
+              },
+              "end": {
+                "line": 31,
+                "column": 6
+              }
+            },
+            "test": {
+              "type": "BinaryExpression",
+              "loc": {
+                "start": {
+                  "line": 29,
+                  "column": 9
+                },
+                "end": {
+                  "line": 29,
+                  "column": 42
+                }
+              },
+              "left": {
+                "type": "UnaryExpression",
+                "loc": {
+                  "start": {
+                    "line": 29,
+                    "column": 9
+                  },
+                  "end": {
+                    "line": 29,
+                    "column": 27
+                  }
+                },
+                "operator": "typeof",
+                "prefix": true,
+                "argument": {
+                  "type": "MemberExpression",
+                  "loc": {
+                    "start": {
+                      "line": 29,
+                      "column": 16
+                    },
+                    "end": {
+                      "line": 29,
+                      "column": 27
+                    }
+                  },
+                  "object": {
+                    "type": "Identifier",
+                    "loc": {
+                      "start": {
+                        "line": 29,
+                        "column": 16
+                      },
+                      "end": {
+                        "line": 29,
+                        "column": 21
+                      }
+                    },
+                    "name": "traps"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "loc": {
+                      "start": {
+                        "line": 29,
+                        "column": 22
+                      },
+                      "end": {
+                        "line": 29,
+                        "column": 26
+                      }
+                    },
+                    "name": "trap"
+                  },
+                  "computed": true,
+                  "optional": false
+                }
+              },
+              "operator": "!==",
+              "right": {
+                "type": "Literal",
+                "loc": {
+                  "start": {
+                    "line": 29,
+                    "column": 32
+                  },
+                  "end": {
+                    "line": 29,
+                    "column": 42
+                  }
+                },
+                "value": "function",
+                "raw": "'function'"
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "loc": {
+                "start": {
+                  "line": 29,
+                  "column": 44
+                },
+                "end": {
+                  "line": 31,
+                  "column": 6
+                }
+              },
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "loc": {
+                    "start": {
+                      "line": 30,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 30,
+                      "column": 71
+                    }
+                  },
+                  "argument": {
+                    "type": "NewExpression",
+                    "loc": {
+                      "start": {
+                        "line": 30,
+                        "column": 15
+                      },
+                      "end": {
+                        "line": 30,
+                        "column": 70
+                      }
+                    },
+                    "callee": {
+                      "type": "Identifier",
+                      "loc": {
+                        "start": {
+                          "line": 30,
+                          "column": 19
+                        },
+                        "end": {
+                          "line": 30,
+                          "column": 31
+                        }
+                      },
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "loc": {
+                          "start": {
+                            "line": 30,
+                            "column": 32
+                          },
+                          "end": {
+                            "line": 30,
+                            "column": 69
+                          }
+                        },
+                        "left": {
+                          "type": "BinaryExpression",
+                          "loc": {
+                            "start": {
+                              "line": 30,
+                              "column": 32
+                            },
+                            "end": {
+                              "line": 30,
+                              "column": 46
+                            }
+                          },
+                          "left": {
+                            "type": "Literal",
+                            "loc": {
+                              "start": {
+                                "line": 30,
+                                "column": 32
+                              },
+                              "end": {
+                                "line": 30,
+                                "column": 39
+                              }
+                            },
+                            "value": "trap ",
+                            "raw": "'trap '"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Identifier",
+                            "loc": {
+                              "start": {
+                                "line": 30,
+                                "column": 42
+                              },
+                              "end": {
+                                "line": 30,
+                                "column": 46
+                              }
+                            },
+                            "name": "trap"
+                          }
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Literal",
+                          "loc": {
+                            "start": {
+                              "line": 30,
+                              "column": 49
+                            },
+                            "end": {
+                              "line": 30,
+                              "column": 69
+                            }
+                          },
+                          "value": " is not a function",
+                          "raw": "' is not a function'"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          },
+          {
+            "type": "IfStatement",
+            "loc": {
+              "start": {
+                "line": 32,
+                "column": 5
+              },
+              "end": {
+                "line": 34,
+                "column": 6
+              }
+            },
+            "test": {
+              "type": "BinaryExpression",
+              "loc": {
+                "start": {
+                  "line": 32,
+                  "column": 9
+                },
+                "end": {
+                  "line": 32,
+                  "column": 40
+                }
+              },
+              "left": {
+                "type": "MemberExpression",
+                "loc": {
+                  "start": {
+                    "line": 32,
+                    "column": 9
+                  },
+                  "end": {
+                    "line": 32,
+                    "column": 20
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 32,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 32,
+                      "column": 14
+                    }
+                  },
+                  "name": "traps"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 32,
+                      "column": 15
+                    },
+                    "end": {
+                      "line": 32,
+                      "column": 19
+                    }
+                  },
+                  "name": "trap"
+                },
+                "computed": true,
+                "optional": false
+              },
+              "operator": "!==",
+              "right": {
+                "type": "MemberExpression",
+                "loc": {
+                  "start": {
+                    "line": 32,
+                    "column": 25
+                  },
+                  "end": {
+                    "line": 32,
+                    "column": 40
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 32,
+                      "column": 25
+                    },
+                    "end": {
+                      "line": 32,
+                      "column": 34
+                    }
+                  },
+                  "name": "overrides"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 32,
+                      "column": 35
+                    },
+                    "end": {
+                      "line": 32,
+                      "column": 39
+                    }
+                  },
+                  "name": "trap"
+                },
+                "computed": true,
+                "optional": false
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "loc": {
+                "start": {
+                  "line": 32,
+                  "column": 42
+                },
+                "end": {
+                  "line": 34,
+                  "column": 6
+                }
+              },
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "loc": {
+                    "start": {
+                      "line": 33,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 33,
+                      "column": 90
+                    }
+                  },
+                  "argument": {
+                    "type": "NewExpression",
+                    "loc": {
+                      "start": {
+                        "line": 33,
+                        "column": 15
+                      },
+                      "end": {
+                        "line": 33,
+                        "column": 89
+                      }
+                    },
+                    "callee": {
+                      "type": "Identifier",
+                      "loc": {
+                        "start": {
+                          "line": 33,
+                          "column": 19
+                        },
+                        "end": {
+                          "line": 33,
+                          "column": 31
+                        }
+                      },
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "loc": {
+                          "start": {
+                            "line": 33,
+                            "column": 32
+                          },
+                          "end": {
+                            "line": 33,
+                            "column": 88
+                          }
+                        },
+                        "left": {
+                          "type": "BinaryExpression",
+                          "loc": {
+                            "start": {
+                              "line": 33,
+                              "column": 32
+                            },
+                            "end": {
+                              "line": 33,
+                              "column": 46
+                            }
+                          },
+                          "left": {
+                            "type": "Literal",
+                            "loc": {
+                              "start": {
+                                "line": 33,
+                                "column": 32
+                              },
+                              "end": {
+                                "line": 33,
+                                "column": 39
+                              }
+                            },
+                            "value": "trap ",
+                            "raw": "'trap '"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Identifier",
+                            "loc": {
+                              "start": {
+                                "line": 33,
+                                "column": 42
+                              },
+                              "end": {
+                                "line": 33,
+                                "column": 46
+                              }
+                            },
+                            "name": "trap"
+                          }
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Literal",
+                          "loc": {
+                            "start": {
+                              "line": 33,
+                              "column": 49
+                            },
+                            "end": {
+                              "line": 33,
+                              "column": 88
+                            }
+                          },
+                          "value": " was not overriden in allowProxyTraps",
+                          "raw": "' was not overriden in allowProxyTraps'"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          },
+          {
+            "type": "VariableDeclaration",
+            "loc": {
+              "start": {
+                "line": 35,
+                "column": 5
+              },
+              "end": {
+                "line": 35,
+                "column": 23
+              }
+            },
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "loc": {
+                  "start": {
+                    "line": 35,
+                    "column": 9
+                  },
+                  "end": {
+                    "line": 35,
+                    "column": 22
+                  }
+                },
+                "id": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 35,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 35,
+                      "column": 14
+                    }
+                  },
+                  "name": "threw"
+                },
+                "init": {
+                  "type": "Literal",
+                  "loc": {
+                    "start": {
+                      "line": 35,
+                      "column": 17
+                    },
+                    "end": {
+                      "line": 35,
+                      "column": 22
+                    }
+                  },
+                  "value": false,
+                  "raw": "false"
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "TryStatement",
+            "loc": {
+              "start": {
+                "line": 36,
+                "column": 5
+              },
+              "end": {
+                "line": 40,
+                "column": 6
+              }
+            },
+            "block": {
+              "type": "BlockStatement",
+              "loc": {
+                "start": {
+                  "line": 36,
+                  "column": 9
+                },
+                "end": {
+                  "line": 38,
+                  "column": 6
+                }
+              },
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "loc": {
+                    "start": {
+                      "line": 37,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 37,
+                      "column": 23
+                    }
+                  },
+                  "expression": {
+                    "type": "CallExpression",
+                    "loc": {
+                      "start": {
+                        "line": 37,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 37,
+                        "column": 22
+                      }
+                    },
+                    "callee": {
+                      "type": "MemberExpression",
+                      "loc": {
+                        "start": {
+                          "line": 37,
+                          "column": 9
+                        },
+                        "end": {
+                          "line": 37,
+                          "column": 20
+                        }
+                      },
+                      "object": {
+                        "type": "Identifier",
+                        "loc": {
+                          "start": {
+                            "line": 37,
+                            "column": 9
+                          },
+                          "end": {
+                            "line": 37,
+                            "column": 14
+                          }
+                        },
+                        "name": "traps"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "loc": {
+                          "start": {
+                            "line": 37,
+                            "column": 15
+                          },
+                          "end": {
+                            "line": 37,
+                            "column": 19
+                          }
+                        },
+                        "name": "trap"
+                      },
+                      "computed": true,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            },
+            "handler": {
+              "type": "CatchClause",
+              "loc": {
+                "start": {
+                  "line": 38,
+                  "column": 7
+                },
+                "end": {
+                  "line": 40,
+                  "column": 6
+                }
+              },
+              "param": {
+                "type": "Identifier",
+                "loc": {
+                  "start": {
+                    "line": 38,
+                    "column": 14
+                  },
+                  "end": {
+                    "line": 38,
+                    "column": 15
+                  }
+                },
+                "name": "e"
+              },
+              "body": {
+                "type": "BlockStatement",
+                "loc": {
+                  "start": {
+                    "line": 38,
+                    "column": 17
+                  },
+                  "end": {
+                    "line": 40,
+                    "column": 6
+                  }
+                },
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "loc": {
+                      "start": {
+                        "line": 39,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 39,
+                        "column": 22
+                      }
+                    },
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "loc": {
+                        "start": {
+                          "line": 39,
+                          "column": 9
+                        },
+                        "end": {
+                          "line": 39,
+                          "column": 21
+                        }
+                      },
+                      "operator": "=",
+                      "left": {
+                        "type": "Identifier",
+                        "loc": {
+                          "start": {
+                            "line": 39,
+                            "column": 9
+                          },
+                          "end": {
+                            "line": 39,
+                            "column": 14
+                          }
+                        },
+                        "name": "threw"
+                      },
+                      "right": {
+                        "type": "Literal",
+                        "loc": {
+                          "start": {
+                            "line": 39,
+                            "column": 17
+                          },
+                          "end": {
+                            "line": 39,
+                            "column": 21
+                          }
+                        },
+                        "value": true,
+                        "raw": "true"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "finalizer": null
+          },
+          {
+            "type": "IfStatement",
+            "loc": {
+              "start": {
+                "line": 41,
+                "column": 5
+              },
+              "end": {
+                "line": 43,
+                "column": 6
+              }
+            },
+            "test": {
+              "type": "Identifier",
+              "loc": {
+                "start": {
+                  "line": 41,
+                  "column": 9
+                },
+                "end": {
+                  "line": 41,
+                  "column": 14
+                }
+              },
+              "name": "threw"
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "loc": {
+                "start": {
+                  "line": 41,
+                  "column": 16
+                },
+                "end": {
+                  "line": 43,
+                  "column": 6
+                }
+              },
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "loc": {
+                    "start": {
+                      "line": 42,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 42,
+                      "column": 68
+                    }
+                  },
+                  "argument": {
+                    "type": "NewExpression",
+                    "loc": {
+                      "start": {
+                        "line": 42,
+                        "column": 15
+                      },
+                      "end": {
+                        "line": 42,
+                        "column": 67
+                      }
+                    },
+                    "callee": {
+                      "type": "Identifier",
+                      "loc": {
+                        "start": {
+                          "line": 42,
+                          "column": 19
+                        },
+                        "end": {
+                          "line": 42,
+                          "column": 31
+                        }
+                      },
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "loc": {
+                          "start": {
+                            "line": 42,
+                            "column": 32
+                          },
+                          "end": {
+                            "line": 42,
+                            "column": 66
+                          }
+                        },
+                        "left": {
+                          "type": "BinaryExpression",
+                          "loc": {
+                            "start": {
+                              "line": 42,
+                              "column": 32
+                            },
+                            "end": {
+                              "line": 42,
+                              "column": 46
+                            }
+                          },
+                          "left": {
+                            "type": "Literal",
+                            "loc": {
+                              "start": {
+                                "line": 42,
+                                "column": 32
+                              },
+                              "end": {
+                                "line": 42,
+                                "column": 39
+                              }
+                            },
+                            "value": "trap ",
+                            "raw": "'trap '"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Identifier",
+                            "loc": {
+                              "start": {
+                                "line": 42,
+                                "column": 42
+                              },
+                              "end": {
+                                "line": 42,
+                                "column": 46
+                              }
+                            },
+                            "name": "trap"
+                          }
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Literal",
+                          "loc": {
+                            "start": {
+                              "line": 42,
+                              "column": 49
+                            },
+                            "end": {
+                              "line": 42,
+                              "column": 66
+                            }
+                          },
+                          "value": " threw an error",
+                          "raw": "' threw an error'"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 1
+        },
+        "end": {
+          "line": 58,
+          "column": 2
+        }
+      },
+      "id": {
+        "type": "Identifier",
+        "loc": {
+          "start": {
+            "line": 46,
+            "column": 10
+          },
+          "end": {
+            "line": 46,
+            "column": 26
+          }
+        },
+        "name": "assertTrapThrows"
+      },
+      "generator": false,
+      "async": false,
+      "expression": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 46,
+              "column": 27
+            },
+            "end": {
+              "line": 46,
+              "column": 31
+            }
+          },
+          "name": "trap"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "loc": {
+          "start": {
+            "line": 46,
+            "column": 33
+          },
+          "end": {
+            "line": 58,
+            "column": 2
+          }
+        },
+        "body": [
+          {
+            "type": "IfStatement",
+            "loc": {
+              "start": {
+                "line": 47,
+                "column": 5
+              },
+              "end": {
+                "line": 49,
+                "column": 6
+              }
+            },
+            "test": {
+              "type": "BinaryExpression",
+              "loc": {
+                "start": {
+                  "line": 47,
+                  "column": 9
+                },
+                "end": {
+                  "line": 47,
+                  "column": 42
+                }
+              },
+              "left": {
+                "type": "UnaryExpression",
+                "loc": {
+                  "start": {
+                    "line": 47,
+                    "column": 9
+                  },
+                  "end": {
+                    "line": 47,
+                    "column": 27
+                  }
+                },
+                "operator": "typeof",
+                "prefix": true,
+                "argument": {
+                  "type": "MemberExpression",
+                  "loc": {
+                    "start": {
+                      "line": 47,
+                      "column": 16
+                    },
+                    "end": {
+                      "line": 47,
+                      "column": 27
+                    }
+                  },
+                  "object": {
+                    "type": "Identifier",
+                    "loc": {
+                      "start": {
+                        "line": 47,
+                        "column": 16
+                      },
+                      "end": {
+                        "line": 47,
+                        "column": 21
+                      }
+                    },
+                    "name": "traps"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "loc": {
+                      "start": {
+                        "line": 47,
+                        "column": 22
+                      },
+                      "end": {
+                        "line": 47,
+                        "column": 26
+                      }
+                    },
+                    "name": "trap"
+                  },
+                  "computed": true,
+                  "optional": false
+                }
+              },
+              "operator": "!==",
+              "right": {
+                "type": "Literal",
+                "loc": {
+                  "start": {
+                    "line": 47,
+                    "column": 32
+                  },
+                  "end": {
+                    "line": 47,
+                    "column": 42
+                  }
+                },
+                "value": "function",
+                "raw": "'function'"
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "loc": {
+                "start": {
+                  "line": 47,
+                  "column": 44
+                },
+                "end": {
+                  "line": 49,
+                  "column": 6
+                }
+              },
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "loc": {
+                    "start": {
+                      "line": 48,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 48,
+                      "column": 71
+                    }
+                  },
+                  "argument": {
+                    "type": "NewExpression",
+                    "loc": {
+                      "start": {
+                        "line": 48,
+                        "column": 15
+                      },
+                      "end": {
+                        "line": 48,
+                        "column": 70
+                      }
+                    },
+                    "callee": {
+                      "type": "Identifier",
+                      "loc": {
+                        "start": {
+                          "line": 48,
+                          "column": 19
+                        },
+                        "end": {
+                          "line": 48,
+                          "column": 31
+                        }
+                      },
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "loc": {
+                          "start": {
+                            "line": 48,
+                            "column": 32
+                          },
+                          "end": {
+                            "line": 48,
+                            "column": 69
+                          }
+                        },
+                        "left": {
+                          "type": "BinaryExpression",
+                          "loc": {
+                            "start": {
+                              "line": 48,
+                              "column": 32
+                            },
+                            "end": {
+                              "line": 48,
+                              "column": 46
+                            }
+                          },
+                          "left": {
+                            "type": "Literal",
+                            "loc": {
+                              "start": {
+                                "line": 48,
+                                "column": 32
+                              },
+                              "end": {
+                                "line": 48,
+                                "column": 39
+                              }
+                            },
+                            "value": "trap ",
+                            "raw": "'trap '"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Identifier",
+                            "loc": {
+                              "start": {
+                                "line": 48,
+                                "column": 42
+                              },
+                              "end": {
+                                "line": 48,
+                                "column": 46
+                              }
+                            },
+                            "name": "trap"
+                          }
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Literal",
+                          "loc": {
+                            "start": {
+                              "line": 48,
+                              "column": 49
+                            },
+                            "end": {
+                              "line": 48,
+                              "column": 69
+                            }
+                          },
+                          "value": " is not a function",
+                          "raw": "' is not a function'"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          },
+          {
+            "type": "VariableDeclaration",
+            "loc": {
+              "start": {
+                "line": 50,
+                "column": 5
+              },
+              "end": {
+                "line": 50,
+                "column": 31
+              }
+            },
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "loc": {
+                  "start": {
+                    "line": 50,
+                    "column": 9
+                  },
+                  "end": {
+                    "line": 50,
+                    "column": 30
+                  }
+                },
+                "id": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 50,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 50,
+                      "column": 22
+                    }
+                  },
+                  "name": "failedToThrow"
+                },
+                "init": {
+                  "type": "Literal",
+                  "loc": {
+                    "start": {
+                      "line": 50,
+                      "column": 25
+                    },
+                    "end": {
+                      "line": 50,
+                      "column": 30
+                    }
+                  },
+                  "value": false,
+                  "raw": "false"
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "TryStatement",
+            "loc": {
+              "start": {
+                "line": 51,
+                "column": 5
+              },
+              "end": {
+                "line": 54,
+                "column": 19
+              }
+            },
+            "block": {
+              "type": "BlockStatement",
+              "loc": {
+                "start": {
+                  "line": 51,
+                  "column": 9
+                },
+                "end": {
+                  "line": 54,
+                  "column": 6
+                }
+              },
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "loc": {
+                    "start": {
+                      "line": 52,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 52,
+                      "column": 23
+                    }
+                  },
+                  "expression": {
+                    "type": "CallExpression",
+                    "loc": {
+                      "start": {
+                        "line": 52,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 52,
+                        "column": 22
+                      }
+                    },
+                    "callee": {
+                      "type": "MemberExpression",
+                      "loc": {
+                        "start": {
+                          "line": 52,
+                          "column": 9
+                        },
+                        "end": {
+                          "line": 52,
+                          "column": 20
+                        }
+                      },
+                      "object": {
+                        "type": "Identifier",
+                        "loc": {
+                          "start": {
+                            "line": 52,
+                            "column": 9
+                          },
+                          "end": {
+                            "line": 52,
+                            "column": 14
+                          }
+                        },
+                        "name": "traps"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "loc": {
+                          "start": {
+                            "line": 52,
+                            "column": 15
+                          },
+                          "end": {
+                            "line": 52,
+                            "column": 19
+                          }
+                        },
+                        "name": "trap"
+                      },
+                      "computed": true,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "loc": {
+                    "start": {
+                      "line": 53,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 53,
+                      "column": 30
+                    }
+                  },
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "loc": {
+                      "start": {
+                        "line": 53,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 53,
+                        "column": 29
+                      }
+                    },
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "loc": {
+                        "start": {
+                          "line": 53,
+                          "column": 9
+                        },
+                        "end": {
+                          "line": 53,
+                          "column": 22
+                        }
+                      },
+                      "name": "failedToThrow"
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "loc": {
+                        "start": {
+                          "line": 53,
+                          "column": 25
+                        },
+                        "end": {
+                          "line": 53,
+                          "column": 29
+                        }
+                      },
+                      "value": true,
+                      "raw": "true"
+                    }
+                  }
+                }
+              ]
+            },
+            "handler": {
+              "type": "CatchClause",
+              "loc": {
+                "start": {
+                  "line": 54,
+                  "column": 7
+                },
+                "end": {
+                  "line": 54,
+                  "column": 19
+                }
+              },
+              "param": {
+                "type": "Identifier",
+                "loc": {
+                  "start": {
+                    "line": 54,
+                    "column": 14
+                  },
+                  "end": {
+                    "line": 54,
+                    "column": 15
+                  }
+                },
+                "name": "e"
+              },
+              "body": {
+                "type": "BlockStatement",
+                "loc": {
+                  "start": {
+                    "line": 54,
+                    "column": 17
+                  },
+                  "end": {
+                    "line": 54,
+                    "column": 19
+                  }
+                },
+                "body": []
+              }
+            },
+            "finalizer": null
+          },
+          {
+            "type": "IfStatement",
+            "loc": {
+              "start": {
+                "line": 55,
+                "column": 5
+              },
+              "end": {
+                "line": 57,
+                "column": 6
+              }
+            },
+            "test": {
+              "type": "Identifier",
+              "loc": {
+                "start": {
+                  "line": 55,
+                  "column": 9
+                },
+                "end": {
+                  "line": 55,
+                  "column": 22
+                }
+              },
+              "name": "failedToThrow"
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "loc": {
+                "start": {
+                  "line": 55,
+                  "column": 24
+                },
+                "end": {
+                  "line": 57,
+                  "column": 6
+                }
+              },
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "loc": {
+                    "start": {
+                      "line": 56,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 56,
+                      "column": 76
+                    }
+                  },
+                  "argument": {
+                    "type": "NewExpression",
+                    "loc": {
+                      "start": {
+                        "line": 56,
+                        "column": 15
+                      },
+                      "end": {
+                        "line": 56,
+                        "column": 75
+                      }
+                    },
+                    "callee": {
+                      "type": "Identifier",
+                      "loc": {
+                        "start": {
+                          "line": 56,
+                          "column": 19
+                        },
+                        "end": {
+                          "line": 56,
+                          "column": 31
+                        }
+                      },
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "loc": {
+                          "start": {
+                            "line": 56,
+                            "column": 32
+                          },
+                          "end": {
+                            "line": 56,
+                            "column": 74
+                          }
+                        },
+                        "left": {
+                          "type": "BinaryExpression",
+                          "loc": {
+                            "start": {
+                              "line": 56,
+                              "column": 32
+                            },
+                            "end": {
+                              "line": 56,
+                              "column": 46
+                            }
+                          },
+                          "left": {
+                            "type": "Literal",
+                            "loc": {
+                              "start": {
+                                "line": 56,
+                                "column": 32
+                              },
+                              "end": {
+                                "line": 56,
+                                "column": 39
+                              }
+                            },
+                            "value": "trap ",
+                            "raw": "'trap '"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Identifier",
+                            "loc": {
+                              "start": {
+                                "line": 56,
+                                "column": 42
+                              },
+                              "end": {
+                                "line": 56,
+                                "column": 46
+                              }
+                            },
+                            "name": "trap"
+                          }
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Literal",
+                          "loc": {
+                            "start": {
+                              "line": 56,
+                              "column": 49
+                            },
+                            "end": {
+                              "line": 56,
+                              "column": 74
+                            }
+                          },
+                          "value": " did not throw an error",
+                          "raw": "' did not throw an error'"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 1
+        },
+        "end": {
+          "line": 60,
+          "column": 38
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 60,
+            "column": 1
+          },
+          "end": {
+            "line": 60,
+            "column": 37
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 60,
+              "column": 1
+            },
+            "end": {
+              "line": 60,
+              "column": 19
+            }
+          },
+          "name": "assertTrapSucceeds"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 60,
+                "column": 20
+              },
+              "end": {
+                "line": 60,
+                "column": 36
+              }
+            },
+            "value": "getPrototypeOf",
+            "raw": "'getPrototypeOf'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 1
+        },
+        "end": {
+          "line": 61,
+          "column": 38
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 61,
+            "column": 1
+          },
+          "end": {
+            "line": 61,
+            "column": 37
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 61,
+              "column": 1
+            },
+            "end": {
+              "line": 61,
+              "column": 19
+            }
+          },
+          "name": "assertTrapSucceeds"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 61,
+                "column": 20
+              },
+              "end": {
+                "line": 61,
+                "column": 36
+              }
+            },
+            "value": "setPrototypeOf",
+            "raw": "'setPrototypeOf'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 62,
+          "column": 1
+        },
+        "end": {
+          "line": 62,
+          "column": 36
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 62,
+            "column": 1
+          },
+          "end": {
+            "line": 62,
+            "column": 35
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 62,
+              "column": 1
+            },
+            "end": {
+              "line": 62,
+              "column": 19
+            }
+          },
+          "name": "assertTrapSucceeds"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 62,
+                "column": 20
+              },
+              "end": {
+                "line": 62,
+                "column": 34
+              }
+            },
+            "value": "isExtensible",
+            "raw": "'isExtensible'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 63,
+          "column": 1
+        },
+        "end": {
+          "line": 63,
+          "column": 41
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 63,
+            "column": 1
+          },
+          "end": {
+            "line": 63,
+            "column": 40
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 63,
+              "column": 1
+            },
+            "end": {
+              "line": 63,
+              "column": 19
+            }
+          },
+          "name": "assertTrapSucceeds"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 63,
+                "column": 20
+              },
+              "end": {
+                "line": 63,
+                "column": 39
+              }
+            },
+            "value": "preventExtensions",
+            "raw": "'preventExtensions'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 64,
+          "column": 1
+        },
+        "end": {
+          "line": 64,
+          "column": 48
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 64,
+            "column": 1
+          },
+          "end": {
+            "line": 64,
+            "column": 47
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 64,
+              "column": 1
+            },
+            "end": {
+              "line": 64,
+              "column": 19
+            }
+          },
+          "name": "assertTrapSucceeds"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 64,
+                "column": 20
+              },
+              "end": {
+                "line": 64,
+                "column": 46
+              }
+            },
+            "value": "getOwnPropertyDescriptor",
+            "raw": "'getOwnPropertyDescriptor'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 65,
+          "column": 1
+        },
+        "end": {
+          "line": 65,
+          "column": 27
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 65,
+            "column": 1
+          },
+          "end": {
+            "line": 65,
+            "column": 26
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 65,
+              "column": 1
+            },
+            "end": {
+              "line": 65,
+              "column": 19
+            }
+          },
+          "name": "assertTrapSucceeds"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 65,
+                "column": 20
+              },
+              "end": {
+                "line": 65,
+                "column": 25
+              }
+            },
+            "value": "has",
+            "raw": "'has'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 66,
+          "column": 1
+        },
+        "end": {
+          "line": 66,
+          "column": 27
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 66,
+            "column": 1
+          },
+          "end": {
+            "line": 66,
+            "column": 26
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 66,
+              "column": 1
+            },
+            "end": {
+              "line": 66,
+              "column": 19
+            }
+          },
+          "name": "assertTrapSucceeds"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 66,
+                "column": 20
+              },
+              "end": {
+                "line": 66,
+                "column": 25
+              }
+            },
+            "value": "get",
+            "raw": "'get'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 67,
+          "column": 1
+        },
+        "end": {
+          "line": 67,
+          "column": 27
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 67,
+            "column": 1
+          },
+          "end": {
+            "line": 67,
+            "column": 26
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 67,
+              "column": 1
+            },
+            "end": {
+              "line": 67,
+              "column": 19
+            }
+          },
+          "name": "assertTrapSucceeds"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 67,
+                "column": 20
+              },
+              "end": {
+                "line": 67,
+                "column": 25
+              }
+            },
+            "value": "set",
+            "raw": "'set'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 68,
+          "column": 1
+        },
+        "end": {
+          "line": 68,
+          "column": 38
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 68,
+            "column": 1
+          },
+          "end": {
+            "line": 68,
+            "column": 37
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 68,
+              "column": 1
+            },
+            "end": {
+              "line": 68,
+              "column": 19
+            }
+          },
+          "name": "assertTrapSucceeds"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 68,
+                "column": 20
+              },
+              "end": {
+                "line": 68,
+                "column": 36
+              }
+            },
+            "value": "deleteProperty",
+            "raw": "'deleteProperty'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 69,
+          "column": 1
+        },
+        "end": {
+          "line": 69,
+          "column": 38
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 69,
+            "column": 1
+          },
+          "end": {
+            "line": 69,
+            "column": 37
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 69,
+              "column": 1
+            },
+            "end": {
+              "line": 69,
+              "column": 19
+            }
+          },
+          "name": "assertTrapSucceeds"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 69,
+                "column": 20
+              },
+              "end": {
+                "line": 69,
+                "column": 36
+              }
+            },
+            "value": "defineProperty",
+            "raw": "'defineProperty'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 70,
+          "column": 1
+        },
+        "end": {
+          "line": 70,
+          "column": 31
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 70,
+            "column": 1
+          },
+          "end": {
+            "line": 70,
+            "column": 30
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 70,
+              "column": 1
+            },
+            "end": {
+              "line": 70,
+              "column": 19
+            }
+          },
+          "name": "assertTrapSucceeds"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 70,
+                "column": 20
+              },
+              "end": {
+                "line": 70,
+                "column": 29
+              }
+            },
+            "value": "ownKeys",
+            "raw": "'ownKeys'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 71,
+          "column": 1
+        },
+        "end": {
+          "line": 71,
+          "column": 29
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 71,
+            "column": 1
+          },
+          "end": {
+            "line": 71,
+            "column": 28
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 71,
+              "column": 1
+            },
+            "end": {
+              "line": 71,
+              "column": 19
+            }
+          },
+          "name": "assertTrapSucceeds"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 71,
+                "column": 20
+              },
+              "end": {
+                "line": 71,
+                "column": 27
+              }
+            },
+            "value": "apply",
+            "raw": "'apply'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 72,
+          "column": 1
+        },
+        "end": {
+          "line": 72,
+          "column": 33
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 72,
+            "column": 1
+          },
+          "end": {
+            "line": 72,
+            "column": 32
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 72,
+              "column": 1
+            },
+            "end": {
+              "line": 72,
+              "column": 19
+            }
+          },
+          "name": "assertTrapSucceeds"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 72,
+                "column": 20
+              },
+              "end": {
+                "line": 72,
+                "column": 31
+              }
+            },
+            "value": "construct",
+            "raw": "'construct'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 75,
+          "column": 1
+        },
+        "end": {
+          "line": 75,
+          "column": 31
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 75,
+            "column": 1
+          },
+          "end": {
+            "line": 75,
+            "column": 30
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 75,
+              "column": 1
+            },
+            "end": {
+              "line": 75,
+              "column": 17
+            }
+          },
+          "name": "assertTrapThrows"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 75,
+                "column": 18
+              },
+              "end": {
+                "line": 75,
+                "column": 29
+              }
+            },
+            "value": "enumerate",
+            "raw": "'enumerate'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "type": "Program",
+  "loc": {
+    "start": {
+      "line": 58,
+      "column": 1
+    },
+    "end": {
+      "line": 64,
+      "column": 1
+    }
+  },
+  "tokens": [
+    {
+      "type": "Keyword",
+      "value": "var",
+      "loc": {
+        "start": {
+          "line": 58,
+          "column": 1
+        },
+        "end": {
+          "line": 58,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "result",
+      "loc": {
+        "start": {
+          "line": 58,
+          "column": 5
+        },
+        "end": {
+          "line": 58,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "=",
+      "loc": {
+        "start": {
+          "line": 58,
+          "column": 12
+        },
+        "end": {
+          "line": 58,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "eval",
+      "loc": {
+        "start": {
+          "line": 58,
+          "column": 14
+        },
+        "end": {
+          "line": 58,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 58,
+          "column": 18
+        },
+        "end": {
+          "line": 58,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'{length: 3000}() => 1, 42;;'",
+      "loc": {
+        "start": {
+          "line": 58,
+          "column": 19
+        },
+        "end": {
+          "line": 58,
+          "column": 48
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 58,
+          "column": 48
+        },
+        "end": {
+          "line": 58,
+          "column": 49
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 58,
+          "column": 49
+        },
+        "end": {
+          "line": 58,
+          "column": 50
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "var",
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 1
+        },
+        "end": {
+          "line": 61,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "expected",
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 5
+        },
+        "end": {
+          "line": 61,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "=",
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 14
+        },
+        "end": {
+          "line": 61,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "Numeric",
+      "value": "3000",
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 16
+        },
+        "end": {
+          "line": 61,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 20
+        },
+        "end": {
+          "line": 61,
+          "column": 21
+        }
+      }
+    }
+  ],
+  "sourceType": "script",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "loc": {
+        "start": {
+          "line": 58,
+          "column": 1
+        },
+        "end": {
+          "line": 58,
+          "column": 50
+        }
+      },
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "loc": {
+            "start": {
+              "line": 58,
+              "column": 5
+            },
+            "end": {
+              "line": 58,
+              "column": 49
+            }
+          },
+          "id": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 58,
+                "column": 5
+              },
+              "end": {
+                "line": 58,
+                "column": 11
+              }
+            },
+            "name": "result"
+          },
+          "init": {
+            "type": "CallExpression",
+            "loc": {
+              "start": {
+                "line": 58,
+                "column": 14
+              },
+              "end": {
+                "line": 58,
+                "column": 49
+              }
+            },
+            "callee": {
+              "type": "Identifier",
+              "loc": {
+                "start": {
+                  "line": 58,
+                  "column": 14
+                },
+                "end": {
+                  "line": 58,
+                  "column": 18
+                }
+              },
+              "name": "eval"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "loc": {
+                  "start": {
+                    "line": 58,
+                    "column": 19
+                  },
+                  "end": {
+                    "line": 58,
+                    "column": 48
+                  }
+                },
+                "value": "{length: 3000}() => 1, 42;;",
+                "raw": "'{length: 3000}() => 1, 42;;'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 1
+        },
+        "end": {
+          "line": 61,
+          "column": 21
+        }
+      },
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "loc": {
+            "start": {
+              "line": 61,
+              "column": 5
+            },
+            "end": {
+              "line": 61,
+              "column": 20
+            }
+          },
+          "id": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 61,
+                "column": 5
+              },
+              "end": {
+                "line": 61,
+                "column": 13
+              }
+            },
+            "name": "expected"
+          },
+          "init": {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 61,
+                "column": 16
+              },
+              "end": {
+                "line": 61,
+                "column": 20
+              }
+            },
+            "value": 3000,
+            "raw": "3000"
+          }
+        }
+      ],
+      "kind": "var"
+    }
+  ]
+}

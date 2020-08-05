@@ -1,0 +1,146 @@
+{
+  "type": "Program",
+  "loc": {
+    "start": {
+      "line": 33,
+      "column": 1
+    },
+    "end": {
+      "line": 37,
+      "column": 1
+    }
+  },
+  "tokens": [
+    {
+      "type": "Identifier",
+      "value": "eval",
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 1
+        },
+        "end": {
+          "line": 33,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 5
+        },
+        "end": {
+          "line": 33,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'if (false) ; else function f() { return \"declaration\"; }assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"declaration\");'",
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 3
+        },
+        "end": {
+          "line": 35,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 1
+        },
+        "end": {
+          "line": 36,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 2
+        },
+        "end": {
+          "line": 36,
+          "column": 3
+        }
+      }
+    }
+  ],
+  "sourceType": "script",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 1
+        },
+        "end": {
+          "line": 36,
+          "column": 3
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 1
+          },
+          "end": {
+            "line": 36,
+            "column": 2
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 33,
+              "column": 1
+            },
+            "end": {
+              "line": 33,
+              "column": 5
+            }
+          },
+          "name": "eval"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 34,
+                "column": 3
+              },
+              "end": {
+                "line": 35,
+                "column": 41
+              }
+            },
+            "value": "if (false) ; else function f() { return \"declaration\"; }assert.sameValue(typeof f, \"function\");  assert.sameValue(f(), \"declaration\");",
+            "raw": "'if (false) ; else function f() { return \"declaration\"; }assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"declaration\");'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ]
+}

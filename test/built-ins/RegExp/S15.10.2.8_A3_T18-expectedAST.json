@@ -1,0 +1,935 @@
+{
+  "type": "Program",
+  "loc": {
+    "start": {
+      "line": 14,
+      "column": 1
+    },
+    "end": {
+      "line": 22,
+      "column": 1
+    }
+  },
+  "tokens": [
+    {
+      "type": "Keyword",
+      "value": "var",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 1
+        },
+        "end": {
+          "line": 14,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "__replaced",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 5
+        },
+        "end": {
+          "line": 14,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "=",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 16
+        },
+        "end": {
+          "line": 14,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "\"To sign up click |here|https:www.xxxx.org/subscribe.htm|\"",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 18
+        },
+        "end": {
+          "line": 14,
+          "column": 76
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ".",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 76
+        },
+        "end": {
+          "line": 14,
+          "column": 77
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "replace",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 77
+        },
+        "end": {
+          "line": 14,
+          "column": 84
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 84
+        },
+        "end": {
+          "line": 14,
+          "column": 85
+        }
+      }
+    },
+    {
+      "type": "RegularExpression",
+      "value": "/(\\|)([\\w\\x81-\\xff ]*)(\\|)([\\/a-z][\\w:\\/\\.]*\\.[a-z]{3,4})(\\|)/ig",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 85
+        },
+        "end": {
+          "line": 14,
+          "column": 149
+        }
+      },
+      "regex": {
+        "pattern": "(\\|)([\\w\\x81-\\xff ]*)(\\|)([\\/a-z][\\w:\\/\\.]*\\.[a-z]{3,4})(\\|)",
+        "flags": "ig"
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 149
+        },
+        "end": {
+          "line": 14,
+          "column": 150
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'<a href=\"$4\">$2</a>'",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 151
+        },
+        "end": {
+          "line": 14,
+          "column": 172
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 172
+        },
+        "end": {
+          "line": 14,
+          "column": 173
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 173
+        },
+        "end": {
+          "line": 14,
+          "column": 174
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "var",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 1
+        },
+        "end": {
+          "line": 16,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "__expected",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 5
+        },
+        "end": {
+          "line": 16,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "=",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 16
+        },
+        "end": {
+          "line": 16,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'To sign up click <a href=\"https:www.xxxx.org/subscribe.htm\">here</a>'",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 18
+        },
+        "end": {
+          "line": 16,
+          "column": 88
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 88
+        },
+        "end": {
+          "line": 16,
+          "column": 89
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "if",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 1
+        },
+        "end": {
+          "line": 19,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 4
+        },
+        "end": {
+          "line": 19,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "__replaced",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 5
+        },
+        "end": {
+          "line": 19,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "!==",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 16
+        },
+        "end": {
+          "line": 19,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "__expected",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 20
+        },
+        "end": {
+          "line": 19,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 30
+        },
+        "end": {
+          "line": 19,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 32
+        },
+        "end": {
+          "line": 19,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "$ERROR",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 2
+        },
+        "end": {
+          "line": 20,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 8
+        },
+        "end": {
+          "line": 20,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'#1: __replaced = \"To sign up click |here|https:www.xxxx.org/subscribe.htm|\".replace(/(\\\\|)([\\\\w\\\\x81-\\\\xff ]*)(\\\\|)([\\\\/a-z][\\\\w:\\\\/\\\\.]*\\\\.[a-z]{3,4})(\\\\|)/ig, \\'<a href=\"$4\">$2</a>\\'); __replaced === '",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 9
+        },
+        "end": {
+          "line": 20,
+          "column": 213
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 214
+        },
+        "end": {
+          "line": 20,
+          "column": 215
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "__expected",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 216
+        },
+        "end": {
+          "line": 20,
+          "column": 226
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 227
+        },
+        "end": {
+          "line": 20,
+          "column": 228
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'. Actual: '",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 229
+        },
+        "end": {
+          "line": 20,
+          "column": 241
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 242
+        },
+        "end": {
+          "line": 20,
+          "column": 243
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "__replaced",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 244
+        },
+        "end": {
+          "line": 20,
+          "column": 254
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 254
+        },
+        "end": {
+          "line": 20,
+          "column": 255
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 255
+        },
+        "end": {
+          "line": 20,
+          "column": 256
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 1
+        },
+        "end": {
+          "line": 21,
+          "column": 2
+        }
+      }
+    }
+  ],
+  "sourceType": "script",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 1
+        },
+        "end": {
+          "line": 14,
+          "column": 174
+        }
+      },
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 5
+            },
+            "end": {
+              "line": 14,
+              "column": 173
+            }
+          },
+          "id": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 14,
+                "column": 5
+              },
+              "end": {
+                "line": 14,
+                "column": 15
+              }
+            },
+            "name": "__replaced"
+          },
+          "init": {
+            "type": "CallExpression",
+            "loc": {
+              "start": {
+                "line": 14,
+                "column": 18
+              },
+              "end": {
+                "line": 14,
+                "column": 173
+              }
+            },
+            "callee": {
+              "type": "MemberExpression",
+              "loc": {
+                "start": {
+                  "line": 14,
+                  "column": 18
+                },
+                "end": {
+                  "line": 14,
+                  "column": 84
+                }
+              },
+              "object": {
+                "type": "Literal",
+                "loc": {
+                  "start": {
+                    "line": 14,
+                    "column": 18
+                  },
+                  "end": {
+                    "line": 14,
+                    "column": 76
+                  }
+                },
+                "value": "To sign up click |here|https:www.xxxx.org/subscribe.htm|",
+                "raw": "\"To sign up click |here|https:www.xxxx.org/subscribe.htm|\""
+              },
+              "property": {
+                "type": "Identifier",
+                "loc": {
+                  "start": {
+                    "line": 14,
+                    "column": 77
+                  },
+                  "end": {
+                    "line": 14,
+                    "column": 84
+                  }
+                },
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "loc": {
+                  "start": {
+                    "line": 14,
+                    "column": 85
+                  },
+                  "end": {
+                    "line": 14,
+                    "column": 149
+                  }
+                },
+                "value": {},
+                "raw": "/(\\|)([\\w\\x81-\\xff ]*)(\\|)([\\/a-z][\\w:\\/\\.]*\\.[a-z]{3,4})(\\|)/ig",
+                "regex": {
+                  "pattern": "(\\|)([\\w\\x81-\\xff ]*)(\\|)([\\/a-z][\\w:\\/\\.]*\\.[a-z]{3,4})(\\|)",
+                  "flags": "ig"
+                }
+              },
+              {
+                "type": "Literal",
+                "loc": {
+                  "start": {
+                    "line": 14,
+                    "column": 151
+                  },
+                  "end": {
+                    "line": 14,
+                    "column": 172
+                  }
+                },
+                "value": "<a href=\"$4\">$2</a>",
+                "raw": "'<a href=\"$4\">$2</a>'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 1
+        },
+        "end": {
+          "line": 16,
+          "column": 89
+        }
+      },
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 5
+            },
+            "end": {
+              "line": 16,
+              "column": 88
+            }
+          },
+          "id": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 16,
+                "column": 5
+              },
+              "end": {
+                "line": 16,
+                "column": 15
+              }
+            },
+            "name": "__expected"
+          },
+          "init": {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 16,
+                "column": 18
+              },
+              "end": {
+                "line": 16,
+                "column": 88
+              }
+            },
+            "value": "To sign up click <a href=\"https:www.xxxx.org/subscribe.htm\">here</a>",
+            "raw": "'To sign up click <a href=\"https:www.xxxx.org/subscribe.htm\">here</a>'"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 1
+        },
+        "end": {
+          "line": 21,
+          "column": 2
+        }
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 5
+          },
+          "end": {
+            "line": 19,
+            "column": 30
+          }
+        },
+        "left": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 5
+            },
+            "end": {
+              "line": 19,
+              "column": 15
+            }
+          },
+          "name": "__replaced"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 20
+            },
+            "end": {
+              "line": 19,
+              "column": 30
+            }
+          },
+          "name": "__expected"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 32
+          },
+          "end": {
+            "line": 21,
+            "column": 2
+          }
+        },
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "loc": {
+              "start": {
+                "line": 20,
+                "column": 2
+              },
+              "end": {
+                "line": 20,
+                "column": 256
+              }
+            },
+            "expression": {
+              "type": "CallExpression",
+              "loc": {
+                "start": {
+                  "line": 20,
+                  "column": 2
+                },
+                "end": {
+                  "line": 20,
+                  "column": 255
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+                "loc": {
+                  "start": {
+                    "line": 20,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 20,
+                    "column": 8
+                  }
+                },
+                "name": "$ERROR"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "loc": {
+                    "start": {
+                      "line": 20,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 20,
+                      "column": 254
+                    }
+                  },
+                  "left": {
+                    "type": "BinaryExpression",
+                    "loc": {
+                      "start": {
+                        "line": 20,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 20,
+                        "column": 241
+                      }
+                    },
+                    "left": {
+                      "type": "BinaryExpression",
+                      "loc": {
+                        "start": {
+                          "line": 20,
+                          "column": 9
+                        },
+                        "end": {
+                          "line": 20,
+                          "column": 226
+                        }
+                      },
+                      "left": {
+                        "type": "Literal",
+                        "loc": {
+                          "start": {
+                            "line": 20,
+                            "column": 9
+                          },
+                          "end": {
+                            "line": 20,
+                            "column": 213
+                          }
+                        },
+                        "value": "#1: __replaced = \"To sign up click |here|https:www.xxxx.org/subscribe.htm|\".replace(/(\\|)([\\w\\x81-\\xff ]*)(\\|)([\\/a-z][\\w:\\/\\.]*\\.[a-z]{3,4})(\\|)/ig, '<a href=\"$4\">$2</a>'); __replaced === ",
+                        "raw": "'#1: __replaced = \"To sign up click |here|https:www.xxxx.org/subscribe.htm|\".replace(/(\\\\|)([\\\\w\\\\x81-\\\\xff ]*)(\\\\|)([\\\\/a-z][\\\\w:\\\\/\\\\.]*\\\\.[a-z]{3,4})(\\\\|)/ig, \\'<a href=\"$4\">$2</a>\\'); __replaced === '"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Identifier",
+                        "loc": {
+                          "start": {
+                            "line": 20,
+                            "column": 216
+                          },
+                          "end": {
+                            "line": 20,
+                            "column": 226
+                          }
+                        },
+                        "name": "__expected"
+                      }
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Literal",
+                      "loc": {
+                        "start": {
+                          "line": 20,
+                          "column": 229
+                        },
+                        "end": {
+                          "line": 20,
+                          "column": 241
+                        }
+                      },
+                      "value": ". Actual: ",
+                      "raw": "'. Actual: '"
+                    }
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "loc": {
+                      "start": {
+                        "line": 20,
+                        "column": 244
+                      },
+                      "end": {
+                        "line": 20,
+                        "column": 254
+                      }
+                    },
+                    "name": "__replaced"
+                  }
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ]
+}

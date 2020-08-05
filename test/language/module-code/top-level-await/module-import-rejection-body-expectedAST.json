@@ -1,0 +1,300 @@
+{
+  "type": "Program",
+  "loc": {
+    "start": {
+      "line": 74,
+      "column": 1
+    },
+    "end": {
+      "line": 77,
+      "column": 1
+    }
+  },
+  "tokens": [
+    {
+      "type": "Keyword",
+      "value": "import",
+      "loc": {
+        "start": {
+          "line": 74,
+          "column": 1
+        },
+        "end": {
+          "line": 74,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "foo",
+      "loc": {
+        "start": {
+          "line": 74,
+          "column": 8
+        },
+        "end": {
+          "line": 74,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "from",
+      "loc": {
+        "start": {
+          "line": 74,
+          "column": 12
+        },
+        "end": {
+          "line": 74,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'./module-import-rejection-body_FIXTURE.js'",
+      "loc": {
+        "start": {
+          "line": 74,
+          "column": 17
+        },
+        "end": {
+          "line": 74,
+          "column": 60
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 74,
+          "column": 60
+        },
+        "end": {
+          "line": 74,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "throw",
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 1
+        },
+        "end": {
+          "line": 76,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "new",
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 7
+        },
+        "end": {
+          "line": 76,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "Test262Error",
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 11
+        },
+        "end": {
+          "line": 76,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 23
+        },
+        "end": {
+          "line": 76,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'this should be unreachable'",
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 24
+        },
+        "end": {
+          "line": 76,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 52
+        },
+        "end": {
+          "line": 76,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 53
+        },
+        "end": {
+          "line": 76,
+          "column": 54
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "loc": {
+        "start": {
+          "line": 74,
+          "column": 1
+        },
+        "end": {
+          "line": 74,
+          "column": 61
+        }
+      },
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "loc": {
+            "start": {
+              "line": 74,
+              "column": 8
+            },
+            "end": {
+              "line": 74,
+              "column": 11
+            }
+          },
+          "local": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 74,
+                "column": 8
+              },
+              "end": {
+                "line": 74,
+                "column": 11
+              }
+            },
+            "name": "foo"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "loc": {
+          "start": {
+            "line": 74,
+            "column": 17
+          },
+          "end": {
+            "line": 74,
+            "column": 60
+          }
+        },
+        "value": "./module-import-rejection-body_FIXTURE.js",
+        "raw": "'./module-import-rejection-body_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ThrowStatement",
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 1
+        },
+        "end": {
+          "line": 76,
+          "column": 54
+        }
+      },
+      "argument": {
+        "type": "NewExpression",
+        "loc": {
+          "start": {
+            "line": 76,
+            "column": 7
+          },
+          "end": {
+            "line": 76,
+            "column": 53
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 76,
+              "column": 11
+            },
+            "end": {
+              "line": 76,
+              "column": 23
+            }
+          },
+          "name": "Test262Error"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 76,
+                "column": 24
+              },
+              "end": {
+                "line": 76,
+                "column": 52
+              }
+            },
+            "value": "this should be unreachable",
+            "raw": "'this should be unreachable'"
+          }
+        ]
+      }
+    }
+  ]
+}

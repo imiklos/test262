@@ -1,0 +1,317 @@
+{
+  "type": "Program",
+  "loc": {
+    "start": {
+      "line": 27,
+      "column": 1
+    },
+    "end": {
+      "line": 54,
+      "column": 1
+    }
+  },
+  "tokens": [
+    {
+      "type": "Identifier",
+      "value": "eval",
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 1
+        },
+        "end": {
+          "line": 27,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 5
+        },
+        "end": {
+          "line": 27,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created prior to evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw {};\\\n  } catch ({ f }) {switch (1) {'",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 3
+        },
+        "end": {
+          "line": 39,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 34
+        },
+        "end": {
+          "line": 39,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'  default:'",
+      "loc": {
+        "start": {
+          "line": 40,
+          "column": 3
+        },
+        "end": {
+          "line": 40,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 40,
+          "column": 16
+        },
+        "end": {
+          "line": 40,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'    function f() {  }'",
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 3
+        },
+        "end": {
+          "line": 41,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 27
+        },
+        "end": {
+          "line": 41,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'}\\\n  }\\\n  \\\n  assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created following evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created following evaluation\"\\\n  );'",
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 3
+        },
+        "end": {
+          "line": 52,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 1
+        },
+        "end": {
+          "line": 53,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 2
+        },
+        "end": {
+          "line": 53,
+          "column": 3
+        }
+      }
+    }
+  ],
+  "sourceType": "script",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 1
+        },
+        "end": {
+          "line": 53,
+          "column": 3
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 27,
+            "column": 1
+          },
+          "end": {
+            "line": 53,
+            "column": 2
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 1
+            },
+            "end": {
+              "line": 27,
+              "column": 5
+            }
+          },
+          "name": "eval"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "loc": {
+              "start": {
+                "line": 28,
+                "column": 3
+              },
+              "end": {
+                "line": 52,
+                "column": 6
+              }
+            },
+            "left": {
+              "type": "BinaryExpression",
+              "loc": {
+                "start": {
+                  "line": 28,
+                  "column": 3
+                },
+                "end": {
+                  "line": 41,
+                  "column": 26
+                }
+              },
+              "left": {
+                "type": "BinaryExpression",
+                "loc": {
+                  "start": {
+                    "line": 28,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 40,
+                    "column": 15
+                  }
+                },
+                "left": {
+                  "type": "Literal",
+                  "loc": {
+                    "start": {
+                      "line": 28,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 39,
+                      "column": 33
+                    }
+                  },
+                  "value": "assert.throws(ReferenceError, function() {    f;  }, \"An initialized binding is not created prior to evaluation\");  assert.sameValue(    typeof f,    \"undefined\",    \"An uninitialized binding is not created prior to evaluation\"  );    try {    throw {};  } catch ({ f }) {switch (1) {",
+                  "raw": "'assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created prior to evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw {};\\\n  } catch ({ f }) {switch (1) {'"
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "loc": {
+                    "start": {
+                      "line": 40,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 40,
+                      "column": 15
+                    }
+                  },
+                  "value": "  default:",
+                  "raw": "'  default:'"
+                }
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "loc": {
+                  "start": {
+                    "line": 41,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 41,
+                    "column": 26
+                  }
+                },
+                "value": "    function f() {  }",
+                "raw": "'    function f() {  }'"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "loc": {
+                "start": {
+                  "line": 42,
+                  "column": 3
+                },
+                "end": {
+                  "line": 52,
+                  "column": 6
+                }
+              },
+              "value": "}  }    assert.throws(ReferenceError, function() {    f;  }, \"An initialized binding is not created following evaluation\");  assert.sameValue(    typeof f,    \"undefined\",    \"An uninitialized binding is not created following evaluation\"  );",
+              "raw": "'}\\\n  }\\\n  \\\n  assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created following evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created following evaluation\"\\\n  );'"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ]
+}

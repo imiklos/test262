@@ -1,0 +1,204 @@
+{
+  "type": "Program",
+  "loc": {
+    "start": {
+      "line": 10,
+      "column": 1
+    },
+    "end": {
+      "line": 11,
+      "column": 1
+    }
+  },
+  "tokens": [
+    {
+      "type": "String",
+      "value": "'caller'",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 1
+        },
+        "end": {
+          "line": 10,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "in",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 10
+        },
+        "end": {
+          "line": 10,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "function",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 13
+        },
+        "end": {
+          "line": 10,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 21
+        },
+        "end": {
+          "line": 10,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 22
+        },
+        "end": {
+          "line": 10,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 24
+        },
+        "end": {
+          "line": 10,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 25
+        },
+        "end": {
+          "line": 10,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 26
+        },
+        "end": {
+          "line": 10,
+          "column": 27
+        }
+      }
+    }
+  ],
+  "sourceType": "script",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 1
+        },
+        "end": {
+          "line": 10,
+          "column": 27
+        }
+      },
+      "expression": {
+        "type": "BinaryExpression",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 1
+          },
+          "end": {
+            "line": 10,
+            "column": 26
+          }
+        },
+        "left": {
+          "type": "Literal",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 1
+            },
+            "end": {
+              "line": 10,
+              "column": 9
+            }
+          },
+          "value": "caller",
+          "raw": "'caller'"
+        },
+        "operator": "in",
+        "right": {
+          "type": "FunctionExpression",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 13
+            },
+            "end": {
+              "line": 10,
+              "column": 26
+            }
+          },
+          "id": null,
+          "generator": false,
+          "async": false,
+          "expression": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 24
+              },
+              "end": {
+                "line": 10,
+                "column": 26
+              }
+            },
+            "body": []
+          }
+        }
+      }
+    }
+  ]
+}

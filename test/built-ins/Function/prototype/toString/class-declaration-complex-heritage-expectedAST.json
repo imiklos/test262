@@ -1,0 +1,397 @@
+{
+  "type": "Program",
+  "loc": {
+    "start": {
+      "line": 10,
+      "column": 1
+    },
+    "end": {
+      "line": 13,
+      "column": 1
+    }
+  },
+  "tokens": [
+    {
+      "type": "Keyword",
+      "value": "class",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 13
+        },
+        "end": {
+          "line": 10,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "A",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 27
+        },
+        "end": {
+          "line": 10,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "extends",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 37
+        },
+        "end": {
+          "line": 10,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "class",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 53
+        },
+        "end": {
+          "line": 10,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "B",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 67
+        },
+        "end": {
+          "line": 10,
+          "column": 68
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 77
+        },
+        "end": {
+          "line": 10,
+          "column": 78
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 87
+        },
+        "end": {
+          "line": 10,
+          "column": 88
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 97
+        },
+        "end": {
+          "line": 10,
+          "column": 98
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 107
+        },
+        "end": {
+          "line": 10,
+          "column": 108
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assertToStringOrNativeFunction",
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 1
+        },
+        "end": {
+          "line": 12,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 31
+        },
+        "end": {
+          "line": 12,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "A",
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 32
+        },
+        "end": {
+          "line": 12,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 33
+        },
+        "end": {
+          "line": 12,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "\"class /* a */ A /* b */ extends /* c */ class /* d */ B /* e */ { /* f */ } /* g */ { /* h */ }\"",
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 35
+        },
+        "end": {
+          "line": 12,
+          "column": 132
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 132
+        },
+        "end": {
+          "line": 12,
+          "column": 133
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 133
+        },
+        "end": {
+          "line": 12,
+          "column": 134
+        }
+      }
+    }
+  ],
+  "sourceType": "script",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 13
+        },
+        "end": {
+          "line": 10,
+          "column": 108
+        }
+      },
+      "id": {
+        "type": "Identifier",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 27
+          },
+          "end": {
+            "line": 10,
+            "column": 28
+          }
+        },
+        "name": "A"
+      },
+      "superClass": {
+        "type": "ClassExpression",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 53
+          },
+          "end": {
+            "line": 10,
+            "column": 88
+          }
+        },
+        "id": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 67
+            },
+            "end": {
+              "line": 10,
+              "column": 68
+            }
+          },
+          "name": "B"
+        },
+        "superClass": null,
+        "body": {
+          "type": "ClassBody",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 77
+            },
+            "end": {
+              "line": 10,
+              "column": 88
+            }
+          },
+          "body": []
+        }
+      },
+      "body": {
+        "type": "ClassBody",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 97
+          },
+          "end": {
+            "line": 10,
+            "column": 108
+          }
+        },
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 1
+        },
+        "end": {
+          "line": 12,
+          "column": 134
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 1
+          },
+          "end": {
+            "line": 12,
+            "column": 133
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 1
+            },
+            "end": {
+              "line": 12,
+              "column": 31
+            }
+          },
+          "name": "assertToStringOrNativeFunction"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 12,
+                "column": 32
+              },
+              "end": {
+                "line": 12,
+                "column": 33
+              }
+            },
+            "name": "A"
+          },
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 12,
+                "column": 35
+              },
+              "end": {
+                "line": 12,
+                "column": 132
+              }
+            },
+            "value": "class /* a */ A /* b */ extends /* c */ class /* d */ B /* e */ { /* f */ } /* g */ { /* h */ }",
+            "raw": "\"class /* a */ A /* b */ extends /* c */ class /* d */ B /* e */ { /* f */ } /* g */ { /* h */ }\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ]
+}

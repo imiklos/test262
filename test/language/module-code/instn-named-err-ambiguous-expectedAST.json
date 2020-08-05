@@ -1,0 +1,187 @@
+{
+  "type": "Program",
+  "loc": {
+    "start": {
+      "line": 44,
+      "column": 1
+    },
+    "end": {
+      "line": 45,
+      "column": 1
+    }
+  },
+  "tokens": [
+    {
+      "type": "Keyword",
+      "value": "import",
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 1
+        },
+        "end": {
+          "line": 44,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 8
+        },
+        "end": {
+          "line": 44,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "x",
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 10
+        },
+        "end": {
+          "line": 44,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 12
+        },
+        "end": {
+          "line": 44,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "from",
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 14
+        },
+        "end": {
+          "line": 44,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'./instn-named-err-ambiguous_FIXTURE.js'",
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 19
+        },
+        "end": {
+          "line": 44,
+          "column": 59
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 59
+        },
+        "end": {
+          "line": 44,
+          "column": 60
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 1
+        },
+        "end": {
+          "line": 44,
+          "column": 60
+        }
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "loc": {
+            "start": {
+              "line": 44,
+              "column": 10
+            },
+            "end": {
+              "line": 44,
+              "column": 11
+            }
+          },
+          "imported": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 44,
+                "column": 10
+              },
+              "end": {
+                "line": 44,
+                "column": 11
+              }
+            },
+            "name": "x"
+          },
+          "local": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 44,
+                "column": 10
+              },
+              "end": {
+                "line": 44,
+                "column": 11
+              }
+            },
+            "name": "x"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "loc": {
+          "start": {
+            "line": 44,
+            "column": 19
+          },
+          "end": {
+            "line": 44,
+            "column": 59
+          }
+        },
+        "value": "./instn-named-err-ambiguous_FIXTURE.js",
+        "raw": "'./instn-named-err-ambiguous_FIXTURE.js'"
+      }
+    }
+  ]
+}

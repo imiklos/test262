@@ -1,0 +1,347 @@
+{
+  "type": "Program",
+  "loc": {
+    "start": {
+      "line": 36,
+      "column": 1
+    },
+    "end": {
+      "line": 54,
+      "column": 1
+    }
+  },
+  "tokens": [
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 1
+        },
+        "end": {
+          "line": 36,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "function",
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 2
+        },
+        "end": {
+          "line": 36,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 10
+        },
+        "end": {
+          "line": 36,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 11
+        },
+        "end": {
+          "line": 36,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 13
+        },
+        "end": {
+          "line": 36,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "eval",
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 3
+        },
+        "end": {
+          "line": 37,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 7
+        },
+        "end": {
+          "line": 37,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'assert.sameValue(\\\n      f, undefined, \"Initialized binding created prior to evaluation\"\\\n    );\\\n    \\\n    try {\\\n      throw null;\\\n    } catch (f) {if (true) function f() { return 123; } else ;}\\\n    \\\n    assert.sameValue(\\\n      typeof f,\\\n      \"function\",\\\n      \"binding value is updated following evaluation\"\\\n    );\\\n    assert.sameValue(f(), 123);'",
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 5
+        },
+        "end": {
+          "line": 51,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 3
+        },
+        "end": {
+          "line": 52,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 4
+        },
+        "end": {
+          "line": 52,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 1
+        },
+        "end": {
+          "line": 53,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 2
+        },
+        "end": {
+          "line": 53,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 3
+        },
+        "end": {
+          "line": 53,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 4
+        },
+        "end": {
+          "line": 53,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 5
+        },
+        "end": {
+          "line": 53,
+          "column": 6
+        }
+      }
+    }
+  ],
+  "sourceType": "script",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 1
+        },
+        "end": {
+          "line": 53,
+          "column": 6
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 36,
+            "column": 2
+          },
+          "end": {
+            "line": 53,
+            "column": 4
+          }
+        },
+        "callee": {
+          "type": "FunctionExpression",
+          "loc": {
+            "start": {
+              "line": 36,
+              "column": 2
+            },
+            "end": {
+              "line": 53,
+              "column": 2
+            }
+          },
+          "id": null,
+          "generator": false,
+          "async": false,
+          "expression": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "loc": {
+              "start": {
+                "line": 36,
+                "column": 13
+              },
+              "end": {
+                "line": 53,
+                "column": 2
+              }
+            },
+            "body": [
+              {
+                "type": "ExpressionStatement",
+                "loc": {
+                  "start": {
+                    "line": 37,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 52,
+                    "column": 5
+                  }
+                },
+                "expression": {
+                  "type": "CallExpression",
+                  "loc": {
+                    "start": {
+                      "line": 37,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 52,
+                      "column": 4
+                    }
+                  },
+                  "callee": {
+                    "type": "Identifier",
+                    "loc": {
+                      "start": {
+                        "line": 37,
+                        "column": 3
+                      },
+                      "end": {
+                        "line": 37,
+                        "column": 7
+                      }
+                    },
+                    "name": "eval"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "loc": {
+                        "start": {
+                          "line": 38,
+                          "column": 5
+                        },
+                        "end": {
+                          "line": 51,
+                          "column": 33
+                        }
+                      },
+                      "value": "assert.sameValue(      f, undefined, \"Initialized binding created prior to evaluation\"    );        try {      throw null;    } catch (f) {if (true) function f() { return 123; } else ;}        assert.sameValue(      typeof f,      \"function\",      \"binding value is updated following evaluation\"    );    assert.sameValue(f(), 123);",
+                      "raw": "'assert.sameValue(\\\n      f, undefined, \"Initialized binding created prior to evaluation\"\\\n    );\\\n    \\\n    try {\\\n      throw null;\\\n    } catch (f) {if (true) function f() { return 123; } else ;}\\\n    \\\n    assert.sameValue(\\\n      typeof f,\\\n      \"function\",\\\n      \"binding value is updated following evaluation\"\\\n    );\\\n    assert.sameValue(f(), 123);'"
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ]
+          }
+        },
+        "arguments": [],
+        "optional": false
+      }
+    }
+  ]
+}

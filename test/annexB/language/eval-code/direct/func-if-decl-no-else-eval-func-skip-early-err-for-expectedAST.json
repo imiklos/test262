@@ -1,0 +1,347 @@
+{
+  "type": "Program",
+  "loc": {
+    "start": {
+      "line": 27,
+      "column": 1
+    },
+    "end": {
+      "line": 51,
+      "column": 1
+    }
+  },
+  "tokens": [
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 1
+        },
+        "end": {
+          "line": 27,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "function",
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 2
+        },
+        "end": {
+          "line": 27,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 10
+        },
+        "end": {
+          "line": 27,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 11
+        },
+        "end": {
+          "line": 27,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 13
+        },
+        "end": {
+          "line": 27,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "eval",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 3
+        },
+        "end": {
+          "line": 28,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 7
+        },
+        "end": {
+          "line": 28,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'assert.throws(ReferenceError, function() {\\\n      f;\\\n    }, \"An initialized binding is not created prior to evaluation\");\\\n    assert.sameValue(\\\n      typeof f,\\\n      \"undefined\",\\\n      \"An uninitialized binding is not created prior to evaluation\"\\\n    );\\\n    \\\n    for (let f; ; ) {if (true) function f() {  }break;\\\n    }\\\n    \\\n    assert.throws(ReferenceError, function() {\\\n      f;\\\n    }, \"An initialized binding is not created following evaluation\");\\\n    assert.sameValue(\\\n      typeof f,\\\n      \"undefined\",\\\n      \"An uninitialized binding is not created following evaluation\"\\\n    );'",
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 5
+        },
+        "end": {
+          "line": 48,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 3
+        },
+        "end": {
+          "line": 49,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 4
+        },
+        "end": {
+          "line": 49,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 1
+        },
+        "end": {
+          "line": 50,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 2
+        },
+        "end": {
+          "line": 50,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 3
+        },
+        "end": {
+          "line": 50,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 4
+        },
+        "end": {
+          "line": 50,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 5
+        },
+        "end": {
+          "line": 50,
+          "column": 6
+        }
+      }
+    }
+  ],
+  "sourceType": "script",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 1
+        },
+        "end": {
+          "line": 50,
+          "column": 6
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 27,
+            "column": 2
+          },
+          "end": {
+            "line": 50,
+            "column": 4
+          }
+        },
+        "callee": {
+          "type": "FunctionExpression",
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 2
+            },
+            "end": {
+              "line": 50,
+              "column": 2
+            }
+          },
+          "id": null,
+          "generator": false,
+          "async": false,
+          "expression": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "loc": {
+              "start": {
+                "line": 27,
+                "column": 13
+              },
+              "end": {
+                "line": 50,
+                "column": 2
+              }
+            },
+            "body": [
+              {
+                "type": "ExpressionStatement",
+                "loc": {
+                  "start": {
+                    "line": 28,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 49,
+                    "column": 5
+                  }
+                },
+                "expression": {
+                  "type": "CallExpression",
+                  "loc": {
+                    "start": {
+                      "line": 28,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 49,
+                      "column": 4
+                    }
+                  },
+                  "callee": {
+                    "type": "Identifier",
+                    "loc": {
+                      "start": {
+                        "line": 28,
+                        "column": 3
+                      },
+                      "end": {
+                        "line": 28,
+                        "column": 7
+                      }
+                    },
+                    "name": "eval"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "loc": {
+                        "start": {
+                          "line": 29,
+                          "column": 5
+                        },
+                        "end": {
+                          "line": 48,
+                          "column": 8
+                        }
+                      },
+                      "value": "assert.throws(ReferenceError, function() {      f;    }, \"An initialized binding is not created prior to evaluation\");    assert.sameValue(      typeof f,      \"undefined\",      \"An uninitialized binding is not created prior to evaluation\"    );        for (let f; ; ) {if (true) function f() {  }break;    }        assert.throws(ReferenceError, function() {      f;    }, \"An initialized binding is not created following evaluation\");    assert.sameValue(      typeof f,      \"undefined\",      \"An uninitialized binding is not created following evaluation\"    );",
+                      "raw": "'assert.throws(ReferenceError, function() {\\\n      f;\\\n    }, \"An initialized binding is not created prior to evaluation\");\\\n    assert.sameValue(\\\n      typeof f,\\\n      \"undefined\",\\\n      \"An uninitialized binding is not created prior to evaluation\"\\\n    );\\\n    \\\n    for (let f; ; ) {if (true) function f() {  }break;\\\n    }\\\n    \\\n    assert.throws(ReferenceError, function() {\\\n      f;\\\n    }, \"An initialized binding is not created following evaluation\");\\\n    assert.sameValue(\\\n      typeof f,\\\n      \"undefined\",\\\n      \"An uninitialized binding is not created following evaluation\"\\\n    );'"
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ]
+          }
+        },
+        "arguments": [],
+        "optional": false
+      }
+    }
+  ]
+}

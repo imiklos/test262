@@ -1,0 +1,2154 @@
+{
+  "type": "Program",
+  "loc": {
+    "start": {
+      "line": 10,
+      "column": 1
+    },
+    "end": {
+      "line": 47,
+      "column": 1
+    }
+  },
+  "tokens": [
+    {
+      "type": "Keyword",
+      "value": "var",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 1
+        },
+        "end": {
+          "line": 10,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "evalStr",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 5
+        },
+        "end": {
+          "line": 10,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "=",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 13
+        },
+        "end": {
+          "line": 10,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'//CHECK#1\\n'",
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 1
+        },
+        "end": {
+          "line": 11,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 14
+        },
+        "end": {
+          "line": 11,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'for (var x in this) {\\n'",
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 1
+        },
+        "end": {
+          "line": 12,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 26
+        },
+        "end": {
+          "line": 12,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'  if ( x === \\'Object\\' ) {\\n'",
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 1
+        },
+        "end": {
+          "line": 13,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 32
+        },
+        "end": {
+          "line": 13,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'    $ERROR(\"#1: \\'Object\\' have attribute DontEnum\");\\n'",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 1
+        },
+        "end": {
+          "line": 14,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 58
+        },
+        "end": {
+          "line": 14,
+          "column": 59
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'  } else if ( x === \\'Function\\') {\\n'",
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 1
+        },
+        "end": {
+          "line": 15,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 40
+        },
+        "end": {
+          "line": 15,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'    $ERROR(\"#1: \\'Function\\' have attribute DontEnum\");\\n'",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 1
+        },
+        "end": {
+          "line": 16,
+          "column": 60
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 60
+        },
+        "end": {
+          "line": 16,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'  } else if ( x === \\'String\\' ) {\\n'",
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 1
+        },
+        "end": {
+          "line": 17,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 39
+        },
+        "end": {
+          "line": 17,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'    $ERROR(\"#1: \\'String\\' have attribute DontEnum\");\\n'",
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 1
+        },
+        "end": {
+          "line": 18,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 58
+        },
+        "end": {
+          "line": 18,
+          "column": 59
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'  } else if ( x === \\'Number\\' ) {\\n'",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 1
+        },
+        "end": {
+          "line": 19,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 39
+        },
+        "end": {
+          "line": 19,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'    $ERROR(\"#1: \\'Number\\' have attribute DontEnum\");\\n'",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 1
+        },
+        "end": {
+          "line": 20,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 58
+        },
+        "end": {
+          "line": 20,
+          "column": 59
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'  } else if ( x === \\'Array\\' ) {\\n'",
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 1
+        },
+        "end": {
+          "line": 21,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 38
+        },
+        "end": {
+          "line": 21,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'    $ERROR(\"#1: \\'Array\\' have attribute DontEnum\");\\n'",
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 1
+        },
+        "end": {
+          "line": 22,
+          "column": 57
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 57
+        },
+        "end": {
+          "line": 22,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'  } else if ( x === \\'Boolean\\' ) {\\n'",
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 1
+        },
+        "end": {
+          "line": 23,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 40
+        },
+        "end": {
+          "line": 23,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'    $ERROR(\"#1: \\'Boolean\\' have attribute DontEnum\");\\n'",
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 1
+        },
+        "end": {
+          "line": 24,
+          "column": 59
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 59
+        },
+        "end": {
+          "line": 24,
+          "column": 60
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'  } else if ( x === \\'Date\\' ) {\\n'",
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 1
+        },
+        "end": {
+          "line": 25,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 37
+        },
+        "end": {
+          "line": 25,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'    $ERROR(\"#1: \\'Date\\' have attribute DontEnum\");\\n'",
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 1
+        },
+        "end": {
+          "line": 26,
+          "column": 56
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 56
+        },
+        "end": {
+          "line": 26,
+          "column": 57
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'  } else if ( x === \\'RegExp\\' ) {\\n'",
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 1
+        },
+        "end": {
+          "line": 27,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 39
+        },
+        "end": {
+          "line": 27,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'    $ERROR(\"#1: \\'RegExp\\' have attribute DontEnum\");\\n'",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 1
+        },
+        "end": {
+          "line": 28,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 58
+        },
+        "end": {
+          "line": 28,
+          "column": 59
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'  } else if ( x === \\'Error\\' ) {\\n'",
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 1
+        },
+        "end": {
+          "line": 29,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 38
+        },
+        "end": {
+          "line": 29,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'    $ERROR(\"#1: \\'Error\\' have attribute DontEnum\");\\n'",
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 1
+        },
+        "end": {
+          "line": 30,
+          "column": 57
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 57
+        },
+        "end": {
+          "line": 30,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'  } else if ( x === \\'EvalError\\' ) {\\n'",
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 1
+        },
+        "end": {
+          "line": 31,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 42
+        },
+        "end": {
+          "line": 31,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'    $ERROR(\"#1: \\'EvalError\\' have attribute DontEnum\");\\n'",
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 1
+        },
+        "end": {
+          "line": 32,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 61
+        },
+        "end": {
+          "line": 32,
+          "column": 62
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'  } else if ( x === \\'RangeError\\' ) {\\n'",
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 1
+        },
+        "end": {
+          "line": 33,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 43
+        },
+        "end": {
+          "line": 33,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'    $ERROR(\"#1: \\'RangeError\\' have attribute DontEnum\");\\n'",
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 1
+        },
+        "end": {
+          "line": 34,
+          "column": 62
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 62
+        },
+        "end": {
+          "line": 34,
+          "column": 63
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'  } else if ( x === \\'ReferenceError\\' ) {\\n'",
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 1
+        },
+        "end": {
+          "line": 35,
+          "column": 47
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 47
+        },
+        "end": {
+          "line": 35,
+          "column": 48
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'    $ERROR(\"#1: \\'ReferenceError\\' have attribute DontEnum\");\\n'",
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 1
+        },
+        "end": {
+          "line": 36,
+          "column": 66
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 66
+        },
+        "end": {
+          "line": 36,
+          "column": 67
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'  } else if ( x === \\'SyntaxError\\' ) {\\n'",
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 1
+        },
+        "end": {
+          "line": 37,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 44
+        },
+        "end": {
+          "line": 37,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'    $ERROR(\"#1: \\'SyntaxError\\' have attribute DontEnum\");\\n'",
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 1
+        },
+        "end": {
+          "line": 38,
+          "column": 63
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 63
+        },
+        "end": {
+          "line": 38,
+          "column": 64
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'  } else if ( x === \\'TypeError\\' ) {\\n'",
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 1
+        },
+        "end": {
+          "line": 39,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 42
+        },
+        "end": {
+          "line": 39,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'    $ERROR(\"#1: \\'TypeError\\' have attribute DontEnum\");\\n'",
+      "loc": {
+        "start": {
+          "line": 40,
+          "column": 1
+        },
+        "end": {
+          "line": 40,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 40,
+          "column": 61
+        },
+        "end": {
+          "line": 40,
+          "column": 62
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'  } else if ( x === \\'URIError\\' ) {\\n'",
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 1
+        },
+        "end": {
+          "line": 41,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 41
+        },
+        "end": {
+          "line": 41,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'    $ERROR(\"#1: \\'URIError\\' have attribute DontEnum\");\\n'",
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 1
+        },
+        "end": {
+          "line": 42,
+          "column": 60
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 60
+        },
+        "end": {
+          "line": 42,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'  }\\n'",
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 1
+        },
+        "end": {
+          "line": 43,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "+",
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 8
+        },
+        "end": {
+          "line": 43,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'}\\n'",
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 1
+        },
+        "end": {
+          "line": 44,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 6
+        },
+        "end": {
+          "line": 44,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "eval",
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 1
+        },
+        "end": {
+          "line": 46,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 5
+        },
+        "end": {
+          "line": 46,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "evalStr",
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 6
+        },
+        "end": {
+          "line": 46,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 13
+        },
+        "end": {
+          "line": 46,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 14
+        },
+        "end": {
+          "line": 46,
+          "column": 15
+        }
+      }
+    }
+  ],
+  "sourceType": "script",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 1
+        },
+        "end": {
+          "line": 44,
+          "column": 7
+        }
+      },
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 5
+            },
+            "end": {
+              "line": 44,
+              "column": 6
+            }
+          },
+          "id": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 5
+              },
+              "end": {
+                "line": 10,
+                "column": 12
+              }
+            },
+            "name": "evalStr"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "loc": {
+              "start": {
+                "line": 11,
+                "column": 1
+              },
+              "end": {
+                "line": 44,
+                "column": 6
+              }
+            },
+            "left": {
+              "type": "BinaryExpression",
+              "loc": {
+                "start": {
+                  "line": 11,
+                  "column": 1
+                },
+                "end": {
+                  "line": 43,
+                  "column": 8
+                }
+              },
+              "left": {
+                "type": "BinaryExpression",
+                "loc": {
+                  "start": {
+                    "line": 11,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 42,
+                    "column": 60
+                  }
+                },
+                "left": {
+                  "type": "BinaryExpression",
+                  "loc": {
+                    "start": {
+                      "line": 11,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 41,
+                      "column": 41
+                    }
+                  },
+                  "left": {
+                    "type": "BinaryExpression",
+                    "loc": {
+                      "start": {
+                        "line": 11,
+                        "column": 1
+                      },
+                      "end": {
+                        "line": 40,
+                        "column": 61
+                      }
+                    },
+                    "left": {
+                      "type": "BinaryExpression",
+                      "loc": {
+                        "start": {
+                          "line": 11,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 39,
+                          "column": 42
+                        }
+                      },
+                      "left": {
+                        "type": "BinaryExpression",
+                        "loc": {
+                          "start": {
+                            "line": 11,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 38,
+                            "column": 63
+                          }
+                        },
+                        "left": {
+                          "type": "BinaryExpression",
+                          "loc": {
+                            "start": {
+                              "line": 11,
+                              "column": 1
+                            },
+                            "end": {
+                              "line": 37,
+                              "column": 44
+                            }
+                          },
+                          "left": {
+                            "type": "BinaryExpression",
+                            "loc": {
+                              "start": {
+                                "line": 11,
+                                "column": 1
+                              },
+                              "end": {
+                                "line": 36,
+                                "column": 66
+                              }
+                            },
+                            "left": {
+                              "type": "BinaryExpression",
+                              "loc": {
+                                "start": {
+                                  "line": 11,
+                                  "column": 1
+                                },
+                                "end": {
+                                  "line": 35,
+                                  "column": 47
+                                }
+                              },
+                              "left": {
+                                "type": "BinaryExpression",
+                                "loc": {
+                                  "start": {
+                                    "line": 11,
+                                    "column": 1
+                                  },
+                                  "end": {
+                                    "line": 34,
+                                    "column": 62
+                                  }
+                                },
+                                "left": {
+                                  "type": "BinaryExpression",
+                                  "loc": {
+                                    "start": {
+                                      "line": 11,
+                                      "column": 1
+                                    },
+                                    "end": {
+                                      "line": 33,
+                                      "column": 43
+                                    }
+                                  },
+                                  "left": {
+                                    "type": "BinaryExpression",
+                                    "loc": {
+                                      "start": {
+                                        "line": 11,
+                                        "column": 1
+                                      },
+                                      "end": {
+                                        "line": 32,
+                                        "column": 61
+                                      }
+                                    },
+                                    "left": {
+                                      "type": "BinaryExpression",
+                                      "loc": {
+                                        "start": {
+                                          "line": 11,
+                                          "column": 1
+                                        },
+                                        "end": {
+                                          "line": 31,
+                                          "column": 42
+                                        }
+                                      },
+                                      "left": {
+                                        "type": "BinaryExpression",
+                                        "loc": {
+                                          "start": {
+                                            "line": 11,
+                                            "column": 1
+                                          },
+                                          "end": {
+                                            "line": 30,
+                                            "column": 57
+                                          }
+                                        },
+                                        "left": {
+                                          "type": "BinaryExpression",
+                                          "loc": {
+                                            "start": {
+                                              "line": 11,
+                                              "column": 1
+                                            },
+                                            "end": {
+                                              "line": 29,
+                                              "column": 38
+                                            }
+                                          },
+                                          "left": {
+                                            "type": "BinaryExpression",
+                                            "loc": {
+                                              "start": {
+                                                "line": 11,
+                                                "column": 1
+                                              },
+                                              "end": {
+                                                "line": 28,
+                                                "column": 58
+                                              }
+                                            },
+                                            "left": {
+                                              "type": "BinaryExpression",
+                                              "loc": {
+                                                "start": {
+                                                  "line": 11,
+                                                  "column": 1
+                                                },
+                                                "end": {
+                                                  "line": 27,
+                                                  "column": 39
+                                                }
+                                              },
+                                              "left": {
+                                                "type": "BinaryExpression",
+                                                "loc": {
+                                                  "start": {
+                                                    "line": 11,
+                                                    "column": 1
+                                                  },
+                                                  "end": {
+                                                    "line": 26,
+                                                    "column": 56
+                                                  }
+                                                },
+                                                "left": {
+                                                  "type": "BinaryExpression",
+                                                  "loc": {
+                                                    "start": {
+                                                      "line": 11,
+                                                      "column": 1
+                                                    },
+                                                    "end": {
+                                                      "line": 25,
+                                                      "column": 37
+                                                    }
+                                                  },
+                                                  "left": {
+                                                    "type": "BinaryExpression",
+                                                    "loc": {
+                                                      "start": {
+                                                        "line": 11,
+                                                        "column": 1
+                                                      },
+                                                      "end": {
+                                                        "line": 24,
+                                                        "column": 59
+                                                      }
+                                                    },
+                                                    "left": {
+                                                      "type": "BinaryExpression",
+                                                      "loc": {
+                                                        "start": {
+                                                          "line": 11,
+                                                          "column": 1
+                                                        },
+                                                        "end": {
+                                                          "line": 23,
+                                                          "column": 40
+                                                        }
+                                                      },
+                                                      "left": {
+                                                        "type": "BinaryExpression",
+                                                        "loc": {
+                                                          "start": {
+                                                            "line": 11,
+                                                            "column": 1
+                                                          },
+                                                          "end": {
+                                                            "line": 22,
+                                                            "column": 57
+                                                          }
+                                                        },
+                                                        "left": {
+                                                          "type": "BinaryExpression",
+                                                          "loc": {
+                                                            "start": {
+                                                              "line": 11,
+                                                              "column": 1
+                                                            },
+                                                            "end": {
+                                                              "line": 21,
+                                                              "column": 38
+                                                            }
+                                                          },
+                                                          "left": {
+                                                            "type": "BinaryExpression",
+                                                            "loc": {
+                                                              "start": {
+                                                                "line": 11,
+                                                                "column": 1
+                                                              },
+                                                              "end": {
+                                                                "line": 20,
+                                                                "column": 58
+                                                              }
+                                                            },
+                                                            "left": {
+                                                              "type": "BinaryExpression",
+                                                              "loc": {
+                                                                "start": {
+                                                                  "line": 11,
+                                                                  "column": 1
+                                                                },
+                                                                "end": {
+                                                                  "line": 19,
+                                                                  "column": 39
+                                                                }
+                                                              },
+                                                              "left": {
+                                                                "type": "BinaryExpression",
+                                                                "loc": {
+                                                                  "start": {
+                                                                    "line": 11,
+                                                                    "column": 1
+                                                                  },
+                                                                  "end": {
+                                                                    "line": 18,
+                                                                    "column": 58
+                                                                  }
+                                                                },
+                                                                "left": {
+                                                                  "type": "BinaryExpression",
+                                                                  "loc": {
+                                                                    "start": {
+                                                                      "line": 11,
+                                                                      "column": 1
+                                                                    },
+                                                                    "end": {
+                                                                      "line": 17,
+                                                                      "column": 39
+                                                                    }
+                                                                  },
+                                                                  "left": {
+                                                                    "type": "BinaryExpression",
+                                                                    "loc": {
+                                                                      "start": {
+                                                                        "line": 11,
+                                                                        "column": 1
+                                                                      },
+                                                                      "end": {
+                                                                        "line": 16,
+                                                                        "column": 60
+                                                                      }
+                                                                    },
+                                                                    "left": {
+                                                                      "type": "BinaryExpression",
+                                                                      "loc": {
+                                                                        "start": {
+                                                                          "line": 11,
+                                                                          "column": 1
+                                                                        },
+                                                                        "end": {
+                                                                          "line": 15,
+                                                                          "column": 40
+                                                                        }
+                                                                      },
+                                                                      "left": {
+                                                                        "type": "BinaryExpression",
+                                                                        "loc": {
+                                                                          "start": {
+                                                                            "line": 11,
+                                                                            "column": 1
+                                                                          },
+                                                                          "end": {
+                                                                            "line": 14,
+                                                                            "column": 58
+                                                                          }
+                                                                        },
+                                                                        "left": {
+                                                                          "type": "BinaryExpression",
+                                                                          "loc": {
+                                                                            "start": {
+                                                                              "line": 11,
+                                                                              "column": 1
+                                                                            },
+                                                                            "end": {
+                                                                              "line": 13,
+                                                                              "column": 32
+                                                                            }
+                                                                          },
+                                                                          "left": {
+                                                                            "type": "BinaryExpression",
+                                                                            "loc": {
+                                                                              "start": {
+                                                                                "line": 11,
+                                                                                "column": 1
+                                                                              },
+                                                                              "end": {
+                                                                                "line": 12,
+                                                                                "column": 26
+                                                                              }
+                                                                            },
+                                                                            "left": {
+                                                                              "type": "Literal",
+                                                                              "loc": {
+                                                                                "start": {
+                                                                                  "line": 11,
+                                                                                  "column": 1
+                                                                                },
+                                                                                "end": {
+                                                                                  "line": 11,
+                                                                                  "column": 14
+                                                                                }
+                                                                              },
+                                                                              "value": "//CHECK#1\n",
+                                                                              "raw": "'//CHECK#1\\n'"
+                                                                            },
+                                                                            "operator": "+",
+                                                                            "right": {
+                                                                              "type": "Literal",
+                                                                              "loc": {
+                                                                                "start": {
+                                                                                  "line": 12,
+                                                                                  "column": 1
+                                                                                },
+                                                                                "end": {
+                                                                                  "line": 12,
+                                                                                  "column": 26
+                                                                                }
+                                                                              },
+                                                                              "value": "for (var x in this) {\n",
+                                                                              "raw": "'for (var x in this) {\\n'"
+                                                                            }
+                                                                          },
+                                                                          "operator": "+",
+                                                                          "right": {
+                                                                            "type": "Literal",
+                                                                            "loc": {
+                                                                              "start": {
+                                                                                "line": 13,
+                                                                                "column": 1
+                                                                              },
+                                                                              "end": {
+                                                                                "line": 13,
+                                                                                "column": 32
+                                                                              }
+                                                                            },
+                                                                            "value": "  if ( x === 'Object' ) {\n",
+                                                                            "raw": "'  if ( x === \\'Object\\' ) {\\n'"
+                                                                          }
+                                                                        },
+                                                                        "operator": "+",
+                                                                        "right": {
+                                                                          "type": "Literal",
+                                                                          "loc": {
+                                                                            "start": {
+                                                                              "line": 14,
+                                                                              "column": 1
+                                                                            },
+                                                                            "end": {
+                                                                              "line": 14,
+                                                                              "column": 58
+                                                                            }
+                                                                          },
+                                                                          "value": "    $ERROR(\"#1: 'Object' have attribute DontEnum\");\n",
+                                                                          "raw": "'    $ERROR(\"#1: \\'Object\\' have attribute DontEnum\");\\n'"
+                                                                        }
+                                                                      },
+                                                                      "operator": "+",
+                                                                      "right": {
+                                                                        "type": "Literal",
+                                                                        "loc": {
+                                                                          "start": {
+                                                                            "line": 15,
+                                                                            "column": 1
+                                                                          },
+                                                                          "end": {
+                                                                            "line": 15,
+                                                                            "column": 40
+                                                                          }
+                                                                        },
+                                                                        "value": "  } else if ( x === 'Function') {\n",
+                                                                        "raw": "'  } else if ( x === \\'Function\\') {\\n'"
+                                                                      }
+                                                                    },
+                                                                    "operator": "+",
+                                                                    "right": {
+                                                                      "type": "Literal",
+                                                                      "loc": {
+                                                                        "start": {
+                                                                          "line": 16,
+                                                                          "column": 1
+                                                                        },
+                                                                        "end": {
+                                                                          "line": 16,
+                                                                          "column": 60
+                                                                        }
+                                                                      },
+                                                                      "value": "    $ERROR(\"#1: 'Function' have attribute DontEnum\");\n",
+                                                                      "raw": "'    $ERROR(\"#1: \\'Function\\' have attribute DontEnum\");\\n'"
+                                                                    }
+                                                                  },
+                                                                  "operator": "+",
+                                                                  "right": {
+                                                                    "type": "Literal",
+                                                                    "loc": {
+                                                                      "start": {
+                                                                        "line": 17,
+                                                                        "column": 1
+                                                                      },
+                                                                      "end": {
+                                                                        "line": 17,
+                                                                        "column": 39
+                                                                      }
+                                                                    },
+                                                                    "value": "  } else if ( x === 'String' ) {\n",
+                                                                    "raw": "'  } else if ( x === \\'String\\' ) {\\n'"
+                                                                  }
+                                                                },
+                                                                "operator": "+",
+                                                                "right": {
+                                                                  "type": "Literal",
+                                                                  "loc": {
+                                                                    "start": {
+                                                                      "line": 18,
+                                                                      "column": 1
+                                                                    },
+                                                                    "end": {
+                                                                      "line": 18,
+                                                                      "column": 58
+                                                                    }
+                                                                  },
+                                                                  "value": "    $ERROR(\"#1: 'String' have attribute DontEnum\");\n",
+                                                                  "raw": "'    $ERROR(\"#1: \\'String\\' have attribute DontEnum\");\\n'"
+                                                                }
+                                                              },
+                                                              "operator": "+",
+                                                              "right": {
+                                                                "type": "Literal",
+                                                                "loc": {
+                                                                  "start": {
+                                                                    "line": 19,
+                                                                    "column": 1
+                                                                  },
+                                                                  "end": {
+                                                                    "line": 19,
+                                                                    "column": 39
+                                                                  }
+                                                                },
+                                                                "value": "  } else if ( x === 'Number' ) {\n",
+                                                                "raw": "'  } else if ( x === \\'Number\\' ) {\\n'"
+                                                              }
+                                                            },
+                                                            "operator": "+",
+                                                            "right": {
+                                                              "type": "Literal",
+                                                              "loc": {
+                                                                "start": {
+                                                                  "line": 20,
+                                                                  "column": 1
+                                                                },
+                                                                "end": {
+                                                                  "line": 20,
+                                                                  "column": 58
+                                                                }
+                                                              },
+                                                              "value": "    $ERROR(\"#1: 'Number' have attribute DontEnum\");\n",
+                                                              "raw": "'    $ERROR(\"#1: \\'Number\\' have attribute DontEnum\");\\n'"
+                                                            }
+                                                          },
+                                                          "operator": "+",
+                                                          "right": {
+                                                            "type": "Literal",
+                                                            "loc": {
+                                                              "start": {
+                                                                "line": 21,
+                                                                "column": 1
+                                                              },
+                                                              "end": {
+                                                                "line": 21,
+                                                                "column": 38
+                                                              }
+                                                            },
+                                                            "value": "  } else if ( x === 'Array' ) {\n",
+                                                            "raw": "'  } else if ( x === \\'Array\\' ) {\\n'"
+                                                          }
+                                                        },
+                                                        "operator": "+",
+                                                        "right": {
+                                                          "type": "Literal",
+                                                          "loc": {
+                                                            "start": {
+                                                              "line": 22,
+                                                              "column": 1
+                                                            },
+                                                            "end": {
+                                                              "line": 22,
+                                                              "column": 57
+                                                            }
+                                                          },
+                                                          "value": "    $ERROR(\"#1: 'Array' have attribute DontEnum\");\n",
+                                                          "raw": "'    $ERROR(\"#1: \\'Array\\' have attribute DontEnum\");\\n'"
+                                                        }
+                                                      },
+                                                      "operator": "+",
+                                                      "right": {
+                                                        "type": "Literal",
+                                                        "loc": {
+                                                          "start": {
+                                                            "line": 23,
+                                                            "column": 1
+                                                          },
+                                                          "end": {
+                                                            "line": 23,
+                                                            "column": 40
+                                                          }
+                                                        },
+                                                        "value": "  } else if ( x === 'Boolean' ) {\n",
+                                                        "raw": "'  } else if ( x === \\'Boolean\\' ) {\\n'"
+                                                      }
+                                                    },
+                                                    "operator": "+",
+                                                    "right": {
+                                                      "type": "Literal",
+                                                      "loc": {
+                                                        "start": {
+                                                          "line": 24,
+                                                          "column": 1
+                                                        },
+                                                        "end": {
+                                                          "line": 24,
+                                                          "column": 59
+                                                        }
+                                                      },
+                                                      "value": "    $ERROR(\"#1: 'Boolean' have attribute DontEnum\");\n",
+                                                      "raw": "'    $ERROR(\"#1: \\'Boolean\\' have attribute DontEnum\");\\n'"
+                                                    }
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "type": "Literal",
+                                                    "loc": {
+                                                      "start": {
+                                                        "line": 25,
+                                                        "column": 1
+                                                      },
+                                                      "end": {
+                                                        "line": 25,
+                                                        "column": 37
+                                                      }
+                                                    },
+                                                    "value": "  } else if ( x === 'Date' ) {\n",
+                                                    "raw": "'  } else if ( x === \\'Date\\' ) {\\n'"
+                                                  }
+                                                },
+                                                "operator": "+",
+                                                "right": {
+                                                  "type": "Literal",
+                                                  "loc": {
+                                                    "start": {
+                                                      "line": 26,
+                                                      "column": 1
+                                                    },
+                                                    "end": {
+                                                      "line": 26,
+                                                      "column": 56
+                                                    }
+                                                  },
+                                                  "value": "    $ERROR(\"#1: 'Date' have attribute DontEnum\");\n",
+                                                  "raw": "'    $ERROR(\"#1: \\'Date\\' have attribute DontEnum\");\\n'"
+                                                }
+                                              },
+                                              "operator": "+",
+                                              "right": {
+                                                "type": "Literal",
+                                                "loc": {
+                                                  "start": {
+                                                    "line": 27,
+                                                    "column": 1
+                                                  },
+                                                  "end": {
+                                                    "line": 27,
+                                                    "column": 39
+                                                  }
+                                                },
+                                                "value": "  } else if ( x === 'RegExp' ) {\n",
+                                                "raw": "'  } else if ( x === \\'RegExp\\' ) {\\n'"
+                                              }
+                                            },
+                                            "operator": "+",
+                                            "right": {
+                                              "type": "Literal",
+                                              "loc": {
+                                                "start": {
+                                                  "line": 28,
+                                                  "column": 1
+                                                },
+                                                "end": {
+                                                  "line": 28,
+                                                  "column": 58
+                                                }
+                                              },
+                                              "value": "    $ERROR(\"#1: 'RegExp' have attribute DontEnum\");\n",
+                                              "raw": "'    $ERROR(\"#1: \\'RegExp\\' have attribute DontEnum\");\\n'"
+                                            }
+                                          },
+                                          "operator": "+",
+                                          "right": {
+                                            "type": "Literal",
+                                            "loc": {
+                                              "start": {
+                                                "line": 29,
+                                                "column": 1
+                                              },
+                                              "end": {
+                                                "line": 29,
+                                                "column": 38
+                                              }
+                                            },
+                                            "value": "  } else if ( x === 'Error' ) {\n",
+                                            "raw": "'  } else if ( x === \\'Error\\' ) {\\n'"
+                                          }
+                                        },
+                                        "operator": "+",
+                                        "right": {
+                                          "type": "Literal",
+                                          "loc": {
+                                            "start": {
+                                              "line": 30,
+                                              "column": 1
+                                            },
+                                            "end": {
+                                              "line": 30,
+                                              "column": 57
+                                            }
+                                          },
+                                          "value": "    $ERROR(\"#1: 'Error' have attribute DontEnum\");\n",
+                                          "raw": "'    $ERROR(\"#1: \\'Error\\' have attribute DontEnum\");\\n'"
+                                        }
+                                      },
+                                      "operator": "+",
+                                      "right": {
+                                        "type": "Literal",
+                                        "loc": {
+                                          "start": {
+                                            "line": 31,
+                                            "column": 1
+                                          },
+                                          "end": {
+                                            "line": 31,
+                                            "column": 42
+                                          }
+                                        },
+                                        "value": "  } else if ( x === 'EvalError' ) {\n",
+                                        "raw": "'  } else if ( x === \\'EvalError\\' ) {\\n'"
+                                      }
+                                    },
+                                    "operator": "+",
+                                    "right": {
+                                      "type": "Literal",
+                                      "loc": {
+                                        "start": {
+                                          "line": 32,
+                                          "column": 1
+                                        },
+                                        "end": {
+                                          "line": 32,
+                                          "column": 61
+                                        }
+                                      },
+                                      "value": "    $ERROR(\"#1: 'EvalError' have attribute DontEnum\");\n",
+                                      "raw": "'    $ERROR(\"#1: \\'EvalError\\' have attribute DontEnum\");\\n'"
+                                    }
+                                  },
+                                  "operator": "+",
+                                  "right": {
+                                    "type": "Literal",
+                                    "loc": {
+                                      "start": {
+                                        "line": 33,
+                                        "column": 1
+                                      },
+                                      "end": {
+                                        "line": 33,
+                                        "column": 43
+                                      }
+                                    },
+                                    "value": "  } else if ( x === 'RangeError' ) {\n",
+                                    "raw": "'  } else if ( x === \\'RangeError\\' ) {\\n'"
+                                  }
+                                },
+                                "operator": "+",
+                                "right": {
+                                  "type": "Literal",
+                                  "loc": {
+                                    "start": {
+                                      "line": 34,
+                                      "column": 1
+                                    },
+                                    "end": {
+                                      "line": 34,
+                                      "column": 62
+                                    }
+                                  },
+                                  "value": "    $ERROR(\"#1: 'RangeError' have attribute DontEnum\");\n",
+                                  "raw": "'    $ERROR(\"#1: \\'RangeError\\' have attribute DontEnum\");\\n'"
+                                }
+                              },
+                              "operator": "+",
+                              "right": {
+                                "type": "Literal",
+                                "loc": {
+                                  "start": {
+                                    "line": 35,
+                                    "column": 1
+                                  },
+                                  "end": {
+                                    "line": 35,
+                                    "column": 47
+                                  }
+                                },
+                                "value": "  } else if ( x === 'ReferenceError' ) {\n",
+                                "raw": "'  } else if ( x === \\'ReferenceError\\' ) {\\n'"
+                              }
+                            },
+                            "operator": "+",
+                            "right": {
+                              "type": "Literal",
+                              "loc": {
+                                "start": {
+                                  "line": 36,
+                                  "column": 1
+                                },
+                                "end": {
+                                  "line": 36,
+                                  "column": 66
+                                }
+                              },
+                              "value": "    $ERROR(\"#1: 'ReferenceError' have attribute DontEnum\");\n",
+                              "raw": "'    $ERROR(\"#1: \\'ReferenceError\\' have attribute DontEnum\");\\n'"
+                            }
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Literal",
+                            "loc": {
+                              "start": {
+                                "line": 37,
+                                "column": 1
+                              },
+                              "end": {
+                                "line": 37,
+                                "column": 44
+                              }
+                            },
+                            "value": "  } else if ( x === 'SyntaxError' ) {\n",
+                            "raw": "'  } else if ( x === \\'SyntaxError\\' ) {\\n'"
+                          }
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Literal",
+                          "loc": {
+                            "start": {
+                              "line": 38,
+                              "column": 1
+                            },
+                            "end": {
+                              "line": 38,
+                              "column": 63
+                            }
+                          },
+                          "value": "    $ERROR(\"#1: 'SyntaxError' have attribute DontEnum\");\n",
+                          "raw": "'    $ERROR(\"#1: \\'SyntaxError\\' have attribute DontEnum\");\\n'"
+                        }
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Literal",
+                        "loc": {
+                          "start": {
+                            "line": 39,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 39,
+                            "column": 42
+                          }
+                        },
+                        "value": "  } else if ( x === 'TypeError' ) {\n",
+                        "raw": "'  } else if ( x === \\'TypeError\\' ) {\\n'"
+                      }
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Literal",
+                      "loc": {
+                        "start": {
+                          "line": 40,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 40,
+                          "column": 61
+                        }
+                      },
+                      "value": "    $ERROR(\"#1: 'TypeError' have attribute DontEnum\");\n",
+                      "raw": "'    $ERROR(\"#1: \\'TypeError\\' have attribute DontEnum\");\\n'"
+                    }
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "loc": {
+                      "start": {
+                        "line": 41,
+                        "column": 1
+                      },
+                      "end": {
+                        "line": 41,
+                        "column": 41
+                      }
+                    },
+                    "value": "  } else if ( x === 'URIError' ) {\n",
+                    "raw": "'  } else if ( x === \\'URIError\\' ) {\\n'"
+                  }
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "loc": {
+                    "start": {
+                      "line": 42,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 42,
+                      "column": 60
+                    }
+                  },
+                  "value": "    $ERROR(\"#1: 'URIError' have attribute DontEnum\");\n",
+                  "raw": "'    $ERROR(\"#1: \\'URIError\\' have attribute DontEnum\");\\n'"
+                }
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "loc": {
+                  "start": {
+                    "line": 43,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 43,
+                    "column": 8
+                  }
+                },
+                "value": "  }\n",
+                "raw": "'  }\\n'"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "loc": {
+                "start": {
+                  "line": 44,
+                  "column": 1
+                },
+                "end": {
+                  "line": 44,
+                  "column": 6
+                }
+              },
+              "value": "}\n",
+              "raw": "'}\\n'"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 1
+        },
+        "end": {
+          "line": 46,
+          "column": 15
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 46,
+            "column": 1
+          },
+          "end": {
+            "line": 46,
+            "column": 14
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 46,
+              "column": 1
+            },
+            "end": {
+              "line": 46,
+              "column": 5
+            }
+          },
+          "name": "eval"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 46,
+                "column": 6
+              },
+              "end": {
+                "line": 46,
+                "column": 13
+              }
+            },
+            "name": "evalStr"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ]
+}

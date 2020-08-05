@@ -1,0 +1,342 @@
+{
+  "type": "Program",
+  "loc": {
+    "start": {
+      "line": 74,
+      "column": 1
+    },
+    "end": {
+      "line": 77,
+      "column": 1
+    }
+  },
+  "tokens": [
+    {
+      "type": "Keyword",
+      "value": "import",
+      "loc": {
+        "start": {
+          "line": 74,
+          "column": 1
+        },
+        "end": {
+          "line": 74,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 74,
+          "column": 8
+        },
+        "end": {
+          "line": 74,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "resolved",
+      "loc": {
+        "start": {
+          "line": 74,
+          "column": 10
+        },
+        "end": {
+          "line": 74,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 74,
+          "column": 19
+        },
+        "end": {
+          "line": 74,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "from",
+      "loc": {
+        "start": {
+          "line": 74,
+          "column": 21
+        },
+        "end": {
+          "line": 74,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'./module-import-rejection_FIXTURE.js'",
+      "loc": {
+        "start": {
+          "line": 74,
+          "column": 26
+        },
+        "end": {
+          "line": 74,
+          "column": 64
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 74,
+          "column": 64
+        },
+        "end": {
+          "line": 74,
+          "column": 65
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "throw",
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 1
+        },
+        "end": {
+          "line": 76,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "new",
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 7
+        },
+        "end": {
+          "line": 76,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "Test262Error",
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 11
+        },
+        "end": {
+          "line": 76,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 23
+        },
+        "end": {
+          "line": 76,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'this should be unreachable'",
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 24
+        },
+        "end": {
+          "line": 76,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 52
+        },
+        "end": {
+          "line": 76,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 53
+        },
+        "end": {
+          "line": 76,
+          "column": 54
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "loc": {
+        "start": {
+          "line": 74,
+          "column": 1
+        },
+        "end": {
+          "line": 74,
+          "column": 65
+        }
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "loc": {
+            "start": {
+              "line": 74,
+              "column": 10
+            },
+            "end": {
+              "line": 74,
+              "column": 18
+            }
+          },
+          "imported": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 74,
+                "column": 10
+              },
+              "end": {
+                "line": 74,
+                "column": 18
+              }
+            },
+            "name": "resolved"
+          },
+          "local": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 74,
+                "column": 10
+              },
+              "end": {
+                "line": 74,
+                "column": 18
+              }
+            },
+            "name": "resolved"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "loc": {
+          "start": {
+            "line": 74,
+            "column": 26
+          },
+          "end": {
+            "line": 74,
+            "column": 64
+          }
+        },
+        "value": "./module-import-rejection_FIXTURE.js",
+        "raw": "'./module-import-rejection_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ThrowStatement",
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 1
+        },
+        "end": {
+          "line": 76,
+          "column": 54
+        }
+      },
+      "argument": {
+        "type": "NewExpression",
+        "loc": {
+          "start": {
+            "line": 76,
+            "column": 7
+          },
+          "end": {
+            "line": 76,
+            "column": 53
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 76,
+              "column": 11
+            },
+            "end": {
+              "line": 76,
+              "column": 23
+            }
+          },
+          "name": "Test262Error"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 76,
+                "column": 24
+              },
+              "end": {
+                "line": 76,
+                "column": 52
+              }
+            },
+            "value": "this should be unreachable",
+            "raw": "'this should be unreachable'"
+          }
+        ]
+      }
+    }
+  ]
+}

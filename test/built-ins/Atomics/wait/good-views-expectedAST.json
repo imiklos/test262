@@ -1,0 +1,1913 @@
+{
+  "type": "Program",
+  "loc": {
+    "start": {
+      "line": 16,
+      "column": 1
+    },
+    "end": {
+      "line": 67,
+      "column": 1
+    }
+  },
+  "tokens": [
+    {
+      "type": "Identifier",
+      "value": "$262",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 1
+        },
+        "end": {
+          "line": 16,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ".",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 5
+        },
+        "end": {
+          "line": 16,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "agent",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 6
+        },
+        "end": {
+          "line": 16,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ".",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 11
+        },
+        "end": {
+          "line": 16,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "start",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 12
+        },
+        "end": {
+          "line": 16,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 17
+        },
+        "end": {
+          "line": 16,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Template",
+      "value": "`\n  var sab = new SharedArrayBuffer(1024);\n  var ab = new ArrayBuffer(16);\n\n  var good_indices = [ (view) => 0/-1, // -0\n                       (view) => '-0',\n                       (view) => view.length - 1,\n                       (view) => ({ valueOf: () => 0 }),\n                       (view) => ({ toString: () => '0', valueOf: false }) // non-callable valueOf triggers invocation of toString\n                     ];\n\n  var view = new Int32Array(sab, 32, 20);\n\n  view[0] = 0;\n  $262.agent.report(\"A \" + Atomics.wait(view, 0, 0, 0))\n  $262.agent.report(\"B \" + Atomics.wait(view, 0, 37, 0));\n\n  // In-bounds boundary cases for indexing\n  for ( let IdxGen of good_indices ) {\n      let Idx = IdxGen(view);\n      view.fill(0);\n      // Atomics.store() computes an index from Idx in the same way as other\n      // Atomics operations, not quite like view[Idx].\n      Atomics.store(view, Idx, 37);\n      $262.agent.report(\"C \" + Atomics.wait(view, Idx, 0));\n  }\n\n  $262.agent.report(\"done\");\n  $262.agent.leaving();\n`",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 18
+        },
+        "end": {
+          "line": 45,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 2
+        },
+        "end": {
+          "line": 45,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 3
+        },
+        "end": {
+          "line": 45,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assert",
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 1
+        },
+        "end": {
+          "line": 47,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ".",
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 7
+        },
+        "end": {
+          "line": 47,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "sameValue",
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 8
+        },
+        "end": {
+          "line": 47,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 17
+        },
+        "end": {
+          "line": 47,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "$262",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 3
+        },
+        "end": {
+          "line": 48,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ".",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 7
+        },
+        "end": {
+          "line": 48,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "agent",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 8
+        },
+        "end": {
+          "line": 48,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ".",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 13
+        },
+        "end": {
+          "line": 48,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "getReport",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 14
+        },
+        "end": {
+          "line": 48,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 23
+        },
+        "end": {
+          "line": 48,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 24
+        },
+        "end": {
+          "line": 48,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 25
+        },
+        "end": {
+          "line": 48,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'A timed-out'",
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 3
+        },
+        "end": {
+          "line": 49,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 16
+        },
+        "end": {
+          "line": 49,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'$262.agent.getReport() returns \"A timed-out\"'",
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 3
+        },
+        "end": {
+          "line": 50,
+          "column": 49
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 51,
+          "column": 1
+        },
+        "end": {
+          "line": 51,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 51,
+          "column": 2
+        },
+        "end": {
+          "line": 51,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assert",
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 1
+        },
+        "end": {
+          "line": 53,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ".",
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 7
+        },
+        "end": {
+          "line": 53,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "sameValue",
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 8
+        },
+        "end": {
+          "line": 53,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 17
+        },
+        "end": {
+          "line": 53,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "$262",
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 3
+        },
+        "end": {
+          "line": 54,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ".",
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 7
+        },
+        "end": {
+          "line": 54,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "agent",
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 8
+        },
+        "end": {
+          "line": 54,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ".",
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 13
+        },
+        "end": {
+          "line": 54,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "getReport",
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 14
+        },
+        "end": {
+          "line": 54,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 23
+        },
+        "end": {
+          "line": 54,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 24
+        },
+        "end": {
+          "line": 54,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 25
+        },
+        "end": {
+          "line": 54,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'B not-equal'",
+      "loc": {
+        "start": {
+          "line": 55,
+          "column": 3
+        },
+        "end": {
+          "line": 55,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 55,
+          "column": 16
+        },
+        "end": {
+          "line": 55,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'$262.agent.getReport() returns \"B not-equal\"'",
+      "loc": {
+        "start": {
+          "line": 56,
+          "column": 3
+        },
+        "end": {
+          "line": 56,
+          "column": 49
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 57,
+          "column": 1
+        },
+        "end": {
+          "line": 57,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 57,
+          "column": 2
+        },
+        "end": {
+          "line": 57,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "var",
+      "loc": {
+        "start": {
+          "line": 59,
+          "column": 1
+        },
+        "end": {
+          "line": 59,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "r",
+      "loc": {
+        "start": {
+          "line": 59,
+          "column": 5
+        },
+        "end": {
+          "line": 59,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 59,
+          "column": 6
+        },
+        "end": {
+          "line": 59,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "while",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 1
+        },
+        "end": {
+          "line": 60,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 7
+        },
+        "end": {
+          "line": 60,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 8
+        },
+        "end": {
+          "line": 60,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "r",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 9
+        },
+        "end": {
+          "line": 60,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "=",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 11
+        },
+        "end": {
+          "line": 60,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "$262",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 13
+        },
+        "end": {
+          "line": 60,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ".",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 17
+        },
+        "end": {
+          "line": 60,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "agent",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 18
+        },
+        "end": {
+          "line": 60,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ".",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 23
+        },
+        "end": {
+          "line": 60,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "getReport",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 24
+        },
+        "end": {
+          "line": 60,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 33
+        },
+        "end": {
+          "line": 60,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 34
+        },
+        "end": {
+          "line": 60,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 35
+        },
+        "end": {
+          "line": 60,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "!==",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 37
+        },
+        "end": {
+          "line": 60,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "\"done\"",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 41
+        },
+        "end": {
+          "line": 60,
+          "column": 47
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 47
+        },
+        "end": {
+          "line": 60,
+          "column": 48
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 49
+        },
+        "end": {
+          "line": 60,
+          "column": 50
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "assert",
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 3
+        },
+        "end": {
+          "line": 61,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ".",
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 9
+        },
+        "end": {
+          "line": 61,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "sameValue",
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 10
+        },
+        "end": {
+          "line": 61,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 19
+        },
+        "end": {
+          "line": 61,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "r",
+      "loc": {
+        "start": {
+          "line": 62,
+          "column": 5
+        },
+        "end": {
+          "line": 62,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 62,
+          "column": 6
+        },
+        "end": {
+          "line": 62,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'C not-equal'",
+      "loc": {
+        "start": {
+          "line": 63,
+          "column": 5
+        },
+        "end": {
+          "line": 63,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ",",
+      "loc": {
+        "start": {
+          "line": 63,
+          "column": 18
+        },
+        "end": {
+          "line": 63,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'$262.agent.getReport() returns \"C not-equal\"'",
+      "loc": {
+        "start": {
+          "line": 64,
+          "column": 5
+        },
+        "end": {
+          "line": 64,
+          "column": 51
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 65,
+          "column": 3
+        },
+        "end": {
+          "line": 65,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 65,
+          "column": 4
+        },
+        "end": {
+          "line": 65,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 66,
+          "column": 1
+        },
+        "end": {
+          "line": 66,
+          "column": 2
+        }
+      }
+    }
+  ],
+  "sourceType": "script",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 1
+        },
+        "end": {
+          "line": 45,
+          "column": 4
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 1
+          },
+          "end": {
+            "line": 45,
+            "column": 3
+          }
+        },
+        "callee": {
+          "type": "MemberExpression",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 1
+            },
+            "end": {
+              "line": 16,
+              "column": 17
+            }
+          },
+          "object": {
+            "type": "MemberExpression",
+            "loc": {
+              "start": {
+                "line": 16,
+                "column": 1
+              },
+              "end": {
+                "line": 16,
+                "column": 11
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "loc": {
+                "start": {
+                  "line": 16,
+                  "column": 1
+                },
+                "end": {
+                  "line": 16,
+                  "column": 5
+                }
+              },
+              "name": "$262"
+            },
+            "property": {
+              "type": "Identifier",
+              "loc": {
+                "start": {
+                  "line": 16,
+                  "column": 6
+                },
+                "end": {
+                  "line": 16,
+                  "column": 11
+                }
+              },
+              "name": "agent"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 16,
+                "column": 12
+              },
+              "end": {
+                "line": 16,
+                "column": 17
+              }
+            },
+            "name": "start"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "TemplateLiteral",
+            "loc": {
+              "start": {
+                "line": 16,
+                "column": 18
+              },
+              "end": {
+                "line": 45,
+                "column": 2
+              }
+            },
+            "expressions": [],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "loc": {
+                  "start": {
+                    "line": 16,
+                    "column": 18
+                  },
+                  "end": {
+                    "line": 45,
+                    "column": 2
+                  }
+                },
+                "value": {
+                  "raw": "\n  var sab = new SharedArrayBuffer(1024);\n  var ab = new ArrayBuffer(16);\n\n  var good_indices = [ (view) => 0/-1, // -0\n                       (view) => '-0',\n                       (view) => view.length - 1,\n                       (view) => ({ valueOf: () => 0 }),\n                       (view) => ({ toString: () => '0', valueOf: false }) // non-callable valueOf triggers invocation of toString\n                     ];\n\n  var view = new Int32Array(sab, 32, 20);\n\n  view[0] = 0;\n  $262.agent.report(\"A \" + Atomics.wait(view, 0, 0, 0))\n  $262.agent.report(\"B \" + Atomics.wait(view, 0, 37, 0));\n\n  // In-bounds boundary cases for indexing\n  for ( let IdxGen of good_indices ) {\n      let Idx = IdxGen(view);\n      view.fill(0);\n      // Atomics.store() computes an index from Idx in the same way as other\n      // Atomics operations, not quite like view[Idx].\n      Atomics.store(view, Idx, 37);\n      $262.agent.report(\"C \" + Atomics.wait(view, Idx, 0));\n  }\n\n  $262.agent.report(\"done\");\n  $262.agent.leaving();\n",
+                  "cooked": "\n  var sab = new SharedArrayBuffer(1024);\n  var ab = new ArrayBuffer(16);\n\n  var good_indices = [ (view) => 0/-1, // -0\n                       (view) => '-0',\n                       (view) => view.length - 1,\n                       (view) => ({ valueOf: () => 0 }),\n                       (view) => ({ toString: () => '0', valueOf: false }) // non-callable valueOf triggers invocation of toString\n                     ];\n\n  var view = new Int32Array(sab, 32, 20);\n\n  view[0] = 0;\n  $262.agent.report(\"A \" + Atomics.wait(view, 0, 0, 0))\n  $262.agent.report(\"B \" + Atomics.wait(view, 0, 37, 0));\n\n  // In-bounds boundary cases for indexing\n  for ( let IdxGen of good_indices ) {\n      let Idx = IdxGen(view);\n      view.fill(0);\n      // Atomics.store() computes an index from Idx in the same way as other\n      // Atomics operations, not quite like view[Idx].\n      Atomics.store(view, Idx, 37);\n      $262.agent.report(\"C \" + Atomics.wait(view, Idx, 0));\n  }\n\n  $262.agent.report(\"done\");\n  $262.agent.leaving();\n"
+                },
+                "tail": true
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 1
+        },
+        "end": {
+          "line": 51,
+          "column": 3
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 47,
+            "column": 1
+          },
+          "end": {
+            "line": 51,
+            "column": 2
+          }
+        },
+        "callee": {
+          "type": "MemberExpression",
+          "loc": {
+            "start": {
+              "line": 47,
+              "column": 1
+            },
+            "end": {
+              "line": 47,
+              "column": 17
+            }
+          },
+          "object": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 47,
+                "column": 1
+              },
+              "end": {
+                "line": 47,
+                "column": 7
+              }
+            },
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 47,
+                "column": 8
+              },
+              "end": {
+                "line": 47,
+                "column": 17
+              }
+            },
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "loc": {
+              "start": {
+                "line": 48,
+                "column": 3
+              },
+              "end": {
+                "line": 48,
+                "column": 25
+              }
+            },
+            "callee": {
+              "type": "MemberExpression",
+              "loc": {
+                "start": {
+                  "line": 48,
+                  "column": 3
+                },
+                "end": {
+                  "line": 48,
+                  "column": 23
+                }
+              },
+              "object": {
+                "type": "MemberExpression",
+                "loc": {
+                  "start": {
+                    "line": 48,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 48,
+                    "column": 13
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 48,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 48,
+                      "column": 7
+                    }
+                  },
+                  "name": "$262"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 48,
+                      "column": 8
+                    },
+                    "end": {
+                      "line": 48,
+                      "column": 13
+                    }
+                  },
+                  "name": "agent"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "loc": {
+                  "start": {
+                    "line": 48,
+                    "column": 14
+                  },
+                  "end": {
+                    "line": 48,
+                    "column": 23
+                  }
+                },
+                "name": "getReport"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 49,
+                "column": 3
+              },
+              "end": {
+                "line": 49,
+                "column": 16
+              }
+            },
+            "value": "A timed-out",
+            "raw": "'A timed-out'"
+          },
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 50,
+                "column": 3
+              },
+              "end": {
+                "line": 50,
+                "column": 49
+              }
+            },
+            "value": "$262.agent.getReport() returns \"A timed-out\"",
+            "raw": "'$262.agent.getReport() returns \"A timed-out\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 1
+        },
+        "end": {
+          "line": 57,
+          "column": 3
+        }
+      },
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "start": {
+            "line": 53,
+            "column": 1
+          },
+          "end": {
+            "line": 57,
+            "column": 2
+          }
+        },
+        "callee": {
+          "type": "MemberExpression",
+          "loc": {
+            "start": {
+              "line": 53,
+              "column": 1
+            },
+            "end": {
+              "line": 53,
+              "column": 17
+            }
+          },
+          "object": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 53,
+                "column": 1
+              },
+              "end": {
+                "line": 53,
+                "column": 7
+              }
+            },
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 53,
+                "column": 8
+              },
+              "end": {
+                "line": 53,
+                "column": 17
+              }
+            },
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "loc": {
+              "start": {
+                "line": 54,
+                "column": 3
+              },
+              "end": {
+                "line": 54,
+                "column": 25
+              }
+            },
+            "callee": {
+              "type": "MemberExpression",
+              "loc": {
+                "start": {
+                  "line": 54,
+                  "column": 3
+                },
+                "end": {
+                  "line": 54,
+                  "column": 23
+                }
+              },
+              "object": {
+                "type": "MemberExpression",
+                "loc": {
+                  "start": {
+                    "line": 54,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 54,
+                    "column": 13
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 54,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 54,
+                      "column": 7
+                    }
+                  },
+                  "name": "$262"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 54,
+                      "column": 8
+                    },
+                    "end": {
+                      "line": 54,
+                      "column": 13
+                    }
+                  },
+                  "name": "agent"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "loc": {
+                  "start": {
+                    "line": 54,
+                    "column": 14
+                  },
+                  "end": {
+                    "line": 54,
+                    "column": 23
+                  }
+                },
+                "name": "getReport"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 55,
+                "column": 3
+              },
+              "end": {
+                "line": 55,
+                "column": 16
+              }
+            },
+            "value": "B not-equal",
+            "raw": "'B not-equal'"
+          },
+          {
+            "type": "Literal",
+            "loc": {
+              "start": {
+                "line": 56,
+                "column": 3
+              },
+              "end": {
+                "line": 56,
+                "column": 49
+              }
+            },
+            "value": "$262.agent.getReport() returns \"B not-equal\"",
+            "raw": "'$262.agent.getReport() returns \"B not-equal\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "loc": {
+        "start": {
+          "line": 59,
+          "column": 1
+        },
+        "end": {
+          "line": 59,
+          "column": 7
+        }
+      },
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "loc": {
+            "start": {
+              "line": 59,
+              "column": 5
+            },
+            "end": {
+              "line": 59,
+              "column": 6
+            }
+          },
+          "id": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 59,
+                "column": 5
+              },
+              "end": {
+                "line": 59,
+                "column": 6
+              }
+            },
+            "name": "r"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "WhileStatement",
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 1
+        },
+        "end": {
+          "line": 66,
+          "column": 2
+        }
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "loc": {
+          "start": {
+            "line": 60,
+            "column": 8
+          },
+          "end": {
+            "line": 60,
+            "column": 47
+          }
+        },
+        "left": {
+          "type": "AssignmentExpression",
+          "loc": {
+            "start": {
+              "line": 60,
+              "column": 9
+            },
+            "end": {
+              "line": 60,
+              "column": 35
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 60,
+                "column": 9
+              },
+              "end": {
+                "line": 60,
+                "column": 10
+              }
+            },
+            "name": "r"
+          },
+          "right": {
+            "type": "CallExpression",
+            "loc": {
+              "start": {
+                "line": 60,
+                "column": 13
+              },
+              "end": {
+                "line": 60,
+                "column": 35
+              }
+            },
+            "callee": {
+              "type": "MemberExpression",
+              "loc": {
+                "start": {
+                  "line": 60,
+                  "column": 13
+                },
+                "end": {
+                  "line": 60,
+                  "column": 33
+                }
+              },
+              "object": {
+                "type": "MemberExpression",
+                "loc": {
+                  "start": {
+                    "line": 60,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 60,
+                    "column": 23
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 60,
+                      "column": 13
+                    },
+                    "end": {
+                      "line": 60,
+                      "column": 17
+                    }
+                  },
+                  "name": "$262"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 60,
+                      "column": 18
+                    },
+                    "end": {
+                      "line": 60,
+                      "column": 23
+                    }
+                  },
+                  "name": "agent"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "loc": {
+                  "start": {
+                    "line": 60,
+                    "column": 24
+                  },
+                  "end": {
+                    "line": 60,
+                    "column": 33
+                  }
+                },
+                "name": "getReport"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "loc": {
+            "start": {
+              "line": 60,
+              "column": 41
+            },
+            "end": {
+              "line": 60,
+              "column": 47
+            }
+          },
+          "value": "done",
+          "raw": "\"done\""
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "loc": {
+          "start": {
+            "line": 60,
+            "column": 49
+          },
+          "end": {
+            "line": 66,
+            "column": 2
+          }
+        },
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "loc": {
+              "start": {
+                "line": 61,
+                "column": 3
+              },
+              "end": {
+                "line": 65,
+                "column": 5
+              }
+            },
+            "expression": {
+              "type": "CallExpression",
+              "loc": {
+                "start": {
+                  "line": 61,
+                  "column": 3
+                },
+                "end": {
+                  "line": 65,
+                  "column": 4
+                }
+              },
+              "callee": {
+                "type": "MemberExpression",
+                "loc": {
+                  "start": {
+                    "line": 61,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 61,
+                    "column": 19
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 61,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 61,
+                      "column": 9
+                    }
+                  },
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 61,
+                      "column": 10
+                    },
+                    "end": {
+                      "line": 61,
+                      "column": 19
+                    }
+                  },
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "loc": {
+                    "start": {
+                      "line": 62,
+                      "column": 5
+                    },
+                    "end": {
+                      "line": 62,
+                      "column": 6
+                    }
+                  },
+                  "name": "r"
+                },
+                {
+                  "type": "Literal",
+                  "loc": {
+                    "start": {
+                      "line": 63,
+                      "column": 5
+                    },
+                    "end": {
+                      "line": 63,
+                      "column": 18
+                    }
+                  },
+                  "value": "C not-equal",
+                  "raw": "'C not-equal'"
+                },
+                {
+                  "type": "Literal",
+                  "loc": {
+                    "start": {
+                      "line": 64,
+                      "column": 5
+                    },
+                    "end": {
+                      "line": 64,
+                      "column": 51
+                    }
+                  },
+                  "value": "$262.agent.getReport() returns \"C not-equal\"",
+                  "raw": "'$262.agent.getReport() returns \"C not-equal\"'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

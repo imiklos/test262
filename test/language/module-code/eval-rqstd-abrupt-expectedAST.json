@@ -1,0 +1,285 @@
+{
+  "type": "Program",
+  "loc": {
+    "start": {
+      "line": 19,
+      "column": 1
+    },
+    "end": {
+      "line": 23,
+      "column": 1
+    }
+  },
+  "tokens": [
+    {
+      "type": "Keyword",
+      "value": "import",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 1
+        },
+        "end": {
+          "line": 19,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'./eval-rqstd-abrupt-err-type_FIXTURE.js'",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 8
+        },
+        "end": {
+          "line": 19,
+          "column": 49
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 49
+        },
+        "end": {
+          "line": 19,
+          "column": 50
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "import",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 1
+        },
+        "end": {
+          "line": 20,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'./eval-rqstd-abrupt-err-uri_FIXTURE.js'",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 8
+        },
+        "end": {
+          "line": 20,
+          "column": 48
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 48
+        },
+        "end": {
+          "line": 20,
+          "column": 49
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "throw",
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 1
+        },
+        "end": {
+          "line": 22,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "Keyword",
+      "value": "new",
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 7
+        },
+        "end": {
+          "line": 22,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "RangeError",
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 11
+        },
+        "end": {
+          "line": 22,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "(",
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 21
+        },
+        "end": {
+          "line": 22,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ")",
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 22
+        },
+        "end": {
+          "line": 22,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 23
+        },
+        "end": {
+          "line": 22,
+          "column": 24
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 1
+        },
+        "end": {
+          "line": 19,
+          "column": 50
+        }
+      },
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 8
+          },
+          "end": {
+            "line": 19,
+            "column": 49
+          }
+        },
+        "value": "./eval-rqstd-abrupt-err-type_FIXTURE.js",
+        "raw": "'./eval-rqstd-abrupt-err-type_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 1
+        },
+        "end": {
+          "line": 20,
+          "column": 49
+        }
+      },
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 8
+          },
+          "end": {
+            "line": 20,
+            "column": 48
+          }
+        },
+        "value": "./eval-rqstd-abrupt-err-uri_FIXTURE.js",
+        "raw": "'./eval-rqstd-abrupt-err-uri_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ThrowStatement",
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 1
+        },
+        "end": {
+          "line": 22,
+          "column": 24
+        }
+      },
+      "argument": {
+        "type": "NewExpression",
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 7
+          },
+          "end": {
+            "line": 22,
+            "column": 23
+          }
+        },
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 11
+            },
+            "end": {
+              "line": 22,
+              "column": 21
+            }
+          },
+          "name": "RangeError"
+        },
+        "arguments": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "type": "Program",
+  "loc": {
+    "start": {
+      "line": 28,
+      "column": 1
+    },
+    "end": {
+      "line": 29,
+      "column": 1
+    }
+  },
+  "tokens": [
+    {
+      "type": "Keyword",
+      "value": "export",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 1
+        },
+        "end": {
+          "line": 28,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "{",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 8
+        },
+        "end": {
+          "line": 28,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "x",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 10
+        },
+        "end": {
+          "line": 28,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": "}",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 12
+        },
+        "end": {
+          "line": 28,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "value": "from",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 14
+        },
+        "end": {
+          "line": 28,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "String",
+      "value": "'./instn-iee-err-circular_FIXTURE.js'",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 19
+        },
+        "end": {
+          "line": 28,
+          "column": 56
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 56
+        },
+        "end": {
+          "line": 28,
+          "column": 57
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 1
+        },
+        "end": {
+          "line": 28,
+          "column": 57
+        }
+      },
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 10
+            },
+            "end": {
+              "line": 28,
+              "column": 11
+            }
+          },
+          "local": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 28,
+                "column": 10
+              },
+              "end": {
+                "line": 28,
+                "column": 11
+              }
+            },
+            "name": "x"
+          },
+          "exported": {
+            "type": "Identifier",
+            "loc": {
+              "start": {
+                "line": 28,
+                "column": 10
+              },
+              "end": {
+                "line": 28,
+                "column": 11
+              }
+            },
+            "name": "x"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 19
+          },
+          "end": {
+            "line": 28,
+            "column": 56
+          }
+        },
+        "value": "./instn-iee-err-circular_FIXTURE.js",
+        "raw": "'./instn-iee-err-circular_FIXTURE.js'"
+      },
+      "declaration": null
+    }
+  ]
+}
