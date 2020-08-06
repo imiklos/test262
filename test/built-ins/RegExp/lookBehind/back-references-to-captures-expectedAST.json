@@ -135,10 +135,6 @@
           "line": 24,
           "column": 50
         }
-      },
-      "regex": {
-        "pattern": "(?<=\\1(\\w))d",
-        "flags": "i"
       }
     },
     {
@@ -419,10 +415,6 @@
           "line": 25,
           "column": 52
         }
-      },
-      "regex": {
-        "pattern": "(?<=\\1([abx]))d",
-        "flags": ""
       }
     },
     {
@@ -703,10 +695,6 @@
           "line": 26,
           "column": 50
         }
-      },
-      "regex": {
-        "pattern": "(?<=\\1(\\w+))c",
-        "flags": ""
       }
     },
     {
@@ -987,10 +975,6 @@
           "line": 27,
           "column": 51
         }
-      },
-      "regex": {
-        "pattern": "(?<=\\1(\\w+))c",
-        "flags": ""
       }
     },
     {
@@ -1271,10 +1255,6 @@
           "line": 28,
           "column": 48
         }
-      },
-      "regex": {
-        "pattern": "(?<=\\1(\\w+))c",
-        "flags": ""
       }
     },
     {
@@ -1499,10 +1479,6 @@
           "line": 29,
           "column": 50
         }
-      },
-      "regex": {
-        "pattern": "(?<=(\\w+)\\1)c",
-        "flags": ""
       }
     },
     {
@@ -1800,11 +1776,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=\\1(\\w))d/i",
-                "regex": {
-                  "pattern": "(?<=\\1(\\w))d",
-                  "flags": "i"
-                }
+                "raw": "/(?<=\\1(\\w))d/i"
               }
             ],
             "optional": false
@@ -2011,11 +1983,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=\\1([abx]))d/",
-                "regex": {
-                  "pattern": "(?<=\\1([abx]))d",
-                  "flags": ""
-                }
+                "raw": "/(?<=\\1([abx]))d/"
               }
             ],
             "optional": false
@@ -2222,11 +2190,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=\\1(\\w+))c/",
-                "regex": {
-                  "pattern": "(?<=\\1(\\w+))c",
-                  "flags": ""
-                }
+                "raw": "/(?<=\\1(\\w+))c/"
               }
             ],
             "optional": false
@@ -2433,11 +2397,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=\\1(\\w+))c/",
-                "regex": {
-                  "pattern": "(?<=\\1(\\w+))c",
-                  "flags": ""
-                }
+                "raw": "/(?<=\\1(\\w+))c/"
               }
             ],
             "optional": false
@@ -2644,11 +2604,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=\\1(\\w+))c/",
-                "regex": {
-                  "pattern": "(?<=\\1(\\w+))c",
-                  "flags": ""
-                }
+                "raw": "/(?<=\\1(\\w+))c/"
               }
             ],
             "optional": false
@@ -2825,11 +2781,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=(\\w+)\\1)c/",
-                "regex": {
-                  "pattern": "(?<=(\\w+)\\1)c",
-                  "flags": ""
-                }
+                "raw": "/(?<=(\\w+)\\1)c/"
               }
             ],
             "optional": false

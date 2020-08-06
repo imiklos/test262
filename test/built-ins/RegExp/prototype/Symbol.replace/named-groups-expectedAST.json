@@ -79,10 +79,6 @@
           "line": 29,
           "column": 22
         }
-      },
-      "regex": {
-        "pattern": "b",
-        "flags": "u"
       }
     },
     {
@@ -349,10 +345,6 @@
           "line": 30,
           "column": 22
         }
-      },
-      "regex": {
-        "pattern": ".",
-        "flags": "g"
       }
     },
     {
@@ -619,10 +611,6 @@
           "line": 31,
           "column": 24
         }
-      },
-      "regex": {
-        "pattern": "(b).",
-        "flags": ""
       }
     },
     {
@@ -889,10 +877,6 @@
           "line": 33,
           "column": 38
         }
-      },
-      "regex": {
-        "pattern": "(?<foo>.)(?<bar>.)",
-        "flags": ""
       }
     },
     {
@@ -1159,10 +1143,6 @@
           "line": 34,
           "column": 40
         }
-      },
-      "regex": {
-        "pattern": "(?<foo>.)(?<bar>.)",
-        "flags": "gu"
       }
     },
     {
@@ -1429,10 +1409,6 @@
           "line": 35,
           "column": 30
         }
-      },
-      "regex": {
-        "pattern": "(?<foo>b)",
-        "flags": "u"
       }
     },
     {
@@ -1699,10 +1675,6 @@
           "line": 36,
           "column": 30
         }
-      },
-      "regex": {
-        "pattern": "(?<foo>.)",
-        "flags": "g"
       }
     },
     {
@@ -1969,10 +1941,6 @@
           "line": 37,
           "column": 29
         }
-      },
-      "regex": {
-        "pattern": "(?<foo>b)",
-        "flags": ""
       }
     },
     {
@@ -2239,10 +2207,6 @@
           "line": 38,
           "column": 39
         }
-      },
-      "regex": {
-        "pattern": "(?<foo>.)(?<bar>.)",
-        "flags": "g"
       }
     },
     {
@@ -2509,10 +2473,6 @@
           "line": 39,
           "column": 30
         }
-      },
-      "regex": {
-        "pattern": "(?<foo>b)",
-        "flags": "u"
       }
     },
     {
@@ -2779,10 +2739,6 @@
           "line": 40,
           "column": 31
         }
-      },
-      "regex": {
-        "pattern": "(?<foo>.)",
-        "flags": "gu"
       }
     },
     {
@@ -3049,10 +3005,6 @@
           "line": 41,
           "column": 29
         }
-      },
-      "regex": {
-        "pattern": "(?<foo>b)",
-        "flags": ""
       }
     },
     {
@@ -3319,10 +3271,6 @@
           "line": 43,
           "column": 29
         }
-      },
-      "regex": {
-        "pattern": "(?<\ud835\udc9c>b)",
-        "flags": "u"
       }
     },
     {
@@ -3589,10 +3537,6 @@
           "line": 44,
           "column": 31
         }
-      },
-      "regex": {
-        "pattern": "(?<$\ud801\udca4>b)",
-        "flags": "gu"
       }
     },
     {
@@ -3899,11 +3843,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/b/u",
-                "regex": {
-                  "pattern": "b",
-                  "flags": "u"
-                }
+                "raw": "/b/u"
               },
               "property": {
                 "type": "MemberExpression",
@@ -4109,11 +4049,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/./g",
-                "regex": {
-                  "pattern": ".",
-                  "flags": "g"
-                }
+                "raw": "/./g"
               },
               "property": {
                 "type": "MemberExpression",
@@ -4319,11 +4255,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(b)./",
-                "regex": {
-                  "pattern": "(b).",
-                  "flags": ""
-                }
+                "raw": "/(b)./"
               },
               "property": {
                 "type": "MemberExpression",
@@ -4529,11 +4461,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<foo>.)(?<bar>.)/",
-                "regex": {
-                  "pattern": "(?<foo>.)(?<bar>.)",
-                  "flags": ""
-                }
+                "raw": "/(?<foo>.)(?<bar>.)/"
               },
               "property": {
                 "type": "MemberExpression",
@@ -4739,11 +4667,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<foo>.)(?<bar>.)/gu",
-                "regex": {
-                  "pattern": "(?<foo>.)(?<bar>.)",
-                  "flags": "gu"
-                }
+                "raw": "/(?<foo>.)(?<bar>.)/gu"
               },
               "property": {
                 "type": "MemberExpression",
@@ -4949,11 +4873,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<foo>b)/u",
-                "regex": {
-                  "pattern": "(?<foo>b)",
-                  "flags": "u"
-                }
+                "raw": "/(?<foo>b)/u"
               },
               "property": {
                 "type": "MemberExpression",
@@ -5159,11 +5079,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<foo>.)/g",
-                "regex": {
-                  "pattern": "(?<foo>.)",
-                  "flags": "g"
-                }
+                "raw": "/(?<foo>.)/g"
               },
               "property": {
                 "type": "MemberExpression",
@@ -5369,11 +5285,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<foo>b)/",
-                "regex": {
-                  "pattern": "(?<foo>b)",
-                  "flags": ""
-                }
+                "raw": "/(?<foo>b)/"
               },
               "property": {
                 "type": "MemberExpression",
@@ -5579,11 +5491,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<foo>.)(?<bar>.)/g",
-                "regex": {
-                  "pattern": "(?<foo>.)(?<bar>.)",
-                  "flags": "g"
-                }
+                "raw": "/(?<foo>.)(?<bar>.)/g"
               },
               "property": {
                 "type": "MemberExpression",
@@ -5789,11 +5697,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<foo>b)/u",
-                "regex": {
-                  "pattern": "(?<foo>b)",
-                  "flags": "u"
-                }
+                "raw": "/(?<foo>b)/u"
               },
               "property": {
                 "type": "MemberExpression",
@@ -5999,11 +5903,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<foo>.)/gu",
-                "regex": {
-                  "pattern": "(?<foo>.)",
-                  "flags": "gu"
-                }
+                "raw": "/(?<foo>.)/gu"
               },
               "property": {
                 "type": "MemberExpression",
@@ -6209,11 +6109,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<foo>b)/",
-                "regex": {
-                  "pattern": "(?<foo>b)",
-                  "flags": ""
-                }
+                "raw": "/(?<foo>b)/"
               },
               "property": {
                 "type": "MemberExpression",
@@ -6419,11 +6315,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<\ud835\udc9c>b)/u",
-                "regex": {
-                  "pattern": "(?<\ud835\udc9c>b)",
-                  "flags": "u"
-                }
+                "raw": "/(?<\ud835\udc9c>b)/u"
               },
               "property": {
                 "type": "MemberExpression",
@@ -6629,11 +6521,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<$\ud801\udca4>b)/gu",
-                "regex": {
-                  "pattern": "(?<$\ud801\udca4>b)",
-                  "flags": "gu"
-                }
+                "raw": "/(?<$\ud801\udca4>b)/gu"
               },
               "property": {
                 "type": "MemberExpression",

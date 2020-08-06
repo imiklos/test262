@@ -135,10 +135,6 @@
           "line": 24,
           "column": 57
         }
-      },
-      "regex": {
-        "pattern": "(?<=ab(?=c)\\wd)\\w\\w",
-        "flags": ""
       }
     },
     {
@@ -391,10 +387,6 @@
           "line": 25,
           "column": 67
         }
-      },
-      "regex": {
-        "pattern": "(?<=a(?=([^a]{2})d)\\w{3})\\w\\w",
-        "flags": ""
       }
     },
     {
@@ -675,10 +667,6 @@
           "line": 26,
           "column": 76
         }
-      },
-      "regex": {
-        "pattern": "(?<=a(?=([bc]{2}(?<!a{2}))d)\\w{3})\\w\\w",
-        "flags": ""
       }
     },
     {
@@ -959,10 +947,6 @@
           "line": 27,
           "column": 61
         }
-      },
-      "regex": {
-        "pattern": "^faaao?(?<=^f[oa]+(?=o))",
-        "flags": ""
       }
     },
     {
@@ -1215,10 +1199,6 @@
           "line": 29,
           "column": 71
         }
-      },
-      "regex": {
-        "pattern": "(?<=a(?=([bc]{2}(?<!a*))d)\\w{3})\\w\\w",
-        "flags": ""
       }
     },
     {
@@ -1460,11 +1440,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=ab(?=c)\\wd)\\w\\w/",
-                "regex": {
-                  "pattern": "(?<=ab(?=c)\\wd)\\w\\w",
-                  "flags": ""
-                }
+                "raw": "/(?<=ab(?=c)\\wd)\\w\\w/"
               }
             ],
             "optional": false
@@ -1656,11 +1632,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=a(?=([^a]{2})d)\\w{3})\\w\\w/",
-                "regex": {
-                  "pattern": "(?<=a(?=([^a]{2})d)\\w{3})\\w\\w",
-                  "flags": ""
-                }
+                "raw": "/(?<=a(?=([^a]{2})d)\\w{3})\\w\\w/"
               }
             ],
             "optional": false
@@ -1867,11 +1839,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=a(?=([bc]{2}(?<!a{2}))d)\\w{3})\\w\\w/",
-                "regex": {
-                  "pattern": "(?<=a(?=([bc]{2}(?<!a{2}))d)\\w{3})\\w\\w",
-                  "flags": ""
-                }
+                "raw": "/(?<=a(?=([bc]{2}(?<!a{2}))d)\\w{3})\\w\\w/"
               }
             ],
             "optional": false
@@ -2078,11 +2046,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/^faaao?(?<=^f[oa]+(?=o))/",
-                "regex": {
-                  "pattern": "^faaao?(?<=^f[oa]+(?=o))",
-                  "flags": ""
-                }
+                "raw": "/^faaao?(?<=^f[oa]+(?=o))/"
               }
             ],
             "optional": false
@@ -2274,11 +2238,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=a(?=([bc]{2}(?<!a*))d)\\w{3})\\w\\w/",
-                "regex": {
-                  "pattern": "(?<=a(?=([bc]{2}(?<!a*))d)\\w{3})\\w\\w",
-                  "flags": ""
-                }
+                "raw": "/(?<=a(?=([bc]{2}(?<!a*))d)\\w{3})\\w\\w/"
               }
             ],
             "optional": false

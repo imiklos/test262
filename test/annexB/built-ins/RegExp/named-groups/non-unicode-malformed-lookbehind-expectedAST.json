@@ -51,10 +51,6 @@
           "line": 11,
           "column": 22
         }
-      },
-      "regex": {
-        "pattern": "\\k<a>(?<=>)a",
-        "flags": ""
       }
     },
     {
@@ -195,10 +191,6 @@
           "line": 12,
           "column": 21
         }
-      },
-      "regex": {
-        "pattern": "(?<=>)\\k<a>",
-        "flags": ""
       }
     },
     {
@@ -339,10 +331,6 @@
           "line": 14,
           "column": 22
         }
-      },
-      "regex": {
-        "pattern": "\\k<a>(?<!a)a",
-        "flags": ""
       }
     },
     {
@@ -483,10 +471,6 @@
           "line": 15,
           "column": 22
         }
-      },
-      "regex": {
-        "pattern": "(?<!a>)\\k<a>",
-        "flags": ""
       }
     },
     {
@@ -666,11 +650,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/\\k<a>(?<=>)a/",
-                "regex": {
-                  "pattern": "\\k<a>(?<=>)a",
-                  "flags": ""
-                }
+                "raw": "/\\k<a>(?<=>)a/"
               },
               "property": {
                 "type": "Identifier",
@@ -788,11 +768,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=>)\\k<a>/",
-                "regex": {
-                  "pattern": "(?<=>)\\k<a>",
-                  "flags": ""
-                }
+                "raw": "/(?<=>)\\k<a>/"
               },
               "property": {
                 "type": "Identifier",
@@ -910,11 +886,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/\\k<a>(?<!a)a/",
-                "regex": {
-                  "pattern": "\\k<a>(?<!a)a",
-                  "flags": ""
-                }
+                "raw": "/\\k<a>(?<!a)a/"
               },
               "property": {
                 "type": "Identifier",
@@ -1032,11 +1004,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<!a>)\\k<a>/",
-                "regex": {
-                  "pattern": "(?<!a>)\\k<a>",
-                  "flags": ""
-                }
+                "raw": "/(?<!a>)\\k<a>/"
               },
               "property": {
                 "type": "Identifier",

@@ -135,10 +135,6 @@
           "line": 24,
           "column": 50
         }
-      },
-      "regex": {
-        "pattern": "(?<=(b+))c",
-        "flags": ""
       }
     },
     {
@@ -419,10 +415,6 @@
           "line": 25,
           "column": 51
         }
-      },
-      "regex": {
-        "pattern": "(?<=(b\\d+))c",
-        "flags": ""
       }
     },
     {
@@ -703,10 +695,6 @@
           "line": 26,
           "column": 62
         }
-      },
-      "regex": {
-        "pattern": "(?<=((?:b\\d{2})+))c",
-        "flags": ""
       }
     },
     {
@@ -1004,11 +992,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=(b+))c/",
-                "regex": {
-                  "pattern": "(?<=(b+))c",
-                  "flags": ""
-                }
+                "raw": "/(?<=(b+))c/"
               }
             ],
             "optional": false
@@ -1215,11 +1199,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=(b\\d+))c/",
-                "regex": {
-                  "pattern": "(?<=(b\\d+))c",
-                  "flags": ""
-                }
+                "raw": "/(?<=(b\\d+))c/"
               }
             ],
             "optional": false
@@ -1426,11 +1406,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=((?:b\\d{2})+))c/",
-                "regex": {
-                  "pattern": "(?<=((?:b\\d{2})+))c",
-                  "flags": ""
-                }
+                "raw": "/(?<=((?:b\\d{2})+))c/"
               }
             ],
             "optional": false

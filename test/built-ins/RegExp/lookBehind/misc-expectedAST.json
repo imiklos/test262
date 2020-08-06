@@ -135,10 +135,6 @@
           "line": 24,
           "column": 47
         }
-      },
-      "regex": {
-        "pattern": "(?<=$abc)def",
-        "flags": ""
       }
     },
     {
@@ -363,10 +359,6 @@
           "line": 25,
           "column": 45
         }
-      },
-      "regex": {
-        "pattern": "^f.o(?<=foo)$",
-        "flags": ""
       }
     },
     {
@@ -591,10 +583,6 @@
           "line": 26,
           "column": 45
         }
-      },
-      "regex": {
-        "pattern": "^foo(?<!foo)$",
-        "flags": ""
       }
     },
     {
@@ -819,10 +807,6 @@
           "line": 27,
           "column": 45
         }
-      },
-      "regex": {
-        "pattern": "^f.o(?<!foo)$",
-        "flags": ""
       }
     },
     {
@@ -1047,10 +1031,6 @@
           "line": 29,
           "column": 48
         }
-      },
-      "regex": {
-        "pattern": "^foo(?<=foo)$",
-        "flags": ""
       }
     },
     {
@@ -1303,10 +1283,6 @@
           "line": 30,
           "column": 48
         }
-      },
-      "regex": {
-        "pattern": "^f.o(?<=foo)$",
-        "flags": ""
       }
     },
     {
@@ -1559,10 +1535,6 @@
           "line": 31,
           "column": 48
         }
-      },
-      "regex": {
-        "pattern": "^f.o(?<!foo)$",
-        "flags": ""
       }
     },
     {
@@ -1815,10 +1787,6 @@
           "line": 32,
           "column": 52
         }
-      },
-      "regex": {
-        "pattern": "^foooo(?<=fo+)$",
-        "flags": ""
       }
     },
     {
@@ -2071,10 +2039,6 @@
           "line": 33,
           "column": 52
         }
-      },
-      "regex": {
-        "pattern": "^foooo(?<=fo*)$",
-        "flags": ""
       }
     },
     {
@@ -2271,10 +2235,6 @@
           "line": 34,
           "column": 30
         }
-      },
-      "regex": {
-        "pattern": "(abc\\1)",
-        "flags": ""
       }
     },
     {
@@ -2555,10 +2515,6 @@
           "line": 35,
           "column": 30
         }
-      },
-      "regex": {
-        "pattern": "(abc\\1)",
-        "flags": ""
       }
     },
     {
@@ -2839,10 +2795,6 @@
           "line": 36,
           "column": 31
         }
-      },
-      "regex": {
-        "pattern": "(abc\\1)",
-        "flags": "i"
       }
     },
     {
@@ -3123,10 +3075,6 @@
           "line": 37,
           "column": 31
         }
-      },
-      "regex": {
-        "pattern": "(abc\\1)",
-        "flags": "i"
       }
     },
     {
@@ -3480,11 +3428,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=$abc)def/",
-                "regex": {
-                  "pattern": "(?<=$abc)def",
-                  "flags": ""
-                }
+                "raw": "/(?<=$abc)def/"
               }
             ],
             "optional": false
@@ -3661,11 +3605,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/^f.o(?<=foo)$/",
-                "regex": {
-                  "pattern": "^f.o(?<=foo)$",
-                  "flags": ""
-                }
+                "raw": "/^f.o(?<=foo)$/"
               }
             ],
             "optional": false
@@ -3842,11 +3782,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/^foo(?<!foo)$/",
-                "regex": {
-                  "pattern": "^foo(?<!foo)$",
-                  "flags": ""
-                }
+                "raw": "/^foo(?<!foo)$/"
               }
             ],
             "optional": false
@@ -4023,11 +3959,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/^f.o(?<!foo)$/",
-                "regex": {
-                  "pattern": "^f.o(?<!foo)$",
-                  "flags": ""
-                }
+                "raw": "/^f.o(?<!foo)$/"
               }
             ],
             "optional": false
@@ -4204,11 +4136,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/^foo(?<=foo)$/",
-                "regex": {
-                  "pattern": "^foo(?<=foo)$",
-                  "flags": ""
-                }
+                "raw": "/^foo(?<=foo)$/"
               }
             ],
             "optional": false
@@ -4400,11 +4328,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/^f.o(?<=foo)$/",
-                "regex": {
-                  "pattern": "^f.o(?<=foo)$",
-                  "flags": ""
-                }
+                "raw": "/^f.o(?<=foo)$/"
               }
             ],
             "optional": false
@@ -4596,11 +4520,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/^f.o(?<!foo)$/",
-                "regex": {
-                  "pattern": "^f.o(?<!foo)$",
-                  "flags": ""
-                }
+                "raw": "/^f.o(?<!foo)$/"
               }
             ],
             "optional": false
@@ -4792,11 +4712,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/^foooo(?<=fo+)$/",
-                "regex": {
-                  "pattern": "^foooo(?<=fo+)$",
-                  "flags": ""
-                }
+                "raw": "/^foooo(?<=fo+)$/"
               }
             ],
             "optional": false
@@ -4988,11 +4904,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/^foooo(?<=fo*)$/",
-                "regex": {
-                  "pattern": "^foooo(?<=fo*)$",
-                  "flags": ""
-                }
+                "raw": "/^foooo(?<=fo*)$/"
               }
             ],
             "optional": false
@@ -5151,11 +5063,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(abc\\1)/",
-                "regex": {
-                  "pattern": "(abc\\1)",
-                  "flags": ""
-                }
+                "raw": "/(abc\\1)/"
               },
               "property": {
                 "type": "Identifier",
@@ -5362,11 +5270,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(abc\\1)/",
-                "regex": {
-                  "pattern": "(abc\\1)",
-                  "flags": ""
-                }
+                "raw": "/(abc\\1)/"
               },
               "property": {
                 "type": "Identifier",
@@ -5573,11 +5477,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(abc\\1)/i",
-                "regex": {
-                  "pattern": "(abc\\1)",
-                  "flags": "i"
-                }
+                "raw": "/(abc\\1)/i"
               },
               "property": {
                 "type": "Identifier",
@@ -5784,11 +5684,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(abc\\1)/i",
-                "regex": {
-                  "pattern": "(abc\\1)",
-                  "flags": "i"
-                }
+                "raw": "/(abc\\1)/i"
               },
               "property": {
                 "type": "Identifier",

@@ -79,10 +79,6 @@
           "line": 24,
           "column": 43
         }
-      },
-      "regex": {
-        "pattern": "(?<=a(.\\2)b(\\1)).{4}",
-        "flags": ""
       }
     },
     {
@@ -391,10 +387,6 @@
           "line": 25,
           "column": 41
         }
-      },
-      "regex": {
-        "pattern": "(?<=a(\\2)b(..\\1))b",
-        "flags": ""
       }
     },
     {
@@ -703,10 +695,6 @@
           "line": 26,
           "column": 40
         }
-      },
-      "regex": {
-        "pattern": "(?<=(?:\\1b)(aa)).",
-        "flags": ""
       }
     },
     {
@@ -987,10 +975,6 @@
           "line": 27,
           "column": 41
         }
-      },
-      "regex": {
-        "pattern": "(?<=(?:\\1|b)(aa)).",
-        "flags": ""
       }
     },
     {
@@ -1311,11 +1295,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=a(.\\2)b(\\1)).{4}/",
-                "regex": {
-                  "pattern": "(?<=a(.\\2)b(\\1)).{4}",
-                  "flags": ""
-                }
+                "raw": "/(?<=a(.\\2)b(\\1)).{4}/"
               },
               "property": {
                 "type": "Identifier",
@@ -1537,11 +1517,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=a(\\2)b(..\\1))b/",
-                "regex": {
-                  "pattern": "(?<=a(\\2)b(..\\1))b",
-                  "flags": ""
-                }
+                "raw": "/(?<=a(\\2)b(..\\1))b/"
               },
               "property": {
                 "type": "Identifier",
@@ -1763,11 +1739,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=(?:\\1b)(aa))./",
-                "regex": {
-                  "pattern": "(?<=(?:\\1b)(aa)).",
-                  "flags": ""
-                }
+                "raw": "/(?<=(?:\\1b)(aa))./"
               },
               "property": {
                 "type": "Identifier",
@@ -1974,11 +1946,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=(?:\\1|b)(aa))./",
-                "regex": {
-                  "pattern": "(?<=(?:\\1|b)(aa)).",
-                  "flags": ""
-                }
+                "raw": "/(?<=(?:\\1|b)(aa))./"
               },
               "property": {
                 "type": "Identifier",

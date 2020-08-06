@@ -65,10 +65,6 @@
           "line": 13,
           "column": 38
         }
-      },
-      "regex": {
-        "pattern": "(\\.(?!com|org)|\\/)",
-        "flags": ""
       }
     },
     {
@@ -2404,11 +2400,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(\\.(?!com|org)|\\/)/",
-                "regex": {
-                  "pattern": "(\\.(?!com|org)|\\/)",
-                  "flags": ""
-                }
+                "raw": "/(\\.(?!com|org)|\\/)/"
               },
               "property": {
                 "type": "Identifier",

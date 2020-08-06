@@ -135,10 +135,6 @@
           "line": 24,
           "column": 62
         }
-      },
-      "regex": {
-        "pattern": "(?<=[a|b|c]*)[^a|b|c]{3}",
-        "flags": ""
       }
     },
     {
@@ -391,10 +387,6 @@
           "line": 25,
           "column": 57
         }
-      },
-      "regex": {
-        "pattern": "(?<=\\w*)[^a|b|c]{3}",
-        "flags": ""
       }
     },
     {
@@ -664,11 +656,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=[a|b|c]*)[^a|b|c]{3}/",
-                "regex": {
-                  "pattern": "(?<=[a|b|c]*)[^a|b|c]{3}",
-                  "flags": ""
-                }
+                "raw": "/(?<=[a|b|c]*)[^a|b|c]{3}/"
               }
             ],
             "optional": false
@@ -860,11 +848,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/(?<=\\w*)[^a|b|c]{3}/",
-                "regex": {
-                  "pattern": "(?<=\\w*)[^a|b|c]{3}",
-                  "flags": ""
-                }
+                "raw": "/(?<=\\w*)[^a|b|c]{3}/"
               }
             ],
             "optional": false

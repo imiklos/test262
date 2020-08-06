@@ -23,10 +23,6 @@
           "line": 12,
           "column": 13
         }
-      },
-      "regex": {
-        "pattern": "[\\p{Hex}]",
-        "flags": "u"
       }
     },
     {
@@ -83,10 +79,6 @@
           "line": 15,
           "column": 22
         }
-      },
-      "regex": {
-        "pattern": "[\\p{Hex}\\P{Hex}]",
-        "flags": "u"
       }
     },
     {
@@ -243,11 +235,7 @@
           }
         },
         "value": {},
-        "raw": "/[\\p{Hex}]/u",
-        "regex": {
-          "pattern": "[\\p{Hex}]",
-          "flags": "u"
-        }
+        "raw": "/[\\p{Hex}]/u"
       }
     },
     {
@@ -326,11 +314,7 @@
                   }
                 },
                 "value": {},
-                "raw": "/[\\p{Hex}\\P{Hex}]/u",
-                "regex": {
-                  "pattern": "[\\p{Hex}\\P{Hex}]",
-                  "flags": "u"
-                }
+                "raw": "/[\\p{Hex}\\P{Hex}]/u"
               },
               "property": {
                 "type": "Identifier",
