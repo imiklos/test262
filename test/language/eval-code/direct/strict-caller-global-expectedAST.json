@@ -2,25 +2,53 @@
   "type": "Program",
   "loc": {
     "start": {
-      "line": 23,
+      "line": 1,
       "column": 1
     },
     "end": {
-      "line": 24,
+      "line": 25,
       "column": 1
     }
   },
   "tokens": [
     {
+      "type": "String",
+      "value": "\"use strict\"",
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "end": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 13
+        },
+        "end": {
+          "line": 1,
+          "column": 14
+        }
+      }
+    },
+    {
       "type": "Identifier",
       "value": "eval",
       "loc": {
         "start": {
-          "line": 23,
+          "line": 24,
           "column": 1
         },
         "end": {
-          "line": 23,
+          "line": 24,
           "column": 5
         }
       }
@@ -30,11 +58,11 @@
       "value": "(",
       "loc": {
         "start": {
-          "line": 23,
+          "line": 24,
           "column": 5
         },
         "end": {
-          "line": 23,
+          "line": 24,
           "column": 6
         }
       }
@@ -44,11 +72,11 @@
       "value": "'var public = 1;'",
       "loc": {
         "start": {
-          "line": 23,
+          "line": 24,
           "column": 6
         },
         "end": {
-          "line": 23,
+          "line": 24,
           "column": 23
         }
       }
@@ -58,11 +86,11 @@
       "value": ")",
       "loc": {
         "start": {
-          "line": 23,
+          "line": 24,
           "column": 23
         },
         "end": {
-          "line": 23,
+          "line": 24,
           "column": 24
         }
       }
@@ -72,11 +100,11 @@
       "value": ";",
       "loc": {
         "start": {
-          "line": 23,
+          "line": 24,
           "column": 24
         },
         "end": {
-          "line": 23,
+          "line": 24,
           "column": 25
         }
       }
@@ -88,11 +116,40 @@
       "type": "ExpressionStatement",
       "loc": {
         "start": {
-          "line": 23,
+          "line": 1,
           "column": 1
         },
         "end": {
-          "line": 23,
+          "line": 1,
+          "column": 14
+        }
+      },
+      "expression": {
+        "type": "Literal",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 1
+          },
+          "end": {
+            "line": 1,
+            "column": 13
+          }
+        },
+        "value": "use strict",
+        "raw": "\"use strict\""
+      },
+      "directive": "use strict"
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 1
+        },
+        "end": {
+          "line": 24,
           "column": 25
         }
       },
@@ -100,11 +157,11 @@
         "type": "CallExpression",
         "loc": {
           "start": {
-            "line": 23,
+            "line": 24,
             "column": 1
           },
           "end": {
-            "line": 23,
+            "line": 24,
             "column": 24
           }
         },
@@ -112,11 +169,11 @@
           "type": "Identifier",
           "loc": {
             "start": {
-              "line": 23,
+              "line": 24,
               "column": 1
             },
             "end": {
-              "line": 23,
+              "line": 24,
               "column": 5
             }
           },
@@ -127,11 +184,11 @@
             "type": "Literal",
             "loc": {
               "start": {
-                "line": 23,
+                "line": 24,
                 "column": 6
               },
               "end": {
-                "line": 23,
+                "line": 24,
                 "column": 23
               }
             },

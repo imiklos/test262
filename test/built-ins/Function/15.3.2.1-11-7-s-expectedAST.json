@@ -2,25 +2,53 @@
   "type": "Program",
   "loc": {
     "start": {
-      "line": 13,
+      "line": 1,
       "column": 1
     },
     "end": {
-      "line": 14,
+      "line": 15,
       "column": 1
     }
   },
   "tokens": [
     {
+      "type": "String",
+      "value": "\"use strict\"",
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "end": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "Punctuator",
+      "value": ";",
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 13
+        },
+        "end": {
+          "line": 1,
+          "column": 14
+        }
+      }
+    },
+    {
       "type": "Identifier",
       "value": "Function",
       "loc": {
         "start": {
-          "line": 13,
+          "line": 14,
           "column": 1
         },
         "end": {
-          "line": 13,
+          "line": 14,
           "column": 9
         }
       }
@@ -30,11 +58,11 @@
       "value": "(",
       "loc": {
         "start": {
-          "line": 13,
+          "line": 14,
           "column": 9
         },
         "end": {
-          "line": 13,
+          "line": 14,
           "column": 10
         }
       }
@@ -44,11 +72,11 @@
       "value": "'arguments'",
       "loc": {
         "start": {
-          "line": 13,
+          "line": 14,
           "column": 10
         },
         "end": {
-          "line": 13,
+          "line": 14,
           "column": 21
         }
       }
@@ -58,11 +86,11 @@
       "value": ",",
       "loc": {
         "start": {
-          "line": 13,
+          "line": 14,
           "column": 21
         },
         "end": {
-          "line": 13,
+          "line": 14,
           "column": 22
         }
       }
@@ -72,11 +100,11 @@
       "value": "'return;'",
       "loc": {
         "start": {
-          "line": 13,
+          "line": 14,
           "column": 23
         },
         "end": {
-          "line": 13,
+          "line": 14,
           "column": 32
         }
       }
@@ -86,11 +114,11 @@
       "value": ")",
       "loc": {
         "start": {
-          "line": 13,
+          "line": 14,
           "column": 32
         },
         "end": {
-          "line": 13,
+          "line": 14,
           "column": 33
         }
       }
@@ -100,11 +128,11 @@
       "value": ";",
       "loc": {
         "start": {
-          "line": 13,
+          "line": 14,
           "column": 33
         },
         "end": {
-          "line": 13,
+          "line": 14,
           "column": 34
         }
       }
@@ -116,11 +144,40 @@
       "type": "ExpressionStatement",
       "loc": {
         "start": {
-          "line": 13,
+          "line": 1,
           "column": 1
         },
         "end": {
-          "line": 13,
+          "line": 1,
+          "column": 14
+        }
+      },
+      "expression": {
+        "type": "Literal",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 1
+          },
+          "end": {
+            "line": 1,
+            "column": 13
+          }
+        },
+        "value": "use strict",
+        "raw": "\"use strict\""
+      },
+      "directive": "use strict"
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 1
+        },
+        "end": {
+          "line": 14,
           "column": 34
         }
       },
@@ -128,11 +185,11 @@
         "type": "CallExpression",
         "loc": {
           "start": {
-            "line": 13,
+            "line": 14,
             "column": 1
           },
           "end": {
-            "line": 13,
+            "line": 14,
             "column": 33
           }
         },
@@ -140,11 +197,11 @@
           "type": "Identifier",
           "loc": {
             "start": {
-              "line": 13,
+              "line": 14,
               "column": 1
             },
             "end": {
-              "line": 13,
+              "line": 14,
               "column": 9
             }
           },
@@ -155,11 +212,11 @@
             "type": "Literal",
             "loc": {
               "start": {
-                "line": 13,
+                "line": 14,
                 "column": 10
               },
               "end": {
-                "line": 13,
+                "line": 14,
                 "column": 21
               }
             },
@@ -170,11 +227,11 @@
             "type": "Literal",
             "loc": {
               "start": {
-                "line": 13,
+                "line": 14,
                 "column": 23
               },
               "end": {
-                "line": 13,
+                "line": 14,
                 "column": 32
               }
             },
