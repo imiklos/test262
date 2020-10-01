@@ -1,3 +1,4 @@
+"use strict"
 // This file was procedurally generated from the following sources:
 // - src/declarations/function.case
 // - src/declarations/redeclare-allow-sloppy-function/block-attempt-to-redeclare-function-declaration.template

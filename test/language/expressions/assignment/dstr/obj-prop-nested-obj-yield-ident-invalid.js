@@ -1,3 +1,4 @@
+"use strict"
 // This file was procedurally generated from the following sources:
 // - src/dstr-assignment/obj-prop-nested-obj-yield-ident-invalid.case
 // - src/dstr-assignment/syntax/assignment-expr.template

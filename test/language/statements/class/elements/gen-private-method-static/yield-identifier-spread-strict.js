@@ -1,3 +1,4 @@
+"use strict"
 // This file was procedurally generated from the following sources:
 // - src/generators/yield-identifier-spread-strict.case
 // - src/generators/default/class-decl-static-private-method.template

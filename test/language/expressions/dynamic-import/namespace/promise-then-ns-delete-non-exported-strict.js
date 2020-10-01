@@ -1,3 +1,4 @@
+"use strict"
 // This file was procedurally generated from the following sources:
 // - src/dynamic-import/ns-delete-non-exported-strict.case
 // - src/dynamic-import/namespace/promise.template

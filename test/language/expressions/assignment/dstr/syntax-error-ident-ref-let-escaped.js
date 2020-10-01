@@ -1,3 +1,4 @@
+"use strict"
 // This file was procedurally generated from the following sources:
 // - src/identifier-names/let-escaped.case
 // - src/identifier-names/future-reserved-words/obj-assignment-identifier.template

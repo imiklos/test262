@@ -1,3 +1,4 @@
+"use strict"
 // This file was procedurally generated from the following sources:
 // - src/dynamic-import/ns-set-strict.case
 // - src/dynamic-import/namespace/promise.template

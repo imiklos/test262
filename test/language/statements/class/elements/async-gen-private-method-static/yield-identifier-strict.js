@@ -1,3 +1,4 @@
+"use strict"
 // This file was procedurally generated from the following sources:
 // - src/async-generators/yield-identifier-strict.case
 // - src/async-generators/default/async-class-decl-static-private-method.template

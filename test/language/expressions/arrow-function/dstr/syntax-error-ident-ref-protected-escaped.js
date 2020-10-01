@@ -1,3 +1,4 @@
+"use strict"
 // This file was procedurally generated from the following sources:
 // - src/identifier-names/protected-escaped.case
 // - src/identifier-names/future-reserved-words/arrow-fn-assignment-identifier.template

@@ -1,3 +1,4 @@
+"use strict"
 // This file was procedurally generated from the following sources:
 // - src/dstr-assignment/array-elem-target-simple-strict.case
 // - src/dstr-assignment/syntax/assignment-expr.template

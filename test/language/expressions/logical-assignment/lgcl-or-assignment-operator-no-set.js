@@ -1,3 +1,4 @@
+"use strict"
 // Copyright (c) 2020 Ecma International.  All rights reserved.
 // This code is governed by the BSD license found in the LICENSE file.
 

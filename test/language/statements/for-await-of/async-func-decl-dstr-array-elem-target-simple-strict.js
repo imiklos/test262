@@ -1,3 +1,4 @@
+"use strict"
 // This file was procedurally generated from the following sources:
 // - src/dstr-assignment-for-await/array-elem-target-simple-strict.case
 // - src/dstr-assignment-for-await/error-async-function-syntax/async-func-decl.template

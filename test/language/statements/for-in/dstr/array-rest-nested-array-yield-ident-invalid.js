@@ -1,3 +1,4 @@
+"use strict"
 // This file was procedurally generated from the following sources:
 // - src/dstr-assignment/array-rest-nested-array-yield-ident-invalid.case
 // - src/dstr-assignment/syntax/for-in.template

@@ -1,3 +1,4 @@
+"use strict"
 // This file was procedurally generated from the following sources:
 // - src/dstr-assignment/obj-id-put-unresolvable-strict.case
 // - src/dstr-assignment/error/assignment-expr.template
